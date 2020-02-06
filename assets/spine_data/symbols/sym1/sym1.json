@@ -1,0 +1,2063 @@
+{
+  "skeleton": {
+    "hash": "7//8mzEQXWD0IXJ+1g57Lu1lyZo",
+    "spine": "2.1.27",
+    "width": 301.25,
+    "height": 907
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bottom",
+      "parent": "root",
+      "x": 90,
+      "y": -272
+    },
+    {
+      "name": "expwild_banner_52",
+      "parent": "root",
+      "x": 90,
+      "y": -444,
+      "scaleX": 0.95,
+      "scaleY": 0.95,
+      "rotation": 180
+    },
+    {
+      "name": "expwild_banner_52_L1",
+      "parent": "root",
+      "x": 90,
+      "y": -99,
+      "scaleX": 0.95,
+      "scaleY": 0.95
+    },
+    {
+      "name": "expwild_banner_52_L2",
+      "parent": "root",
+      "x": 90,
+      "y": -454,
+      "scaleX": 0.95,
+      "scaleY": 0.95,
+      "rotation": 180
+    },
+    {
+      "name": "expwild_banner_52_L3",
+      "parent": "root",
+      "x": 85,
+      "y": -109,
+      "scaleX": 0.95,
+      "scaleY": 0.95
+    },
+    {
+      "name": "expwild_banner_short_[00-32]",
+      "parent": "root",
+      "x": 90,
+      "y": -444,
+      "scaleX": 0.95,
+      "scaleY": 0.95,
+      "rotation": 180
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L1",
+      "parent": "root",
+      "x": 90,
+      "y": -99,
+      "scaleX": 0.95,
+      "scaleY": 0.95
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L2",
+      "parent": "root",
+      "x": 90,
+      "y": -454,
+      "scaleX": 0.95,
+      "scaleY": 0.95,
+      "rotation": 180
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L3",
+      "parent": "root",
+      "x": 85,
+      "y": -109,
+      "scaleX": 0.95,
+      "scaleY": 0.95
+    },
+    {
+      "name": "expwild_fx_alpha_[00-14]",
+      "parent": "root",
+      "x": 117,
+      "y": -272,
+      "scaleX": 2,
+      "scaleY": 2
+    },
+    {
+      "name": "expwild_logo",
+      "parent": "root",
+      "x": 90,
+      "y": -272
+    },
+    {
+      "name": "expwild_logo_white",
+      "parent": "root",
+      "x": 90,
+      "y": -272,
+      "scaleX": 1.84,
+      "scaleY": 1.84
+    },
+    {
+      "name": "mid",
+      "parent": "root",
+      "x": 90,
+      "y": -272
+    },
+    {
+      "name": "top",
+      "parent": "root",
+      "x": 90,
+      "y": -272
+    },
+    {
+      "name": "wild_small_frame",
+      "parent": "root",
+      "x": 90,
+      "y": -272
+    },
+    {
+      "name": "wild_vertical",
+      "parent": "root",
+      "x": 91,
+      "y": -272
+    },
+    {
+      "name": "wild_vertical_add",
+      "parent": "root",
+      "x": 89,
+      "y": -273
+    },
+    {
+      "name": "wild_vertical_multiply",
+      "parent": "root",
+      "x": 91,
+      "y": -272,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "wild_small_frame",
+      "bone": "wild_small_frame",
+      "attachment": "sym1-assets/wild_small_frame"
+    },
+    {
+      "name": "mid",
+      "bone": "mid",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/frame_mid"
+    },
+    {
+      "name": "bottom",
+      "bone": "bottom",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/frame_bottom"
+    },
+    {
+      "name": "top",
+      "bone": "top",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/frame_top"
+    },
+    {
+      "name": "expwild_fx_alpha_[00-14]",
+      "bone": "expwild_fx_alpha_[00-14]",
+      "blend": "additive"
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L3",
+      "bone": "expwild_banner_short_[00-32]_L3",
+      "color": "ffffff80"
+    },
+    {
+      "name": "expwild_banner_52_L3",
+      "bone": "expwild_banner_52_L3",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/expwild_banner_52"
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L2",
+      "bone": "expwild_banner_short_[00-32]_L2",
+      "color": "ffffff80"
+    },
+    {
+      "name": "expwild_banner_52_L2",
+      "bone": "expwild_banner_52_L2",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/expwild_banner_52"
+    },
+    {
+      "name": "expwild_logo",
+      "bone": "expwild_logo",
+      "attachment": "sym1-assets/expwild_logo"
+    },
+    {
+      "name": "expwild_logo_white",
+      "bone": "expwild_logo_white",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/expwild_logo_white",
+      "blend": "additive"
+    },
+    {
+      "name": "expwild_banner_short_[00-32]_L1",
+      "bone": "expwild_banner_short_[00-32]_L1"
+    },
+    {
+      "name": "expwild_banner_52_L1",
+      "bone": "expwild_banner_52_L1",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/expwild_banner_52"
+    },
+    {
+      "name": "expwild_banner_short_[00-32]",
+      "bone": "expwild_banner_short_[00-32]"
+    },
+    {
+      "name": "expwild_banner_52",
+      "bone": "expwild_banner_52",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/expwild_banner_52"
+    },
+    {
+      "name": "wild_vertical_multiply",
+      "bone": "wild_vertical_multiply",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/wild_vertical_multiply",
+      "blend": "multiply"
+    },
+    {
+      "name": "wild_vertical_add",
+      "bone": "wild_vertical_add",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/wild_vertical_add",
+      "blend": "additive"
+    },
+    {
+      "name": "wild_vertical",
+      "bone": "wild_vertical",
+      "color": "ffffff00",
+      "attachment": "sym1-assets/wild_vertical"
+    }
+  ],
+  "skins": {
+    "default": {
+      "bottom": {
+        "sym1-assets/frame_bottom": {
+          "width": 180,
+          "height": 180
+        }
+      },
+      "expwild_banner_52": {
+        "sym1-assets/expwild_banner_52": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_52_L1": {
+        "sym1-assets/expwild_banner_52": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_52_L2": {
+        "sym1-assets/expwild_banner_52": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_52_L3": {
+        "sym1-assets/expwild_banner_52": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_short_[00-32]": {
+        "sym1-assets/expwild_banner_short_00": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_01": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_02": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_03": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_04": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_05": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_06": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_07": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_08": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_09": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_10": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_11": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_12": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_13": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_14": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_15": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_16": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_17": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_18": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_19": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_20": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_21": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_22": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_23": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_24": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_25": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_26": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_27": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_28": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_29": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_30": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_31": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_32": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_short_[00-32]_L1": {
+        "sym1-assets/expwild_banner_short_00": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_01": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_02": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_03": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_04": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_05": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_06": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_07": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_08": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_09": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_10": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_11": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_12": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_13": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_14": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_15": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_16": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_17": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_18": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_19": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_20": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_21": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_22": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_23": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_24": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_25": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_26": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_27": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_28": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_29": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_30": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_31": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_32": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_short_[00-32]_L2": {
+        "sym1-assets/expwild_banner_short_00": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_01": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_02": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_03": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_04": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_05": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_06": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_07": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_08": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_09": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_10": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_11": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_12": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_13": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_14": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_15": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_16": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_17": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_18": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_19": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_20": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_21": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_22": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_23": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_24": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_25": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_26": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_27": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_28": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_29": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_30": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_31": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_32": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_banner_short_[00-32]_L3": {
+        "sym1-assets/expwild_banner_short_00": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_01": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_02": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_03": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_04": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_05": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_06": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_07": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_08": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_09": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_10": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_11": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_12": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_13": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_14": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_15": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_16": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_17": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_18": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_19": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_20": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_21": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_22": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_23": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_24": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_25": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_26": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_27": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_28": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_29": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_30": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_31": {
+          "width": 310,
+          "height": 268
+        },
+        "sym1-assets/expwild_banner_short_32": {
+          "width": 310,
+          "height": 268
+        }
+      },
+      "expwild_fx_alpha_[00-14]": {
+        "sym1-assets/expwild_fx_alpha_00": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_01": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_02": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_03": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_04": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_05": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_06": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_07": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_08": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_09": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_10": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_11": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_12": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_13": {
+          "width": 203,
+          "height": 249
+        },
+        "sym1-assets/expwild_fx_alpha_14": {
+          "width": 203,
+          "height": 249
+        }
+      },
+      "expwild_logo": {
+        "sym1-assets/expwild_logo": {
+          "x": -0.5,
+          "y": 0.5,
+          "width": 285,
+          "height": 593
+        }
+      },
+      "expwild_logo_white": {
+        "sym1-assets/expwild_logo_white": {
+          "width": 94,
+          "height": 88
+        }
+      },
+      "mid": {
+        "sym1-assets/frame_mid": {
+          "width": 180,
+          "height": 184
+        }
+      },
+      "top": {
+        "sym1-assets/frame_top": {
+          "width": 180,
+          "height": 180
+        }
+      },
+      "wild_small_frame": {
+        "sym1-assets/wild_small_frame": {
+          "width": 180,
+          "height": 180
+        }
+      },
+      "wild_vertical": {
+        "sym1-assets/wild_vertical": {
+          "x": -0.5,
+          "width": 85,
+          "height": 520
+        }
+      },
+      "wild_vertical_add": {
+        "sym1-assets/wild_vertical_add": {
+          "y": 0.5,
+          "width": 300,
+          "height": 907
+        }
+      },
+      "wild_vertical_multiply": {
+        "sym1-assets/wild_vertical_multiply": {
+          "x": -0.25,
+          "y": 0.25,
+          "width": 76,
+          "height": 259
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "bottom": {
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "expwild_banner_52": {
+          "color": [
+            {
+              "time": 1.5333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "expwild_banner_52_L1": {
+          "color": [
+            {
+              "time": 1.5333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "expwild_banner_52_L2": {
+          "color": [
+            {
+              "time": 1.5333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5666,
+              "color": "00000080"
+            }
+          ]
+        },
+        "expwild_banner_52_L3": {
+          "color": [
+            {
+              "time": 1.5333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5666,
+              "color": "00000080"
+            }
+          ]
+        },
+        "expwild_banner_short_[00-32]": {
+          "attachment": [
+            {
+              "time": 0.4666,
+              "name": "sym1-assets/expwild_banner_short_00"
+            },
+            {
+              "time": 0.499,
+              "name": "sym1-assets/expwild_banner_short_01"
+            },
+            {
+              "time": 0.5313,
+              "name": "sym1-assets/expwild_banner_short_02"
+            },
+            {
+              "time": 0.5637,
+              "name": "sym1-assets/expwild_banner_short_03"
+            },
+            {
+              "time": 0.596,
+              "name": "sym1-assets/expwild_banner_short_04"
+            },
+            {
+              "time": 0.6284,
+              "name": "sym1-assets/expwild_banner_short_05"
+            },
+            {
+              "time": 0.6607,
+              "name": "sym1-assets/expwild_banner_short_06"
+            },
+            {
+              "time": 0.6931,
+              "name": "sym1-assets/expwild_banner_short_07"
+            },
+            {
+              "time": 0.7254,
+              "name": "sym1-assets/expwild_banner_short_08"
+            },
+            {
+              "time": 0.7578,
+              "name": "sym1-assets/expwild_banner_short_09"
+            },
+            {
+              "time": 0.7901,
+              "name": "sym1-assets/expwild_banner_short_10"
+            },
+            {
+              "time": 0.8225,
+              "name": "sym1-assets/expwild_banner_short_11"
+            },
+            {
+              "time": 0.8549,
+              "name": "sym1-assets/expwild_banner_short_12"
+            },
+            {
+              "time": 0.8872,
+              "name": "sym1-assets/expwild_banner_short_13"
+            },
+            {
+              "time": 0.9196,
+              "name": "sym1-assets/expwild_banner_short_14"
+            },
+            {
+              "time": 0.9519,
+              "name": "sym1-assets/expwild_banner_short_15"
+            },
+            {
+              "time": 0.9843,
+              "name": "sym1-assets/expwild_banner_short_16"
+            },
+            {
+              "time": 1.0166,
+              "name": "sym1-assets/expwild_banner_short_17"
+            },
+            {
+              "time": 1.049,
+              "name": "sym1-assets/expwild_banner_short_18"
+            },
+            {
+              "time": 1.0813,
+              "name": "sym1-assets/expwild_banner_short_19"
+            },
+            {
+              "time": 1.1137,
+              "name": "sym1-assets/expwild_banner_short_20"
+            },
+            {
+              "time": 1.146,
+              "name": "sym1-assets/expwild_banner_short_21"
+            },
+            {
+              "time": 1.1784,
+              "name": "sym1-assets/expwild_banner_short_22"
+            },
+            {
+              "time": 1.2107,
+              "name": "sym1-assets/expwild_banner_short_23"
+            },
+            {
+              "time": 1.2431,
+              "name": "sym1-assets/expwild_banner_short_24"
+            },
+            {
+              "time": 1.2754,
+              "name": "sym1-assets/expwild_banner_short_25"
+            },
+            {
+              "time": 1.3078,
+              "name": "sym1-assets/expwild_banner_short_26"
+            },
+            {
+              "time": 1.3401,
+              "name": "sym1-assets/expwild_banner_short_27"
+            },
+            {
+              "time": 1.3725,
+              "name": "sym1-assets/expwild_banner_short_28"
+            },
+            {
+              "time": 1.4049,
+              "name": "sym1-assets/expwild_banner_short_29"
+            },
+            {
+              "time": 1.4372,
+              "name": "sym1-assets/expwild_banner_short_30"
+            },
+            {
+              "time": 1.4696,
+              "name": "sym1-assets/expwild_banner_short_31"
+            },
+            {
+              "time": 1.5019,
+              "name": "sym1-assets/expwild_banner_short_32"
+            },
+            {
+              "time": 1.5666,
+              "name": null
+            }
+          ]
+        },
+        "expwild_banner_short_[00-32]_L1": {
+          "attachment": [
+            {
+              "time": 0.4666,
+              "name": "sym1-assets/expwild_banner_short_00"
+            },
+            {
+              "time": 0.499,
+              "name": "sym1-assets/expwild_banner_short_01"
+            },
+            {
+              "time": 0.5313,
+              "name": "sym1-assets/expwild_banner_short_02"
+            },
+            {
+              "time": 0.5637,
+              "name": "sym1-assets/expwild_banner_short_03"
+            },
+            {
+              "time": 0.596,
+              "name": "sym1-assets/expwild_banner_short_04"
+            },
+            {
+              "time": 0.6284,
+              "name": "sym1-assets/expwild_banner_short_05"
+            },
+            {
+              "time": 0.6607,
+              "name": "sym1-assets/expwild_banner_short_06"
+            },
+            {
+              "time": 0.6931,
+              "name": "sym1-assets/expwild_banner_short_07"
+            },
+            {
+              "time": 0.7254,
+              "name": "sym1-assets/expwild_banner_short_08"
+            },
+            {
+              "time": 0.7578,
+              "name": "sym1-assets/expwild_banner_short_09"
+            },
+            {
+              "time": 0.7901,
+              "name": "sym1-assets/expwild_banner_short_10"
+            },
+            {
+              "time": 0.8225,
+              "name": "sym1-assets/expwild_banner_short_11"
+            },
+            {
+              "time": 0.8549,
+              "name": "sym1-assets/expwild_banner_short_12"
+            },
+            {
+              "time": 0.8872,
+              "name": "sym1-assets/expwild_banner_short_13"
+            },
+            {
+              "time": 0.9196,
+              "name": "sym1-assets/expwild_banner_short_14"
+            },
+            {
+              "time": 0.9519,
+              "name": "sym1-assets/expwild_banner_short_15"
+            },
+            {
+              "time": 0.9843,
+              "name": "sym1-assets/expwild_banner_short_16"
+            },
+            {
+              "time": 1.0166,
+              "name": "sym1-assets/expwild_banner_short_17"
+            },
+            {
+              "time": 1.049,
+              "name": "sym1-assets/expwild_banner_short_18"
+            },
+            {
+              "time": 1.0813,
+              "name": "sym1-assets/expwild_banner_short_19"
+            },
+            {
+              "time": 1.1137,
+              "name": "sym1-assets/expwild_banner_short_20"
+            },
+            {
+              "time": 1.146,
+              "name": "sym1-assets/expwild_banner_short_21"
+            },
+            {
+              "time": 1.1784,
+              "name": "sym1-assets/expwild_banner_short_22"
+            },
+            {
+              "time": 1.2107,
+              "name": "sym1-assets/expwild_banner_short_23"
+            },
+            {
+              "time": 1.2431,
+              "name": "sym1-assets/expwild_banner_short_24"
+            },
+            {
+              "time": 1.2754,
+              "name": "sym1-assets/expwild_banner_short_25"
+            },
+            {
+              "time": 1.3078,
+              "name": "sym1-assets/expwild_banner_short_26"
+            },
+            {
+              "time": 1.3401,
+              "name": "sym1-assets/expwild_banner_short_27"
+            },
+            {
+              "time": 1.3725,
+              "name": "sym1-assets/expwild_banner_short_28"
+            },
+            {
+              "time": 1.4049,
+              "name": "sym1-assets/expwild_banner_short_29"
+            },
+            {
+              "time": 1.4372,
+              "name": "sym1-assets/expwild_banner_short_30"
+            },
+            {
+              "time": 1.4696,
+              "name": "sym1-assets/expwild_banner_short_31"
+            },
+            {
+              "time": 1.5019,
+              "name": "sym1-assets/expwild_banner_short_32"
+            },
+            {
+              "time": 1.5666,
+              "name": null
+            }
+          ]
+        },
+        "expwild_banner_short_[00-32]_L2": {
+          "attachment": [
+            {
+              "time": 0.4666,
+              "name": "sym1-assets/expwild_banner_short_00"
+            },
+            {
+              "time": 0.499,
+              "name": "sym1-assets/expwild_banner_short_01"
+            },
+            {
+              "time": 0.5313,
+              "name": "sym1-assets/expwild_banner_short_02"
+            },
+            {
+              "time": 0.5637,
+              "name": "sym1-assets/expwild_banner_short_03"
+            },
+            {
+              "time": 0.596,
+              "name": "sym1-assets/expwild_banner_short_04"
+            },
+            {
+              "time": 0.6284,
+              "name": "sym1-assets/expwild_banner_short_05"
+            },
+            {
+              "time": 0.6607,
+              "name": "sym1-assets/expwild_banner_short_06"
+            },
+            {
+              "time": 0.6931,
+              "name": "sym1-assets/expwild_banner_short_07"
+            },
+            {
+              "time": 0.7254,
+              "name": "sym1-assets/expwild_banner_short_08"
+            },
+            {
+              "time": 0.7578,
+              "name": "sym1-assets/expwild_banner_short_09"
+            },
+            {
+              "time": 0.7901,
+              "name": "sym1-assets/expwild_banner_short_10"
+            },
+            {
+              "time": 0.8225,
+              "name": "sym1-assets/expwild_banner_short_11"
+            },
+            {
+              "time": 0.8549,
+              "name": "sym1-assets/expwild_banner_short_12"
+            },
+            {
+              "time": 0.8872,
+              "name": "sym1-assets/expwild_banner_short_13"
+            },
+            {
+              "time": 0.9196,
+              "name": "sym1-assets/expwild_banner_short_14"
+            },
+            {
+              "time": 0.9519,
+              "name": "sym1-assets/expwild_banner_short_15"
+            },
+            {
+              "time": 0.9843,
+              "name": "sym1-assets/expwild_banner_short_16"
+            },
+            {
+              "time": 1.0166,
+              "name": "sym1-assets/expwild_banner_short_17"
+            },
+            {
+              "time": 1.049,
+              "name": "sym1-assets/expwild_banner_short_18"
+            },
+            {
+              "time": 1.0813,
+              "name": "sym1-assets/expwild_banner_short_19"
+            },
+            {
+              "time": 1.1137,
+              "name": "sym1-assets/expwild_banner_short_20"
+            },
+            {
+              "time": 1.146,
+              "name": "sym1-assets/expwild_banner_short_21"
+            },
+            {
+              "time": 1.1784,
+              "name": "sym1-assets/expwild_banner_short_22"
+            },
+            {
+              "time": 1.2107,
+              "name": "sym1-assets/expwild_banner_short_23"
+            },
+            {
+              "time": 1.2431,
+              "name": "sym1-assets/expwild_banner_short_24"
+            },
+            {
+              "time": 1.2754,
+              "name": "sym1-assets/expwild_banner_short_25"
+            },
+            {
+              "time": 1.3078,
+              "name": "sym1-assets/expwild_banner_short_26"
+            },
+            {
+              "time": 1.3401,
+              "name": "sym1-assets/expwild_banner_short_27"
+            },
+            {
+              "time": 1.3725,
+              "name": "sym1-assets/expwild_banner_short_28"
+            },
+            {
+              "time": 1.4049,
+              "name": "sym1-assets/expwild_banner_short_29"
+            },
+            {
+              "time": 1.4372,
+              "name": "sym1-assets/expwild_banner_short_30"
+            },
+            {
+              "time": 1.4696,
+              "name": "sym1-assets/expwild_banner_short_31"
+            },
+            {
+              "time": 1.5019,
+              "name": "sym1-assets/expwild_banner_short_32"
+            },
+            {
+              "time": 1.5666,
+              "name": null
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "00000080"
+            }
+          ]
+        },
+        "expwild_banner_short_[00-32]_L3": {
+          "attachment": [
+            {
+              "time": 0.4666,
+              "name": "sym1-assets/expwild_banner_short_00"
+            },
+            {
+              "time": 0.499,
+              "name": "sym1-assets/expwild_banner_short_01"
+            },
+            {
+              "time": 0.5313,
+              "name": "sym1-assets/expwild_banner_short_02"
+            },
+            {
+              "time": 0.5637,
+              "name": "sym1-assets/expwild_banner_short_03"
+            },
+            {
+              "time": 0.596,
+              "name": "sym1-assets/expwild_banner_short_04"
+            },
+            {
+              "time": 0.6284,
+              "name": "sym1-assets/expwild_banner_short_05"
+            },
+            {
+              "time": 0.6607,
+              "name": "sym1-assets/expwild_banner_short_06"
+            },
+            {
+              "time": 0.6931,
+              "name": "sym1-assets/expwild_banner_short_07"
+            },
+            {
+              "time": 0.7254,
+              "name": "sym1-assets/expwild_banner_short_08"
+            },
+            {
+              "time": 0.7578,
+              "name": "sym1-assets/expwild_banner_short_09"
+            },
+            {
+              "time": 0.7901,
+              "name": "sym1-assets/expwild_banner_short_10"
+            },
+            {
+              "time": 0.8225,
+              "name": "sym1-assets/expwild_banner_short_11"
+            },
+            {
+              "time": 0.8549,
+              "name": "sym1-assets/expwild_banner_short_12"
+            },
+            {
+              "time": 0.8872,
+              "name": "sym1-assets/expwild_banner_short_13"
+            },
+            {
+              "time": 0.9196,
+              "name": "sym1-assets/expwild_banner_short_14"
+            },
+            {
+              "time": 0.9519,
+              "name": "sym1-assets/expwild_banner_short_15"
+            },
+            {
+              "time": 0.9843,
+              "name": "sym1-assets/expwild_banner_short_16"
+            },
+            {
+              "time": 1.0166,
+              "name": "sym1-assets/expwild_banner_short_17"
+            },
+            {
+              "time": 1.049,
+              "name": "sym1-assets/expwild_banner_short_18"
+            },
+            {
+              "time": 1.0813,
+              "name": "sym1-assets/expwild_banner_short_19"
+            },
+            {
+              "time": 1.1137,
+              "name": "sym1-assets/expwild_banner_short_20"
+            },
+            {
+              "time": 1.146,
+              "name": "sym1-assets/expwild_banner_short_21"
+            },
+            {
+              "time": 1.1784,
+              "name": "sym1-assets/expwild_banner_short_22"
+            },
+            {
+              "time": 1.2107,
+              "name": "sym1-assets/expwild_banner_short_23"
+            },
+            {
+              "time": 1.2431,
+              "name": "sym1-assets/expwild_banner_short_24"
+            },
+            {
+              "time": 1.2754,
+              "name": "sym1-assets/expwild_banner_short_25"
+            },
+            {
+              "time": 1.3078,
+              "name": "sym1-assets/expwild_banner_short_26"
+            },
+            {
+              "time": 1.3401,
+              "name": "sym1-assets/expwild_banner_short_27"
+            },
+            {
+              "time": 1.3725,
+              "name": "sym1-assets/expwild_banner_short_28"
+            },
+            {
+              "time": 1.4049,
+              "name": "sym1-assets/expwild_banner_short_29"
+            },
+            {
+              "time": 1.4372,
+              "name": "sym1-assets/expwild_banner_short_30"
+            },
+            {
+              "time": 1.4696,
+              "name": "sym1-assets/expwild_banner_short_31"
+            },
+            {
+              "time": 1.5019,
+              "name": "sym1-assets/expwild_banner_short_32"
+            },
+            {
+              "time": 1.5666,
+              "name": null
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "00000080"
+            }
+          ]
+        },
+        "expwild_fx_alpha_[00-14]": {
+          "attachment": [
+            {
+              "time": 0.2666,
+              "name": "sym1-assets/expwild_fx_alpha_00"
+            },
+            {
+              "time": 0.2979,
+              "name": "sym1-assets/expwild_fx_alpha_01"
+            },
+            {
+              "time": 0.3291,
+              "name": "sym1-assets/expwild_fx_alpha_02"
+            },
+            {
+              "time": 0.3604,
+              "name": "sym1-assets/expwild_fx_alpha_03"
+            },
+            {
+              "time": 0.3916,
+              "name": "sym1-assets/expwild_fx_alpha_04"
+            },
+            {
+              "time": 0.4229,
+              "name": "sym1-assets/expwild_fx_alpha_05"
+            },
+            {
+              "time": 0.4541,
+              "name": "sym1-assets/expwild_fx_alpha_06"
+            },
+            {
+              "time": 0.4854,
+              "name": "sym1-assets/expwild_fx_alpha_07"
+            },
+            {
+              "time": 0.5166,
+              "name": "sym1-assets/expwild_fx_alpha_08"
+            },
+            {
+              "time": 0.5479,
+              "name": "sym1-assets/expwild_fx_alpha_09"
+            },
+            {
+              "time": 0.5791,
+              "name": "sym1-assets/expwild_fx_alpha_10"
+            },
+            {
+              "time": 0.6104,
+              "name": "sym1-assets/expwild_fx_alpha_11"
+            },
+            {
+              "time": 0.6416,
+              "name": "sym1-assets/expwild_fx_alpha_12"
+            },
+            {
+              "time": 0.6729,
+              "name": "sym1-assets/expwild_fx_alpha_13"
+            },
+            {
+              "time": 0.7041,
+              "name": "sym1-assets/expwild_fx_alpha_14"
+            },
+            {
+              "time": 0.7666,
+              "name": null
+            }
+          ]
+        },
+        "expwild_logo_white": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "mid": {
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "top": {
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "wild_small_frame": {
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "wild_vertical": {
+          "color": [
+            {
+              "time": 1.0666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "wild_vertical_add": {
+          "color": [
+            {
+              "time": 1.0666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.3666,
+              "color": "ffffffda"
+            },
+            {
+              "time": 1.5333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6333,
+              "color": "ffffffe5"
+            },
+            {
+              "time": 1.9,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "wild_vertical_multiply": {
+          "color": [
+            {
+              "time": 1.0666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff80"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bottom": {
+          "translate": [
+            {
+              "time": 0.3666,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5333,
+              "x": 0,
+              "y": -134.19
+            },
+            {
+              "time": 0.5666,
+              "x": 0,
+              "y": -156.39
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": -168.58
+            },
+            {
+              "time": 0.6333,
+              "x": 0,
+              "y": -178.79
+            },
+            {
+              "time": 0.6666,
+              "x": 0,
+              "y": -182
+            }
+          ]
+        },
+        "top": {
+          "translate": [
+            {
+              "time": 0.3666,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5333,
+              "x": 0,
+              "y": 134.19
+            },
+            {
+              "time": 0.5666,
+              "x": 0,
+              "y": 156.39
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 168.58
+            },
+            {
+              "time": 0.6333,
+              "x": 0,
+              "y": 178.79
+            },
+            {
+              "time": 0.6666,
+              "x": 0,
+              "y": 182
+            }
+          ]
+        },
+        "expwild_logo_white": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.0333,
+              "angle": 3
+            },
+            {
+              "time": 0.4,
+              "angle": -2
+            },
+            {
+              "time": 0.5666,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": 1.51,
+              "y": 1.51
+            },
+            {
+              "time": 0.0666,
+              "x": 1.597,
+              "y": 1.597
+            },
+            {
+              "time": 0.1,
+              "x": 1.596,
+              "y": 1.596
+            },
+            {
+              "time": 0.1333,
+              "x": 1.592,
+              "y": 1.592
+            },
+            {
+              "time": 0.1666,
+              "x": 1.583,
+              "y": 1.583
+            },
+            {
+              "time": 0.2,
+              "x": 1.567,
+              "y": 1.567
+            },
+            {
+              "time": 0.2333,
+              "x": 1.544,
+              "y": 1.544
+            },
+            {
+              "time": 0.2666,
+              "x": 1.51,
+              "y": 1.51
+            },
+            {
+              "time": 0.3,
+              "x": 1.46,
+              "y": 1.46
+            },
+            {
+              "time": 0.3333,
+              "x": 1.394,
+              "y": 1.394
+            },
+            {
+              "time": 0.3666,
+              "x": 1.326,
+              "y": 1.326
+            },
+            {
+              "time": 0.4,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4333,
+              "x": 1.062,
+              "y": 1.062
+            },
+            {
+              "time": 0.4666,
+              "x": 1.097,
+              "y": 1.097
+            },
+            {
+              "time": 0.5,
+              "x": 1.079,
+              "y": 1.079
+            },
+            {
+              "time": 0.5333,
+              "x": 1.042,
+              "y": 1.042
+            },
+            {
+              "time": 0.5666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "expwild_logo": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.0333,
+              "angle": 3
+            },
+            {
+              "time": 0.4,
+              "angle": -2
+            },
+            {
+              "time": 0.5666,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": 1.47,
+              "y": 1.47
+            },
+            {
+              "time": 0.0666,
+              "x": 1.55,
+              "y": 1.55
+            },
+            {
+              "time": 0.1,
+              "x": 1.549,
+              "y": 1.549
+            },
+            {
+              "time": 0.1333,
+              "x": 1.545,
+              "y": 1.545
+            },
+            {
+              "time": 0.1666,
+              "x": 1.536,
+              "y": 1.536
+            },
+            {
+              "time": 0.2,
+              "x": 1.522,
+              "y": 1.522
+            },
+            {
+              "time": 0.2333,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 0.2666,
+              "x": 1.47,
+              "y": 1.47
+            },
+            {
+              "time": 0.3,
+              "x": 1.423,
+              "y": 1.423
+            },
+            {
+              "time": 0.3333,
+              "x": 1.363,
+              "y": 1.363
+            },
+            {
+              "time": 0.3666,
+              "x": 1.3,
+              "y": 1.3
+            },
+            {
+              "time": 0.4,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4333,
+              "x": 1.057,
+              "y": 1.057
+            },
+            {
+              "time": 0.4666,
+              "x": 1.09,
+              "y": 1.09
+            },
+            {
+              "time": 0.5,
+              "x": 1.073,
+              "y": 1.073
+            },
+            {
+              "time": 0.5333,
+              "x": 1.038,
+              "y": 1.038
+            },
+            {
+              "time": 0.5666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

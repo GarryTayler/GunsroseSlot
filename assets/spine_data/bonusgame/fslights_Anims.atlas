@@ -1,0 +1,13 @@
+
+fslights_Anims.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonusGame-assets/Light
+  rotate: false
+  xy: 2, 2
+  size: 99, 100
+  orig: 136, 135
+  offset: 20, 16
+  index: -1

@@ -1,0 +1,316 @@
+{
+  "frames": {
+    "generic_win-assets/generic_win_14": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1094, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_12": {
+      "trimmed": true, 
+      "frame": {
+        "y": 912, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_15": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1276, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_13": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1094, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_03": {
+      "trimmed": true, 
+      "frame": {
+        "y": 184, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_02": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_01": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_07": {
+      "trimmed": true, 
+      "frame": {
+        "y": 548, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_06": {
+      "trimmed": true, 
+      "frame": {
+        "y": 366, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_05": {
+      "trimmed": true, 
+      "frame": {
+        "y": 366, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_04": {
+      "trimmed": true, 
+      "frame": {
+        "y": 184, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_10": {
+      "trimmed": true, 
+      "frame": {
+        "y": 730, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_09": {
+      "trimmed": true, 
+      "frame": {
+        "y": 730, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_08": {
+      "trimmed": true, 
+      "frame": {
+        "y": 548, 
+        "x": 184, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "generic_win-assets/generic_win_11": {
+      "trimmed": true, 
+      "frame": {
+        "y": 912, 
+        "x": 2, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }
+  }, 
+  "meta": {
+    "scale": "1", 
+    "format": "RGBA8888", 
+    "app": "https://www.codeandweb.com/texturepacker", 
+    "version": "1.0", 
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$", 
+    "image": "generic_win.png", 
+    "size": {
+      "h": 2048, 
+      "w": 512
+    }
+  }
+}

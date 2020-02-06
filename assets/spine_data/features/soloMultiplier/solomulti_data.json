@@ -1,0 +1,976 @@
+{
+  "frames": {
+    "solomulti-assets/solomultiframe_glow": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 2, 
+        "w": 500, 
+        "h": 500
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 500, 
+        "w": 500
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 500, 
+        "h": 500
+      }
+    }, 
+    "solomulti-assets/solomultiframe": {
+      "trimmed": true, 
+      "frame": {
+        "y": 504, 
+        "x": 2, 
+        "w": 236, 
+        "h": 236
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 236, 
+        "w": 236
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 236, 
+        "h": 236
+      }
+    }, 
+    "solomulti-assets/solomultibanner_187": {
+      "trimmed": true, 
+      "frame": {
+        "y": 724, 
+        "x": 812, 
+        "w": 106, 
+        "h": 139
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/x3": {
+      "trimmed": true, 
+      "frame": {
+        "y": 418, 
+        "x": 935, 
+        "w": 58, 
+        "h": 59
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/solomultibanner_196": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1020, 
+        "x": 2, 
+        "w": 1, 
+        "h": 1
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_194": {
+      "trimmed": true, 
+      "frame": {
+        "y": 937, 
+        "x": 682, 
+        "w": 44, 
+        "h": 128
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_195": {
+      "trimmed": true, 
+      "frame": {
+        "y": 983, 
+        "x": 682, 
+        "w": 21, 
+        "h": 86
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_178": {
+      "trimmed": true, 
+      "frame": {
+        "y": 724, 
+        "x": 527, 
+        "w": 211, 
+        "h": 156
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_179": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 504, 
+        "w": 185, 
+        "h": 151
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_190": {
+      "trimmed": true, 
+      "frame": {
+        "y": 471, 
+        "x": 766, 
+        "w": 96, 
+        "h": 167
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_191": {
+      "trimmed": true, 
+      "frame": {
+        "y": 634, 
+        "x": 676, 
+        "w": 88, 
+        "h": 165
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_174": {
+      "trimmed": true, 
+      "frame": {
+        "y": 504, 
+        "x": 240, 
+        "w": 224, 
+        "h": 163
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_175": {
+      "trimmed": true, 
+      "frame": {
+        "y": 742, 
+        "x": 186, 
+        "w": 227, 
+        "h": 174
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/outro_banner": {
+      "trimmed": true, 
+      "frame": {
+        "y": 189, 
+        "x": 504, 
+        "w": 163, 
+        "h": 158
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 158, 
+        "w": 163
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 163, 
+        "h": 158
+      }
+    }, 
+    "solomulti-assets/solomultibanner_177": {
+      "trimmed": true, 
+      "frame": {
+        "y": 730, 
+        "x": 362, 
+        "w": 222, 
+        "h": 163
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_170": {
+      "trimmed": true, 
+      "frame": {
+        "y": 937, 
+        "x": 545, 
+        "w": 66, 
+        "h": 135
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_171": {
+      "trimmed": true, 
+      "frame": {
+        "y": 354, 
+        "x": 644, 
+        "w": 115, 
+        "h": 148
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_172": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 812, 
+        "w": 192, 
+        "h": 154
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_173": {
+      "trimmed": true, 
+      "frame": {
+        "y": 504, 
+        "x": 405, 
+        "w": 230, 
+        "h": 157
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/x2": {
+      "trimmed": true, 
+      "frame": {
+        "y": 937, 
+        "x": 812, 
+        "w": 58, 
+        "h": 59
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/solomultibanner": {
+      "trimmed": true, 
+      "frame": {
+        "y": 177, 
+        "x": 664, 
+        "w": 115, 
+        "h": 131
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/x6": {
+      "trimmed": true, 
+      "frame": {
+        "y": 769, 
+        "x": 953, 
+        "w": 57, 
+        "h": 61
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/x7": {
+      "trimmed": true, 
+      "frame": {
+        "y": 937, 
+        "x": 872, 
+        "w": 52, 
+        "h": 61
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/x4": {
+      "trimmed": true, 
+      "frame": {
+        "y": 291, 
+        "x": 854, 
+        "w": 60, 
+        "h": 60
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/solomultibanner_186": {
+      "trimmed": true, 
+      "frame": {
+        "y": 724, 
+        "x": 685, 
+        "w": 107, 
+        "h": 136
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/x8": {
+      "trimmed": true, 
+      "frame": {
+        "y": 862, 
+        "x": 685, 
+        "w": 59, 
+        "h": 59
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/x9": {
+      "trimmed": true, 
+      "frame": {
+        "y": 290, 
+        "x": 916, 
+        "w": 59, 
+        "h": 60
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/x10": {
+      "trimmed": true, 
+      "frame": {
+        "y": 291, 
+        "x": 781, 
+        "w": 71, 
+        "h": 61
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/x5": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 953, 
+        "w": 57, 
+        "h": 61
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 61, 
+        "w": 73
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 73, 
+        "h": 61
+      }
+    }, 
+    "solomulti-assets/glow": {
+      "trimmed": true, 
+      "frame": {
+        "y": 352, 
+        "x": 927, 
+        "w": 64, 
+        "h": 64
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 64, 
+        "w": 64
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 64, 
+        "h": 64
+      }
+    }, 
+    "solomulti-assets/solomultibanner_192": {
+      "trimmed": true, 
+      "frame": {
+        "y": 619, 
+        "x": 843, 
+        "w": 89, 
+        "h": 156
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_193": {
+      "trimmed": true, 
+      "frame": {
+        "y": 954, 
+        "x": 393, 
+        "w": 62, 
+        "h": 150
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_181": {
+      "trimmed": true, 
+      "frame": {
+        "y": 496, 
+        "x": 637, 
+        "w": 127, 
+        "h": 136
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_180": {
+      "trimmed": true, 
+      "frame": {
+        "y": 354, 
+        "x": 504, 
+        "w": 138, 
+        "h": 140
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_183": {
+      "trimmed": true, 
+      "frame": {
+        "y": 354, 
+        "x": 794, 
+        "w": 115, 
+        "h": 131
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_182": {
+      "trimmed": true, 
+      "frame": {
+        "y": 158, 
+        "x": 784, 
+        "w": 120, 
+        "h": 131
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_185": {
+      "trimmed": true, 
+      "frame": {
+        "y": 832, 
+        "x": 794, 
+        "w": 103, 
+        "h": 130
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_184": {
+      "trimmed": true, 
+      "frame": {
+        "y": 158, 
+        "x": 906, 
+        "w": 111, 
+        "h": 130
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_169": {
+      "trimmed": true, 
+      "frame": {
+        "y": 663, 
+        "x": 405, 
+        "w": 59, 
+        "h": 133
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_168": {
+      "trimmed": true, 
+      "frame": {
+        "y": 663, 
+        "x": 540, 
+        "w": 54, 
+        "h": 134
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_167": {
+      "trimmed": true, 
+      "frame": {
+        "y": 973, 
+        "x": 2, 
+        "w": 45, 
+        "h": 131
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_166": {
+      "trimmed": true, 
+      "frame": {
+        "y": 973, 
+        "x": 135, 
+        "w": 45, 
+        "h": 128
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_165": {
+      "trimmed": true, 
+      "frame": {
+        "y": 971, 
+        "x": 265, 
+        "w": 45, 
+        "h": 126
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_164": {
+      "trimmed": true, 
+      "frame": {
+        "y": 569, 
+        "x": 766, 
+        "w": 48, 
+        "h": 104
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_163": {
+      "trimmed": true, 
+      "frame": {
+        "y": 310, 
+        "x": 664, 
+        "w": 42, 
+        "h": 77
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_189": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 676, 
+        "w": 106, 
+        "h": 173
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_188": {
+      "trimmed": true, 
+      "frame": {
+        "y": 832, 
+        "x": 926, 
+        "w": 92, 
+        "h": 136
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }, 
+    "solomulti-assets/solomultibanner_176": {
+      "trimmed": true, 
+      "frame": {
+        "y": 742, 
+        "x": 2, 
+        "w": 229, 
+        "h": 182
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 210, 
+        "w": 312
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 312, 
+        "h": 210
+      }
+    }
+  }, 
+  "meta": {
+    "scale": "1", 
+    "format": "RGBA8888", 
+    "app": "https://www.codeandweb.com/texturepacker", 
+    "version": "1.0", 
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$", 
+    "image": "solomulti.png", 
+    "size": {
+      "h": 1024, 
+      "w": 1024
+    }
+  }
+}

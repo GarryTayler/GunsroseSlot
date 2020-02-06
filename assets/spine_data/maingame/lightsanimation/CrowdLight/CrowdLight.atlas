@@ -1,0 +1,13 @@
+
+CrowdLight.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CrowdLight-assets/CrowdLight
+  rotate: false
+  xy: 2, 2
+  size: 400, 66
+  orig: 400, 66
+  offset: 0, 0
+  index: -1

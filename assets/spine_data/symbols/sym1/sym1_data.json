@@ -1,0 +1,1176 @@
+{
+  "frames": {
+    "sym1-assets/expwild_banner_short_15": {
+      "trimmed": true, 
+      "frame": {
+        "y": 771, 
+        "x": 1777, 
+        "w": 184, 
+        "h": 236
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_14": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1124, 
+        "x": 253, 
+        "w": 209, 
+        "h": 242
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_17": {
+      "trimmed": true, 
+      "frame": {
+        "y": 187, 
+        "x": 1790, 
+        "w": 175, 
+        "h": 233
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_16": {
+      "trimmed": true, 
+      "frame": {
+        "y": 476, 
+        "x": 1361, 
+        "w": 174, 
+        "h": 232
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_11": {
+      "trimmed": true, 
+      "frame": {
+        "y": 236, 
+        "x": 721, 
+        "w": 225, 
+        "h": 230
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_10": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 1298, 
+        "w": 246, 
+        "h": 231
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_13": {
+      "trimmed": true, 
+      "frame": {
+        "y": 245, 
+        "x": 948, 
+        "w": 213, 
+        "h": 235
+      }, 
+      "rotated": true,
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    },
+    "sym1-assets/expwild_banner_short_12": {
+      "trimmed": true, 
+      "frame": {
+        "y": 244, 
+        "x": 496, 
+        "w": 223, 
+        "h": 231
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/frame_mid": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1105, 
+        "x": 1614, 
+        "w": 180, 
+        "h": 184
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 184, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 184
+      }
+    }, 
+    "sym1-assets/wild_small_frame": {
+      "trimmed": true, 
+      "frame": {
+        "y": 468, 
+        "x": 885, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_19": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 910, 
+        "w": 174, 
+        "h": 236
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_18": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 1790, 
+        "w": 183, 
+        "h": 233
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_30": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 735, 
+        "w": 173, 
+        "h": 237
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_23": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 1086, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/wild_vertical_add": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 2, 
+        "w": 125, 
+        "h": 907
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 907, 
+        "w": 300
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 300, 
+        "h": 907
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_10": {
+      "trimmed": true, 
+      "frame": {
+        "y": 477, 
+        "x": 216, 
+        "w": 202, 
+        "h": 249
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/frame_top": {
+      "trimmed": true, 
+      "frame": {
+        "y": 477, 
+        "x": 703, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "sym1-assets/frame_bottom": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1105, 
+        "x": 1796, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_06": {
+      "trimmed": true, 
+      "frame": {
+        "y": 957, 
+        "x": 1765, 
+        "w": 146, 
+        "h": 147
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_28": {
+      "trimmed": true, 
+      "frame": {
+        "y": 853, 
+        "x": 1438, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_14": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1124, 
+        "x": 668, 
+        "w": 193, 
+        "h": 241
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_13": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1124, 
+        "x": 464, 
+        "w": 202, 
+        "h": 242
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_12": {
+      "trimmed": true, 
+      "frame": {
+        "y": 681, 
+        "x": 207, 
+        "w": 202, 
+        "h": 246
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_11": {
+      "trimmed": true, 
+      "frame": {
+        "y": 364, 
+        "x": 1779, 
+        "w": 202, 
+        "h": 240
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_29": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 560, 
+        "w": 173, 
+        "h": 237
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_22": {
+      "trimmed": true, 
+      "frame": {
+        "y": 616, 
+        "x": 1537, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_logo": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1125, 
+        "x": 1241, 
+        "w": 204, 
+        "h": 195
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 593, 
+        "w": 285
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 285, 
+        "h": 593
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_20": {
+      "trimmed": true, 
+      "frame": {
+        "y": 440, 
+        "x": 1537, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_21": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1124, 
+        "x": 863, 
+        "w": 173, 
+        "h": 239
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_08": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 778, 
+        "w": 259, 
+        "h": 232
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_09": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 1546, 
+        "w": 242, 
+        "h": 232
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_24": {
+      "trimmed": true, 
+      "frame": {
+        "y": 235, 
+        "x": 1361, 
+        "w": 174, 
+        "h": 239
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_25": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 384, 
+        "w": 174, 
+        "h": 237
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_26": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 911, 
+        "w": 173, 
+        "h": 238
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_27": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 1262, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_02": {
+      "trimmed": true, 
+      "frame": {
+        "y": 568, 
+        "x": 1777, 
+        "w": 201, 
+        "h": 235
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_03": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 216, 
+        "w": 282, 
+        "h": 240
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_00": {
+      "trimmed": true, 
+      "frame": {
+        "y": 485, 
+        "x": 1067, 
+        "w": 168, 
+        "h": 171
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_01": {
+      "trimmed": true, 
+      "frame": {
+        "y": 911, 
+        "x": 2, 
+        "w": 149, 
+        "h": 255
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_06": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 500, 
+        "w": 276, 
+        "h": 231
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_07": {
+      "trimmed": true, 
+      "frame": {
+        "y": 244, 
+        "x": 216, 
+        "w": 278, 
+        "h": 231
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_04": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 1039, 
+        "w": 257, 
+        "h": 241
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_05": {
+      "trimmed": true, 
+      "frame": {
+        "y": 885, 
+        "x": 153, 
+        "w": 229, 
+        "h": 237
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_32": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1093, 
+        "x": 1438, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_08": {
+      "trimmed": true, 
+      "frame": {
+        "y": 792, 
+        "x": 1614, 
+        "w": 155, 
+        "h": 159
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/wild_vertical": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 129, 
+        "w": 85, 
+        "h": 520
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 520, 
+        "w": 85
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 85, 
+        "h": 520
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_04": {
+      "trimmed": true, 
+      "frame": {
+        "y": 681, 
+        "x": 675, 
+        "w": 202, 
+        "h": 234
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_05": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 1391, 
+        "w": 142, 
+        "h": 141
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_banner_short_31": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 1151, 
+        "w": 173, 
+        "h": 238
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_07": {
+      "trimmed": true, 
+      "frame": {
+        "y": 953, 
+        "x": 1614, 
+        "w": 149, 
+        "h": 150
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_00": {
+      "trimmed": true, 
+      "frame": {
+        "y": 681, 
+        "x": 455, 
+        "w": 202, 
+        "h": 218
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_01": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1125, 
+        "x": 1038, 
+        "w": 201, 
+        "h": 218
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_02": {
+      "trimmed": true, 
+      "frame": {
+        "y": 477, 
+        "x": 467, 
+        "w": 202, 
+        "h": 234
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_03": {
+      "trimmed": true, 
+      "frame": {
+        "y": 236, 
+        "x": 1537, 
+        "w": 202, 
+        "h": 240
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }, 
+    "sym1-assets/expwild_logo_white": {
+      "trimmed": true, 
+      "frame": {
+        "y": 957, 
+        "x": 1914, 
+        "w": 94, 
+        "h": 88
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 88, 
+        "w": 94
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 94, 
+        "h": 88
+      }
+    }, 
+    "sym1-assets/wild_vertical_multiply": {
+      "trimmed": true, 
+      "frame": {
+        "y": 524, 
+        "x": 129, 
+        "w": 76, 
+        "h": 259
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 259, 
+        "w": 76
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 76, 
+        "h": 259
+      }
+    }, 
+    "sym1-assets/expwild_banner_52": {
+      "trimmed": true, 
+      "frame": {
+        "y": 245, 
+        "x": 1185, 
+        "w": 174, 
+        "h": 238
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 268, 
+        "w": 310
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 310, 
+        "h": 268
+      }
+    }, 
+    "sym1-assets/expwild_fx_alpha_09": {
+      "trimmed": true, 
+      "frame": {
+        "y": 1168, 
+        "x": 2, 
+        "w": 202, 
+        "h": 249
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 249, 
+        "w": 203
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 203, 
+        "h": 249
+      }
+    }
+  }, 
+  "meta": {
+    "scale": "1", 
+    "format": "RGBA8888", 
+    "app": "https://www.codeandweb.com/texturepacker", 
+    "version": "1.0", 
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$", 
+    "image": "sym1.png", 
+    "size": {
+      "h": 13772, 
+      "w": 2025
+    }
+  }
+}

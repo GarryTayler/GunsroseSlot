@@ -1,0 +1,67 @@
+assets/crosscake_idle.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+assets/crosscake_idle
+  rotate: false
+  xy: 135, 298
+  size: 544, 545
+  orig: 544, 545
+  offset: 0, 0
+  index: -1
+assets/d
+  rotate: false
+  xy: 389, 845
+  size: 66, 125
+  orig: 66, 125
+  offset: 0, 0
+  index: -1
+assets/glow
+  rotate: true
+  xy: 681, 298
+  size: 254, 267
+  orig: 254, 267
+  offset: 0, 0
+  index: -1
+assets/i
+  rotate: true
+  xy: 262, 845
+  size: 45, 125
+  orig: 45, 125
+  offset: 0, 0
+  index: -1
+assets/l
+  rotate: true
+  xy: 135, 845
+  size: 62, 125
+  orig: 62, 125
+  offset: 0, 0
+  index: -1
+assets/w
+  rotate: true
+  xy: 2, 911
+  size: 85, 124
+  orig: 85, 124
+  offset: 0, 0
+  index: -1
+assets/wild_horizontal_add
+  rotate: false
+  xy: 135, 2
+  size: 862, 294
+  orig: 862, 294
+  offset: 0, 0
+  index: -1
+assets/wild_vertical_add
+  rotate: false
+  xy: 2, 2
+  size: 131, 907
+  orig: 131, 907
+  offset: 0, 0
+  index: -1
+assets/wild_vertical_multiply
+  rotate: true
+  xy: 128, 911
+  size: 76, 259
+  orig: 76, 259
+  offset: 0, 0
+  index: -1

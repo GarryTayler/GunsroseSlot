@@ -1,0 +1,102 @@
+betlineframe.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+betlineframe_00
+  rotate: false
+  xy: 218, 448
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_01
+  rotate: false
+  xy: 2, 448
+  size: 214, 214
+  orig: 224, 224
+  offset: 5, 5
+  index: -1
+betlineframe_02
+  rotate: false
+  xy: 2, 2
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+betlineframe_03
+  rotate: false
+  xy: 2, 228
+  size: 218, 218
+  orig: 224, 224
+  offset: 3, 3
+  index: -1
+betlineframe_04
+  rotate: false
+  xy: 2, 664
+  size: 210, 210
+  orig: 224, 224
+  offset: 7, 7
+  index: -1
+betlineframe_05
+  rotate: false
+  xy: 214, 664
+  size: 204, 204
+  orig: 224, 224
+  offset: 10, 10
+  index: -1
+betlineframe_06
+  rotate: false
+  xy: 222, 228
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_07
+  rotate: false
+  xy: 228, 2
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_08
+  rotate: false
+  xy: 420, 430
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_09
+  rotate: false
+  xy: 424, 204
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_10
+  rotate: false
+  xy: 430, 2
+  size: 200, 200
+  orig: 224, 224
+  offset: 12, 12
+  index: -1
+betlineframe_11
+  rotate: false
+  xy: 420, 632
+  size: 198, 198
+  orig: 224, 224
+  offset: 13, 13
+  index: -1
+betlineframe_12
+  rotate: false
+  xy: 620, 632
+  size: 192, 192
+  orig: 224, 224
+  offset: 16, 16
+  index: -1
+betlineframe_13
+  rotate: false
+  xy: 420, 832
+  size: 186, 186
+  orig: 224, 224
+  offset: 19, 19
+  index: -1

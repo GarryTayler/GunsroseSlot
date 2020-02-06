@@ -1,0 +1,2686 @@
+{
+  "skeleton": {
+    "hash": "0qJ+gs3AeNYYu/zHXxQ62c6tpuU",
+    "spine": "2.1.27",
+    "width": 234.29,
+    "height": 237.35,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "petal_1",
+      "parent": "root",
+      "x": 46.07,
+      "y": -122.17,
+      "scaleX": 0.546,
+      "scaleY": 0.546,
+      "rotation": 25.4
+    },
+    {
+      "name": "petal_1_L1",
+      "parent": "root",
+      "x": 46.07,
+      "y": -122.17,
+      "scaleX": 0.546,
+      "scaleY": 0.546,
+      "rotation": 25.4
+    },
+    {
+      "name": "petal_2",
+      "parent": "root",
+      "x": 43.53,
+      "y": -129.44,
+      "scaleX": 0.416,
+      "scaleY": 0.416,
+      "rotation": 336.02
+    },
+    {
+      "name": "petal_2_L1",
+      "parent": "root",
+      "x": 23.98,
+      "y": -189.83,
+      "scaleX": 0.552,
+      "scaleY": 0.552,
+      "rotation": 37.77
+    },
+    {
+      "name": "petal_2_L2",
+      "parent": "root",
+      "x": 43.53,
+      "y": -129.44,
+      "scaleX": 0.416,
+      "scaleY": 0.416,
+      "rotation": 336.02
+    },
+    {
+      "name": "petal_2_L3",
+      "parent": "root",
+      "x": 23.98,
+      "y": -189.83,
+      "scaleX": 0.552,
+      "scaleY": 0.552,
+      "rotation": 37.77
+    },
+    {
+      "name": "petal_3",
+      "parent": "root",
+      "x": 84.27,
+      "y": -104.35,
+      "scaleX": 0.354,
+      "scaleY": 0.354,
+      "rotation": 3.77
+    },
+    {
+      "name": "petal_3_L1",
+      "parent": "root",
+      "x": 84.27,
+      "y": -104.35,
+      "scaleX": 0.354,
+      "scaleY": 0.354,
+      "rotation": 3.77
+    },
+    {
+      "name": "petal_4",
+      "parent": "root",
+      "x": 85.76,
+      "y": -103.1,
+      "scaleX": 0.361,
+      "scaleY": 0.361,
+      "rotation": 3.57
+    },
+    {
+      "name": "petal_4_L1",
+      "parent": "root",
+      "x": 85.76,
+      "y": -103.1,
+      "scaleX": 0.361,
+      "scaleY": 0.361,
+      "rotation": 3.57
+    },
+    {
+      "name": "petal_5",
+      "parent": "root",
+      "x": 43.89,
+      "y": -149.05,
+      "scaleX": 0.674,
+      "scaleY": 0.674,
+      "rotation": 71.13
+    },
+    {
+      "name": "petal_5_L1",
+      "parent": "root",
+      "x": 43.89,
+      "y": -149.05,
+      "scaleX": 0.674,
+      "scaleY": 0.674,
+      "rotation": 71.13
+    },
+    {
+      "name": "petal_6",
+      "parent": "root",
+      "x": 83.62,
+      "y": -157.86,
+      "scaleX": 0.567,
+      "scaleY": 0.567,
+      "rotation": 292.88
+    },
+    {
+      "name": "petal_6_L1",
+      "parent": "root",
+      "x": 8.33,
+      "y": -131.12,
+      "scaleX": 0.617,
+      "scaleY": 0.617,
+      "rotation": 35.78
+    },
+    {
+      "name": "petal_6_L2",
+      "parent": "root",
+      "x": 83.62,
+      "y": -157.86,
+      "scaleX": 0.567,
+      "scaleY": 0.567,
+      "rotation": 292.88
+    },
+    {
+      "name": "petal_6_L3",
+      "parent": "root",
+      "x": 8.33,
+      "y": -131.12,
+      "scaleX": 0.617,
+      "scaleY": 0.617,
+      "rotation": 35.78
+    },
+    {
+      "name": "pick",
+      "parent": "root",
+      "x": 99.4,
+      "y": -92.9,
+      "scaleX": 0.551,
+      "scaleY": 0.551,
+      "rotation": 22
+    },
+    {
+      "name": "pick_L1",
+      "parent": "root",
+      "x": 104.15,
+      "y": -100.5,
+      "scaleX": 0.551,
+      "scaleY": 0.551,
+      "rotation": 22
+    },
+    {
+      "name": "pick_add",
+      "parent": "root",
+      "x": 99.4,
+      "y": -92.9,
+      "scaleX": 0.551,
+      "scaleY": 0.551,
+      "rotation": 22
+    },
+    {
+      "name": "picks_refl",
+      "parent": "root",
+      "x": 99.4,
+      "y": -92.9,
+      "scaleX": 0.551,
+      "scaleY": 0.551,
+      "rotation": 22
+    },
+    {
+      "name": "rose1",
+      "parent": "root",
+      "x": 63.85,
+      "y": -141.25,
+      "scaleX": 0.272,
+      "scaleY": 0.272,
+      "rotation": 148
+    },
+    {
+      "name": "rose2",
+      "parent": "root",
+      "x": 45.4,
+      "y": -117.5,
+      "scaleX": 0.997,
+      "scaleY": 0.997
+    },
+    {
+      "name": "round_glow",
+      "parent": "root",
+      "x": 137.73,
+      "y": -17.08,
+      "scaleX": 0.223,
+      "scaleY": 0.57,
+      "rotation": 22
+    },
+    {
+      "name": "sym_bg",
+      "parent": "root",
+      "x": 90,
+      "y": -90
+    },
+    {
+      "name": "win_state",
+      "parent": "root",
+      "color": "00000000"
+    }
+  ],
+  "slots": [
+    {
+      "name": "sym_bg",
+      "bone": "sym_bg",
+      "attachment": "assets/sym_bg"
+    },
+    {
+      "name": "rose2",
+      "bone": "rose2",
+      "attachment": "assets/rose2"
+    },
+    {
+      "name": "petal_6_L3",
+      "bone": "petal_6_L3",
+      "color": "ffffff00",
+      "attachment": "assets/petal_6"
+    },
+    {
+      "name": "petal_2_L3",
+      "bone": "petal_2_L3",
+      "color": "ffffff00",
+      "attachment": "assets/petal_2"
+    },
+    {
+      "name": "petal_6_L2",
+      "bone": "petal_6_L2",
+      "color": "ffffff00",
+      "attachment": "assets/petal_6"
+    },
+    {
+      "name": "petal_5_L1",
+      "bone": "petal_5_L1",
+      "color": "ffffff00",
+      "attachment": "assets/petal_5"
+    },
+    {
+      "name": "petal_4_L1",
+      "bone": "petal_4_L1",
+      "color": "ffffff00",
+      "attachment": "assets/petal_4"
+    },
+    {
+      "name": "petal_3_L1",
+      "bone": "petal_3_L1",
+      "color": "ffffff00",
+      "attachment": "assets/petal_3"
+    },
+    {
+      "name": "petal_2_L2",
+      "bone": "petal_2_L2",
+      "color": "ffffff00",
+      "attachment": "assets/petal_2"
+    },
+    {
+      "name": "petal_1_L1",
+      "bone": "petal_1_L1",
+      "color": "ffffff00",
+      "attachment": "assets/petal_1"
+    },
+    {
+      "name": "pick_L1",
+      "bone": "pick_L1",
+      "color": "ffffff80",
+      "attachment": "assets/pick"
+    },
+    {
+      "name": "pick",
+      "bone": "pick",
+      "attachment": "assets/pick"
+    },
+    {
+      "name": "picks_refl",
+      "bone": "picks_refl",
+      "color": "ffffff00",
+      "attachment": "assets/picks_refl"
+    },
+    {
+      "name": "pick_add",
+      "bone": "pick_add",
+      "color": "ffffff00",
+      "attachment": "assets/pick_add",
+      "blend": "additive"
+    },
+    {
+      "name": "rose1",
+      "bone": "rose1",
+      "color": "ffffff00",
+      "attachment": "assets/rose1"
+    },
+    {
+      "name": "round_glow",
+      "bone": "round_glow",
+      "color": "ffffff00",
+      "attachment": "assets/round_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "petal_6_L1",
+      "bone": "petal_6_L1",
+      "attachment": "assets/petal_6"
+    },
+    {
+      "name": "petal_2_L1",
+      "bone": "petal_2_L1",
+      "attachment": "assets/petal_2"
+    },
+    {
+      "name": "petal_6",
+      "bone": "petal_6",
+      "attachment": "assets/petal_6"
+    },
+    {
+      "name": "petal_5",
+      "bone": "petal_5",
+      "attachment": "assets/petal_5"
+    },
+    {
+      "name": "petal_4",
+      "bone": "petal_4",
+      "attachment": "assets/petal_4"
+    },
+    {
+      "name": "petal_3",
+      "bone": "petal_3",
+      "attachment": "assets/petal_3"
+    },
+    {
+      "name": "petal_2",
+      "bone": "petal_2",
+      "attachment": "assets/petal_2"
+    },
+    {
+      "name": "petal_1",
+      "bone": "petal_1",
+      "attachment": "assets/petal_1"
+    },
+    {
+      "name": "assets/sym7_win",
+      "bone": "win_state",
+      "attachment": "assets/sym7_win"
+    }
+  ],
+  "skins": {
+    "default": {
+      "assets/sym7_win": {
+        "assets/sym7_win": {
+          "x": 90,
+          "y": -90,
+          "width": 180,
+          "height": 180
+        }
+      },
+      "petal_1": {
+        "assets/petal_1": {
+          "width": 51,
+          "height": 39
+        }
+      },
+      "petal_1_L1": {
+        "assets/petal_1": {
+          "width": 51,
+          "height": 39
+        }
+      },
+      "petal_2": {
+        "assets/petal_2": {
+          "width": 51,
+          "height": 23
+        }
+      },
+      "petal_2_L1": {
+        "assets/petal_2": {
+          "width": 51,
+          "height": 23
+        }
+      },
+      "petal_2_L2": {
+        "assets/petal_2": {
+          "width": 51,
+          "height": 23
+        }
+      },
+      "petal_2_L3": {
+        "assets/petal_2": {
+          "width": 51,
+          "height": 23
+        }
+      },
+      "petal_3": {
+        "assets/petal_3": {
+          "width": 49,
+          "height": 38
+        }
+      },
+      "petal_3_L1": {
+        "assets/petal_3": {
+          "width": 49,
+          "height": 38
+        }
+      },
+      "petal_4": {
+        "assets/petal_4": {
+          "width": 29,
+          "height": 39
+        }
+      },
+      "petal_4_L1": {
+        "assets/petal_4": {
+          "width": 29,
+          "height": 39
+        }
+      },
+      "petal_5": {
+        "assets/petal_5": {
+          "width": 51,
+          "height": 21
+        }
+      },
+      "petal_5_L1": {
+        "assets/petal_5": {
+          "width": 51,
+          "height": 21
+        }
+      },
+      "petal_6": {
+        "assets/petal_6": {
+          "width": 49,
+          "height": 31
+        }
+      },
+      "petal_6_L1": {
+        "assets/petal_6": {
+          "width": 49,
+          "height": 31
+        }
+      },
+      "petal_6_L2": {
+        "assets/petal_6": {
+          "width": 49,
+          "height": 31
+        }
+      },
+      "petal_6_L3": {
+        "assets/petal_6": {
+          "width": 49,
+          "height": 31
+        }
+      },
+      "pick": {
+        "assets/pick": {
+          "width": 320,
+          "height": 320
+        }
+      },
+      "pick_L1": {
+        "assets/pick": {
+          "color": "00000080",
+          "width": 320,
+          "height": 320
+        }
+      },
+      "pick_add": {
+        "assets/pick_add": {
+          "width": 320,
+          "height": 320
+        }
+      },
+      "picks_refl": {
+        "assets/picks_refl": {
+          "width": 320,
+          "height": 320
+        }
+      },
+      "rose1": {
+        "assets/rose1": {
+          "x": -0.5,
+          "width": 109,
+          "height": 88
+        }
+      },
+      "rose2": {
+        "assets/rose2": {
+          "x": -0.37,
+          "width": 81,
+          "height": 63
+        }
+      },
+      "round_glow": {
+        "assets/round_glow": {
+          "width": 128,
+          "height": 128
+        }
+      },
+      "sym_bg": {
+        "assets/sym_bg": {
+          "width": 180,
+          "height": 180
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "assets/sym7_win": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_1_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_2_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_2_L2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_2_L3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_3_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_4_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_5_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_6_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "petal_6_L2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "petal_6_L3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "pick": {
+          "color": [
+            {
+              "time": 1.0666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "pick_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1,
+              "color": "ffffff40"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "pick_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 0.8666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "picks_refl": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rose1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rose2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "round_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.8666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "sym_bg": {
+          "color": [
+            {
+              "time": 1.1333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "rose2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.1,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.2,
+              "x": 0.857,
+              "y": 0.857
+            }
+          ]
+        },
+        "petal_6_L3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.9333,
+              "angle": 100.21
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2432,
+              "x": 66.1,
+              "y": 41.81
+            },
+            {
+              "time": 0.6127,
+              "x": 175.12,
+              "y": 77.68
+            },
+            {
+              "time": 0.9333,
+              "x": 87.59,
+              "y": 26.07
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2333,
+              "x": 1.323,
+              "y": 1.323
+            },
+            {
+              "time": 0.9333,
+              "x": 0.538,
+              "y": 0.538
+            }
+          ]
+        },
+        "petal_2_L3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8666,
+              "angle": 98.22
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3104,
+              "x": 103.17,
+              "y": 43.05
+            },
+            {
+              "time": 0.5909,
+              "x": 165.17,
+              "y": 125.94
+            },
+            {
+              "time": 0.8666,
+              "x": 66.24,
+              "y": 107.11
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4,
+              "x": 1.478,
+              "y": 1.478
+            },
+            {
+              "time": 0.8666,
+              "x": 0.601,
+              "y": 0.601
+            }
+          ]
+        },
+        "petal_6_L2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.6666,
+              "angle": -95.88
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.11,
+              "x": 33.56,
+              "y": 13.93
+            },
+            {
+              "time": 0.3909,
+              "x": 108.86,
+              "y": 77.82
+            },
+            {
+              "time": 0.6666,
+              "x": 11.83,
+              "y": 59.46
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1,
+              "x": 1.088,
+              "y": 1.088
+            },
+            {
+              "time": 0.6666,
+              "x": 0.586,
+              "y": 0.586
+            }
+          ]
+        },
+        "petal_5_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.7666,
+              "angle": 116.86
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2058,
+              "x": 60.94,
+              "y": 28.87
+            },
+            {
+              "time": 0.4894,
+              "x": 135.05,
+              "y": 78.03
+            },
+            {
+              "time": 0.7666,
+              "x": 51.56,
+              "y": 50.65
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2,
+              "x": 1.126,
+              "y": 1.126
+            },
+            {
+              "time": 0.7666,
+              "x": 0.704,
+              "y": 0.704
+            }
+          ]
+        },
+        "petal_4_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.2333,
+              "angle": 132.42
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2748,
+              "x": -79.85,
+              "y": -35.42
+            },
+            {
+              "time": 0.5434,
+              "x": -11.32,
+              "y": 13.8
+            },
+            {
+              "time": 0.9125,
+              "x": 97.69,
+              "y": 49.66
+            },
+            {
+              "time": 1.2333,
+              "x": 10.16,
+              "y": -1.93
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5333,
+              "x": 2.263,
+              "y": 2.263
+            },
+            {
+              "time": 1.2333,
+              "x": 0.921,
+              "y": 0.921
+            }
+          ]
+        },
+        "petal_3_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 132.22
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2968,
+              "x": -60.78,
+              "y": -85.01
+            },
+            {
+              "time": 0.6098,
+              "x": 42.89,
+              "y": -42.42
+            },
+            {
+              "time": 0.891,
+              "x": 104.89,
+              "y": 40.46
+            },
+            {
+              "time": 1.1666,
+              "x": 5.96,
+              "y": 21.62
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7,
+              "x": 2.304,
+              "y": 2.304
+            },
+            {
+              "time": 1.1666,
+              "x": 0.937,
+              "y": 0.937
+            }
+          ]
+        },
+        "petal_2_L2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.9666,
+              "angle": -139.02
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1278,
+              "x": -23.37,
+              "y": -32.84
+            },
+            {
+              "time": 0.4085,
+              "x": 73.65,
+              "y": -14.49
+            },
+            {
+              "time": 0.6893,
+              "x": 148.95,
+              "y": 49.4
+            },
+            {
+              "time": 0.9666,
+              "x": 51.92,
+              "y": 31.04
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4,
+              "x": 1.483,
+              "y": 1.483
+            },
+            {
+              "time": 0.9666,
+              "x": 0.798,
+              "y": 0.798
+            }
+          ]
+        },
+        "petal_1_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.0666,
+              "angle": 162.59
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1792,
+              "x": -41.82,
+              "y": -33.46
+            },
+            {
+              "time": 0.5111,
+              "x": 58.77,
+              "y": 1.99
+            },
+            {
+              "time": 0.7916,
+              "x": 132.88,
+              "y": 51.15
+            },
+            {
+              "time": 1.0666,
+              "x": 49.38,
+              "y": 23.77
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5,
+              "x": 1.391,
+              "y": 1.391
+            },
+            {
+              "time": 1.0666,
+              "x": 0.869,
+              "y": 0.869
+            }
+          ]
+        },
+        "pick_L1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8666,
+              "x": 1.172,
+              "y": 1.172
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9666,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1,
+              "x": 1.06,
+              "y": 1.06
+            },
+            {
+              "time": 1.0333,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1.0666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "picks_refl": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": 0.224,
+              "y": 1.018
+            },
+            {
+              "time": 0.0666,
+              "x": -0.169,
+              "y": 1.038
+            },
+            {
+              "time": 0.2,
+              "x": -1.107,
+              "y": 1.143
+            },
+            {
+              "time": 0.3,
+              "x": -0.226,
+              "y": 1.18
+            },
+            {
+              "time": 0.3333,
+              "x": 0.256,
+              "y": 1.192
+            },
+            {
+              "time": 0.4333,
+              "x": 1.12,
+              "y": 1.229
+            },
+            {
+              "time": 0.6333,
+              "x": 1.241,
+              "y": 1.241
+            },
+            {
+              "time": 0.8,
+              "x": 1.206,
+              "y": 1.206
+            },
+            {
+              "time": 0.8666,
+              "x": 1.172,
+              "y": 1.172
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9666,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1,
+              "x": 1.06,
+              "y": 1.06
+            },
+            {
+              "time": 1.0333,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1.0666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "pick_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": 0.224,
+              "y": 1.018
+            },
+            {
+              "time": 0.0666,
+              "x": -0.169,
+              "y": 1.038
+            },
+            {
+              "time": 0.2,
+              "x": -1.107,
+              "y": 1.143
+            },
+            {
+              "time": 0.3,
+              "x": -0.226,
+              "y": 1.18
+            },
+            {
+              "time": 0.3333,
+              "x": 0.256,
+              "y": 1.192
+            },
+            {
+              "time": 0.4333,
+              "x": 1.12,
+              "y": 1.229
+            },
+            {
+              "time": 0.6333,
+              "x": 1.241,
+              "y": 1.241
+            },
+            {
+              "time": 0.8,
+              "x": 1.206,
+              "y": 1.206
+            },
+            {
+              "time": 0.8666,
+              "x": 1.172,
+              "y": 1.172
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9666,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1,
+              "x": 1.06,
+              "y": 1.06
+            },
+            {
+              "time": 1.0333,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1.0666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "rose1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": -0.22,
+              "y": -0.22,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333,
+              "x": -0.22,
+              "y": -0.22
+            },
+            {
+              "time": 1.0333,
+              "x": 3.44,
+              "y": 3.44
+            },
+            {
+              "time": 1.1333,
+              "x": 2.917,
+              "y": 2.917
+            }
+          ]
+        },
+        "round_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.0333,
+              "x": 0.13,
+              "y": 0.67
+            },
+            {
+              "time": 0.0666,
+              "x": 0.26,
+              "y": 1.35
+            },
+            {
+              "time": 0.1,
+              "x": 0.39,
+              "y": 2.03
+            },
+            {
+              "time": 0.1333,
+              "x": 0.52,
+              "y": 2.7
+            },
+            {
+              "time": 0.1666,
+              "x": 0.65,
+              "y": 3.36
+            },
+            {
+              "time": 0.2,
+              "x": 0.78,
+              "y": 4.04
+            },
+            {
+              "time": 0.2333,
+              "x": 0.78,
+              "y": 4.05
+            },
+            {
+              "time": 0.2666,
+              "x": 0.65,
+              "y": 3.37
+            },
+            {
+              "time": 0.3,
+              "x": 0.52,
+              "y": 2.7
+            },
+            {
+              "time": 0.3333,
+              "x": 0.39,
+              "y": 2.02
+            },
+            {
+              "time": 0.3666,
+              "x": 0.25,
+              "y": 1.34
+            },
+            {
+              "time": 0.4,
+              "x": 0.13,
+              "y": 0.67
+            },
+            {
+              "time": 0.4333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.4666,
+              "x": -2.84,
+              "y": -14.3
+            },
+            {
+              "time": 0.6333,
+              "x": -38.71,
+              "y": -67.21
+            },
+            {
+              "time": 0.8333,
+              "x": -104.59,
+              "y": -66.85
+            },
+            {
+              "time": 0.8666,
+              "x": -115.66,
+              "y": -62.93
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.6333,
+              "x": 3.787,
+              "y": 2.546
+            },
+            {
+              "time": 0.8666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "petal_6_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.9333,
+              "angle": 100.21
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2432,
+              "x": 66.1,
+              "y": 41.81
+            },
+            {
+              "time": 0.6127,
+              "x": 175.12,
+              "y": 77.68
+            },
+            {
+              "time": 0.9333,
+              "x": 87.59,
+              "y": 26.07
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2333,
+              "x": 1.323,
+              "y": 1.323
+            },
+            {
+              "time": 0.9333,
+              "x": 0.538,
+              "y": 0.538
+            }
+          ]
+        },
+        "petal_2_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.8666,
+              "angle": 98.22
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3104,
+              "x": 103.17,
+              "y": 43.05
+            },
+            {
+              "time": 0.5909,
+              "x": 165.17,
+              "y": 125.94
+            },
+            {
+              "time": 0.8666,
+              "x": 66.24,
+              "y": 107.11
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4,
+              "x": 1.478,
+              "y": 1.478
+            },
+            {
+              "time": 0.8666,
+              "x": 0.601,
+              "y": 0.601
+            }
+          ]
+        },
+        "petal_6": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.6666,
+              "angle": -95.88
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.11,
+              "x": 33.56,
+              "y": 13.93
+            },
+            {
+              "time": 0.3909,
+              "x": 108.86,
+              "y": 77.82
+            },
+            {
+              "time": 0.6666,
+              "x": 11.83,
+              "y": 59.46
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1,
+              "x": 1.088,
+              "y": 1.088
+            },
+            {
+              "time": 0.6666,
+              "x": 0.586,
+              "y": 0.586
+            }
+          ]
+        },
+        "petal_5": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.7666,
+              "angle": 116.86
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2058,
+              "x": 60.94,
+              "y": 28.87
+            },
+            {
+              "time": 0.4894,
+              "x": 135.05,
+              "y": 78.03
+            },
+            {
+              "time": 0.7666,
+              "x": 51.56,
+              "y": 50.65
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.2,
+              "x": 1.126,
+              "y": 1.126
+            },
+            {
+              "time": 0.7666,
+              "x": 0.704,
+              "y": 0.704
+            }
+          ]
+        },
+        "petal_4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.2333,
+              "angle": 132.42
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2748,
+              "x": -79.85,
+              "y": -35.42
+            },
+            {
+              "time": 0.5434,
+              "x": -11.32,
+              "y": 13.8
+            },
+            {
+              "time": 0.9125,
+              "x": 97.69,
+              "y": 49.66
+            },
+            {
+              "time": 1.2333,
+              "x": 10.16,
+              "y": -1.93
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5333,
+              "x": 2.263,
+              "y": 2.263
+            },
+            {
+              "time": 1.2333,
+              "x": 0.921,
+              "y": 0.921
+            }
+          ]
+        },
+        "petal_3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.1666,
+              "angle": 132.22
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.2968,
+              "x": -60.78,
+              "y": -85.01
+            },
+            {
+              "time": 0.6098,
+              "x": 42.89,
+              "y": -42.42
+            },
+            {
+              "time": 0.891,
+              "x": 104.89,
+              "y": 40.46
+            },
+            {
+              "time": 1.1666,
+              "x": 5.96,
+              "y": 21.62
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.7,
+              "x": 2.304,
+              "y": 2.304
+            },
+            {
+              "time": 1.1666,
+              "x": 0.937,
+              "y": 0.937
+            }
+          ]
+        },
+        "petal_2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.9666,
+              "angle": -139.02
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1278,
+              "x": -23.37,
+              "y": -32.84
+            },
+            {
+              "time": 0.4085,
+              "x": 73.65,
+              "y": -14.49
+            },
+            {
+              "time": 0.6893,
+              "x": 148.95,
+              "y": 49.4
+            },
+            {
+              "time": 0.9666,
+              "x": 51.92,
+              "y": 31.04
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4,
+              "x": 1.483,
+              "y": 1.483
+            },
+            {
+              "time": 0.9666,
+              "x": 0.798,
+              "y": 0.798
+            }
+          ]
+        },
+        "petal_1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 1.0666,
+              "angle": 162.59
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1792,
+              "x": -41.82,
+              "y": -33.46
+            },
+            {
+              "time": 0.5111,
+              "x": 58.77,
+              "y": 1.99
+            },
+            {
+              "time": 0.7916,
+              "x": 132.88,
+              "y": 51.15
+            },
+            {
+              "time": 1.0666,
+              "x": 49.38,
+              "y": 23.77
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.5,
+              "x": 1.391,
+              "y": 1.391
+            },
+            {
+              "time": 1.0666,
+              "x": 0.869,
+              "y": 0.869
+            }
+          ]
+        },
+        "pick": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0333,
+              "x": 0.224,
+              "y": 1.018
+            },
+            {
+              "time": 0.0666,
+              "x": -0.169,
+              "y": 1.038
+            },
+            {
+              "time": 0.2,
+              "x": -1.107,
+              "y": 1.143
+            },
+            {
+              "time": 0.3,
+              "x": -0.226,
+              "y": 1.18
+            },
+            {
+              "time": 0.3333,
+              "x": 0.256,
+              "y": 1.192
+            },
+            {
+              "time": 0.4333,
+              "x": 1.12,
+              "y": 1.229
+            },
+            {
+              "time": 0.6333,
+              "x": 1.241,
+              "y": 1.241
+            },
+            {
+              "time": 0.8,
+              "x": 1.206,
+              "y": 1.206
+            },
+            {
+              "time": 0.8666,
+              "x": 1.172,
+              "y": 1.172
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.9666,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1,
+              "x": 1.06,
+              "y": 1.06
+            },
+            {
+              "time": 1.0333,
+              "x": 1.043,
+              "y": 1.043
+            },
+            {
+              "time": 1.0666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

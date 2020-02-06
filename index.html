@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <title>Guns N' Roses Video Slots</title>
+</head>
+<style>
+    .container {
+        position: relative;
+    }
+    .systemclock {
+        bottom: auto;
+        width: 150px;
+        height: 50px;
+        background: white;
+        position: fixed;
+        min-height: 100%;
+        display: block;
+        z-index: 99;
+    }
+    canvas {
+        z-index: 2;
+    }
+</style>
+<body>
+<script>
+
+    Settings = {
+
+        "title": "Fairytale",
+
+        "name": "Fairytale",
+
+        "version": {"default": "1.0", "type": "string"},
+
+        "debug": {
+            "default": false,
+            "type": "boolean",
+            "editor": {
+                "title": "Debug mode",
+                "description": "Disable code compression, enable logging and some other debug functionality.",
+                "control": "switch",
+                "section": "system",
+                "priority": 10
+            }
+        },
+
+        "debug-logger": {
+            "default": "native",
+            "type": "select",
+            "values": ["native", "custom", "firebug", "none"],
+            "editor": {
+                "title": "Debug messages",
+                "description": "Where to show debug messages?",
+                "option-descriptions": {
+                    "none": "Disable debug messages",
+                    "native": "Regular browser console",
+                    "custom": "Over the ad",
+                    "firebug": "Firebug Lite"
+                },
+                "control": "radio",
+                "section": "system",
+                "priority": 10.1,
+                "dependency": {"name": "debug", "value": true}
+            }
+        },
+
+        "publisher": {
+            "type": "select",
+            "default": "none",
+            "values": ["google", "rovio", "sega", "kidoz", "facebook", "facebook-instant-games", "pocket-math", "playable-kit", "applovin", "unity-ads", "adcolony", "tapjoy", "iron-source", "vungle", "life-street", "aarki", "none"],
+            "description": "If you use one of listed ad networks choose it, to enable specific code and fixes."
+        },
+
+        "publisher-settings": {
+            "type": "key-value",
+            "default": {"width": 320, "height": 480, "fixed-size": false},
+            "description": "Various settings which needed for specific ad network."
+        },
+
+        "viewport-size": {
+            "type": "select",
+            "default": "window-inner-dimensions",
+            "values": ["mraid-max-size", "mraid-screen-size", "window-inner-dimensions", "screen-size"],
+            "editor": {
+                "title": "Viewport size",
+                "description": "Method to detect viewport size.",
+                "option-descriptions": {
+                    "mraid-max-size": "Mraid max size",
+                    "mraid-screen-size": "Mraid screen size",
+                    "window-inner-dimensions": "Window inner dimensions",
+                    "screen-size": "Screen size"
+                },
+                "control": "radio",
+                "section": "system",
+                "priority": 1
+            }
+        },
+
+        "viewport-size-protection": {
+            "default": true,
+            "type": "boolean",
+            "editor": {
+                "title": "Viewport size protection",
+                "description": "Sometimes mraid can return 10x10 px size of viewport or 414x414 px which is incorrect. Enable this options to stabilize and fix incorrect values.",
+                "control": "switch",
+                "section": "system",
+                "priority": 1.1
+            }
+        },
+
+        "viewport-aspect-ratio": {
+            "default": "none",
+            "type": "select",
+            "values": ["portrait", "landscape", "none"],
+            "description": "Viewport sizes aspect ratio. Set it to \"portrait\" or \"landscape\" if you want always show your ad in \"portrait\" or \"landscape\" mode."
+        },
+
+        "viewport-aspect-ratio-portrait": {
+            "default": 0.75,
+            "type": "number",
+            "description": "Maximum ratio of width to height. Used if \"Viewport aspect ratio\" is set to \"portrait\""
+        },
+
+        "viewport-aspect-ratio-landscape": {
+            "default": 0.75,
+            "type": "number",
+            "description": "Maximum ratio of height to width. Used if \"Viewport aspect ratio\" is set to \"landscape\""
+        },
+
+        "assets-path": {"default": "", "type": "string", "description": "Path to game assets on your server."},
+
+        "target-url": {"default": "", "type": "string"},
+
+        "web-mode": {"default": "redirect", "type": "select", "values": ["alert", "redirect", "mraid", "none"]},
+
+        "tween-factor-default": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Default speed of animations",
+                "description": "Default speed of 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-gameplay": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of gameplay animations",
+                "description": "Default speed of gameplay 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-tutorial": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of tutorial animations",
+                "description": "Default speed of tutorial 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-end-screen": {
+            "default": 1,
+            "type": "number",
+            "control": "slider",
+            "editor": {
+                "title": "Speed of end screen animations",
+                "description": "Default speed of end screen 'tween' and 'timeout' animations.",
+                "section": "main"
+            },
+            "playable-kit": true
+        },
+
+        "tween-factor-win-animation": {
+            "default": 0.8,
+            "type": "number",
+            "control": "slider",
+            "description": "Default speed of win animations"
+        },
+
+        "game-code-url": {"default": "Builds/cui-wild-7.min.js", "type": "string"},
+
+        "game-loader-url": {"default": "Builds/cui-wild-7-loader.min.js", "type": "string"},
+
+        "loading-overlay-styles": {"type": "css", "default": {}},
+
+        "loading-overlay-show-time": {
+            "type": "number",
+            "default": 200,
+            "playable-kit": true,
+            "editor": {"title": "Loading show time", "description": "Loading screen show animation time."}
+        },
+
+        "loading-overlay-hide-time": {
+            "type": "number",
+            "default": 1000,
+            "playable-kit": true,
+            "editor": {"title": "Loading hide time", "description": "Loading screen hide animation time."}
+        },
+
+        "loading-background-styles": {
+            "type": "css",
+            "default": {"background-color": "#000000", "transform": "scale(1.07)"}
+        },
+
+        "loading-icon-styles": {
+            "type": "css",
+            "default": {
+                "background": "url(assets/images/loader.png) no-repeat scroll center center / contain",
+                "left": "0",
+                "right": "0",
+                "top": "0",
+                "bottom": "0"
+            }
+        },
+
+        "loading-progress-styles": {
+            "type": "css",
+            "default": {
+                "background": "block",
+                "left": "38.5%",
+                "right": "36.5",
+                "width": "25%",
+                "top": "40.5%",
+                "height": "7px",
+                "background-color": "#555",
+            }
+        },
+        "loading-progress-fill-styles": {
+            "type": "css",
+            "default": {
+                "background": "block",
+                "left": "2%",
+                "width": "10%",
+                "bottom": "5%",
+                "height": "100%",
+                "background-color": "#78be20",
+            }
+        },
+
+        "loading-code-progress-percent": 0.5,
+
+        "loading-click-out": {
+            "default": true,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {
+                "title": "Loading click out",
+                "description": "If true, loading screen will work like CTA button."
+            }
+        },
+
+        "load-on": {
+            "default": "immediately",
+            "type": "select",
+            "values": ["immediately", "none"],
+            "description": "If you need to load ad manually set this to 'none' and use 'Loader.load()' command."
+        },
+
+        "start-on": {
+            "default": "viewable",
+            "type": "select",
+            "values": ["load", "ready", "viewable", "none"],
+            "description": "If you need to show ad manually set this to 'none' and use 'App.startGame()' command."
+        },
+
+        "in-game-click-out": {
+            "default": "redirect",
+            "type": "select",
+            "values": ["cta", "redirect", "none"],
+            "description": "Action for the in-game cta button (if exist)"
+        },
+
+        "cta-only": {"default": false, "type": "boolean"},
+
+        "end-screen-click-out": {
+            "default": true,
+            "type": "boolean",
+            "description": "Make all end screen clickable or not."
+        },
+
+        "end-screen-click-out-block": {
+            "default": 1000,
+            "type": "number",
+            "description": "Timeout between end screen showed and possibility to click on cta buttons."
+        },
+
+        "click-out-multiple": {
+            "default": 1000,
+            "type": "number",
+            "description": "Minimal timeout between multiple clicks on CTA buttons. 0 will disable multiple clicks and allow only one click on CTA per session (recommended)."
+        },
+
+        "try-again": {
+            "default": 1,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Try again",
+                "description": "Possibility to return in game after end screen and start to play again. You can specify count of possible replays here. 0 will disable replay button."
+            }
+        },
+
+        "gameplay-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Gameplay timeout", "description": "Timeout from game start to the End Screen"}
+        },
+
+        "autoplay-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {
+                "title": "Autoplay timeout",
+                "description": "Timeout from rules/intro/tutorial screen to game start"
+            }
+        },
+
+        "idle-timeout": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Idle timeout", "description": "Timeout from last user action to the End Screen"}
+        },
+
+        "custom-close-button": {"default": 0, "type": "number"},
+
+        "close-button-container-styles": {
+            "type": "css",
+            "default": {"opacity": "0.4", "width": "30px", "height": "30px", "right": "7px", "top": "7px"}
+        },
+
+        "close-button-bar-styles": {
+            "type": "css",
+            "default": {"strokeWidth": 5, "color": "#FFF", "trailColor": "#eee", "trailWidth": 1.1, "svgStyle": null}
+        },
+
+        "close-button-styles": {
+            "type": "css",
+            "default": {"width": "16px", "height": "16px", "right": "7px", "top": "7px", "backgroundSize": "80%"}
+        },
+
+        "close-button-timer-styles": {
+            "type": "css",
+            "default": {
+                "width": "17px",
+                "height": "16px",
+                "right": "7px",
+                "top": "7px",
+                "lineHeight": "16px",
+                "text-align": "center",
+                "fontFamily": "Arial",
+                "fontSize": "16px",
+                "color": "#FFF"
+            }
+        },
+
+        "rewarded-timeout": {
+            "default": 0,
+            "type": "number",
+            "description": "Timeout which blocks open and close mraid actions. So user must play specified count of time."
+        },
+
+        "rewarded-click-toggle": {
+            "default": true,
+            "type": "boolean",
+            "description": "Allow auto redirect toggle in rewarded-timeout mode if user click on CTA buttons several times."
+        },
+
+        "interstitial-timeout": {
+            "default": 0,
+            "type": "number",
+            "description": "Timeout with radial progress indicator for close-button."
+        },
+
+        "interstitial-action": {"default": "none", "type": "select", "values": ["cta", "redirect", "none"]},
+
+        "intro": {
+            "default": false,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Intro", "description": "If false, intro will be disabled"}
+        },
+
+        "tutorial": {
+            "default": false,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Tutorial", "description": "If false, tutorial will be disabled."}
+        },
+
+        "tutorial-timeout": {
+            "default": 50000,
+            "type": "number",
+            "playable-kit": {"multiplier": 1000},
+            "editor": {"title": "Tutorial timeout", "description": "Timeout between last user action and tutorial."}
+        },
+
+        "assets-quality": {
+            "default": "high",
+            "type": "select",
+            "values": ["medium", "high", "low"],
+            "playable-kit": true,
+            "editor": {
+                "title": "Assets quality",
+                "description": "Quality of the images and sounds. Lower quality - faster loading. Medium quality is recommended for production. High quality recommended for the preview."
+            }
+        },
+
+        "filters-quality": {
+            "default": 1,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Filters quality",
+                "description": "Quality multiplier for some of the filters from 0 to 1. 0 will disable all filters. Recommended to disable it on low power devices."
+            }
+        },
+
+        "particles-quality": {
+            "default": 0,
+            "type": "number",
+            "playable-kit": true,
+            "editor": {
+                "title": "Particle emitters quality",
+                "description": "Count of particles for the particle emitter effects. From 0% to 100%. You can also use more then 100% to increase count of particles."
+            }
+        },
+
+        "force-canvas-renderer": {
+            "default": true,
+            "type": "boolean",
+            "playable-kit": true,
+            "editor": {"title": "Force canvas renderer", "description": "If true, WebGL will be disabled."}
+        },
+
+        "precision-fragment": {"default": "mediump", "type": "select", "values": ["lowp", "mediump", "highp"]},
+
+        "sounds": {
+            "default": true,
+            "type": "select",
+            "values": [true, false, "delayed"],
+            "playable-kit": true,
+            "editor": {
+                "title": "Sounds load strategy",
+                "description": "Default load strategy for sounds: 'true' will preload sounds, 'false' will disable sounds and 'delayed' will load sounds after game started."
+            }
+        },
+
+        "creative-template-device": {
+            "default": "iPhone",
+            "type": "select",
+            "values": ["iPhone", "iPad", "iPhoneX"],
+            "description": "Default orientation in first launch inside Creative Preview"
+        },
+
+        "creative-template-orientation": {
+            "default": "landscape",
+            "type": "select",
+            "values": ["portrait", "landscape"],
+            "description": "Default orientation in first launch inside Creative Preview"
+        },
+
+        "track-events": {
+            "type": "info",
+            "description": "Loader Initialized, Code Loaded, Assets Loaded, Click Out - Loading Screen, Rewarded Timeout with Redirect, Rewarded Timeout, Interstitial Timeout, Interstitial Timeout - CTA, Interstitial Timeout - Click Out, Gameplay Timeout, Autoplay Timeout, Idle Timeout, Close Button Showed, Click Out - In Game, Close Click, End Screen Showed, Click Out - Interstitial Timeout, Click Out - End Screen, Game Starts, First Interaction, Interaction <n>"
+        },
+
+        "track-events-on-viewable": {"default": true, "type": "boolean"},
+
+        "track-google-analytics-key": {"default": "", "type": "string"},
+
+        "track-google-analytics-actions": {
+            "Loader Initialized": [["set", "appName", "Cui Wild 7"], ["set", "appVersion", "1.0"], ["set", "page", "Loading"], ["send", "pageview", {"sessionControl": "start"}], ["send", "event", "Loading", "Impression", "v1.0"]],
+            "Assets Loaded": [["send", "event", "Loading", "Game Loaded", "Not Skipped"]],
+            "Tutorial Show": [["set", "page", "Tutorial"], ["send", "pageview"], ["send", "event", "Gameplay", "Tutorial Started"]],
+            "Game Starts": [["set", "page", "Game"], ["send", "pageview"], ["send", "event", "Gameplay", "Game Started", "Play 1"]],
+            "Interaction 1": [["send", "event", "Gameplay", "Game Interacted"]],
+            "Interaction 2": [["send", "event", "Gameplay", "Game Interacted X", "2"]],
+            "Interaction 3": [["send", "event", "Gameplay", "Game Interacted X", "3"]],
+            "Game Completed": [["send", "event", "Gameplay", "Game Completed", "win", 1]],
+            "End Screen Showed": [["set", "page", "End"], ["send", "pageview"]],
+            "Retry": [["set", "page", "Replay"], ["send", "pageview"], ["send", "event", "Gameplay", "Game Started", "Play 2"]],
+            "Click Out - In Game": [["send", "event", "Exit", "CTA Pressed Game"]],
+            "Click Out - End Screen": [["send", "event", "Exit", "CTA Pressed End"]],
+            "Error": [["send", "event", "Diagnostic", "Error"]]
+        },
+
+        "track-mixpanel-key": {"default": "", "type": "string"},
+
+        "track-mixpanel-actions": {
+            "Loader Initialized": "Start Load Assets",
+            "Assets Loaded": "Assets Loaded",
+            "Game Starts": "Game Started",
+            "End Screen Showed": "End Screen Showed",
+            "Click Out - End Screen": "Click Out - End Screen",
+            "Click Out - In Game": "Click Out - In Game",
+            "Click Out - Loading Screen": "Click Out - Loading Screen",
+            "Error": "Error"
+        },
+
+        "track-impression-urls": {"default": [], "type": "list"},
+
+        "track-impression-actions": {"Loader Initialized": 0},
+
+        "track-libraries": {
+            "Loader Initialized": [["PlayableKit.analytics.loading", []]],
+            "Assets Loaded": [["PlayableKit.analytics.loaded", []]],
+            "Menu Showed": [["PlayableKit.analytics.menu", []]],
+            "Intro Started": [["PlayableKit.analytics.intro", []]],
+            "Game Starts": [["PlayableKit.analytics.game", []]],
+            "Interaction:multiple": [["PlayableKit.analytics.gameInteracted", []]],
+            "Game Completed": [["PlayableKit.analytics.gameOver", [0, 1]]],
+            "Outro Started": [["PlayableKit.analytics.outro", []]],
+            "End Screen Showed": [["PlayableKit.analytics.end", []]]
+        },
+
+        "complete-combinations": {
+            "spin 0": [{
+                "symbols": ["symbol-2.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-2.png", "symbol-4.png", "symbol-2.png", "symbol-3.png", "symbol-2.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-2.png", "symbol-4.png", "symbol-4.png"],
+                "winSymbols": [true, false, false, false, true, false, true, false, true, false, false, false, true, false, false],
+                "winPoints": 0.5
+            }, {
+                "symbols": ["symbol-8.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-8.png", "symbol-8.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-8.png", "symbol-1.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-1.png"],
+                "winSymbols": [false, false, true, false, false, false, true, false, true, false, true, false, false, false, true],
+                "winPoints": 0.5
+            }, {
+                "symbols": ["symbol-7.png", "symbol-1.png", "symbol-7.png", "symbol-1.png", "symbol-7.png", "symbol-7.png", "symbol-5.png", "symbol-7.png", "symbol-5.png", "symbol-7.png", "symbol-1.png", "symbol-5.png", "symbol-1.png", "symbol-5.png", "symbol-1.png"],
+                "winSymbols": [false, true, false, true, false, false, false, false, false, false, true, false, true, false, true],
+                "winPoints": 0.5
+            }, {
+                "symbols": ["symbol-7.png", "symbol-1.png", "symbol-7.png", "symbol-1.png", "symbol-7.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-7.png", "symbol-1.png", "symbol-7.png", "symbol-1.png", "symbol-7.png"],
+                "winSymbols": [false, false, false, false, false, true, true, true, true, true, false, false, false, false, false],
+                "winPoints": 0.5
+            }, {
+                "symbols": ["symbol-4.png", "symbol-4.png", "symbol-8.png", "symbol-4.png", "symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png", "symbol-4.png", "symbol-8.png", "symbol-4.png", "symbol-4.png"],
+                "winSymbols": [false, false, false, false, false, true, true, true, true, true, false, false, false, false, false],
+                "winPoints": 0.5
+            }],
+            "spin 1": [{
+                "symbols": ["symbol-4.png", "symbol-10.png", "symbol-4.png", "symbol-10.png", "symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png", "symbol-10.png", "symbol-4.png", "symbol-10.png", "symbol-4.png"],
+                "winSymbols": [false, true, false, true, false, true, true, true, true, true, false, true, false, true, false],
+                "winPoints": 1
+            }, {
+                "symbols": ["symbol-2.png", "symbol-5.png", "symbol-2.png", "symbol-5.png", "symbol-2.png", "symbol-8.png", "symbol-2.png", "symbol-5.png", "symbol-2.png", "symbol-8.png", "symbol-2.png", "symbol-5.png", "symbol-2.png", "symbol-5.png", "symbol-2.png"],
+                "winSymbols": [true, false, true, false, true, false, true, false, true, false, true, false, true, false, true],
+                "winPoints": 1
+            }, {
+                "symbols": ["symbol-7.png", "symbol-5.png", "symbol-2.png", "symbol-5.png", "symbol-7.png", "symbol-2.png", "symbol-2.png", "symbol-3.png", "symbol-2.png", "symbol-2.png", "symbol-7.png", "symbol-5.png", "symbol-2.png", "symbol-5.png", "symbol-7.png"],
+                "winSymbols": [false, false, true, false, false, true, true, false, true, true, false, false, true, false, false],
+                "winPoints": 1
+            }, {
+                "symbols": ["symbol-4.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-4.png", "symbol-1.png", "symbol-1.png", "symbol-1.png", "symbol-1.png", "symbol-1.png", "symbol-4.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-4.png"],
+                "winSymbols": [false, false, true, false, false, true, true, true, true, true, false, false, true, false, false],
+                "winPoints": 1
+            }, {
+                "symbols": ["symbol-3.png", "symbol-5.png", "symbol-5.png", "symbol-5.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-5.png", "symbol-5.png", "symbol-5.png", "symbol-3.png"],
+                "winSymbols": [true, false, false, false, true, true, true, true, true, true, true, false, false, false, true],
+                "winPoints": 1
+            }],
+            "spin 2": [{
+                "symbols": ["symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png", "symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png", "symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png"],
+                "winSymbols": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+                "winPoints": 1.5
+            }, {
+                "symbols": ["symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png", "symbol-10.png"],
+                "winSymbols": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+                "winPoints": 1.5
+            }, {
+                "symbols": ["symbol-4.png", "symbol-4.png", "symbol-2.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-2.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-4.png", "symbol-2.png", "symbol-4.png", "symbol-4.png"],
+                "winSymbols": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+                "winPoints": 1.5
+            }, {
+                "symbols": ["symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png", "symbol-3.png"],
+                "winSymbols": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+                "winPoints": 1.5
+            }, {
+                "symbols": ["symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png", "symbol-1.png", "symbol-4.png"],
+                "winSymbols": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true],
+                "winPoints": 1.5
+            }]
+        },
+
+        "Gameplay": {
+
+            "download button text": {"text": "DOWNLOAD NOW"},
+
+            "win text 0": {"text": "WIN:"},
+
+            "spin button text": {"text": "SPIN"},
+
+            "game board text": {"text": "50 PAYLINES"},
+
+            "congratulations button text": {"text": "Continue"}
+
+        },
+
+        "Tutorial": {},
+
+        "CallToAction": {},
+
+        "Assets": {
+
+            // image loading
+            "btn_setting": {"type": "image", "url": "assets/images/spanner_button1.png"},
+            "btn_speaker_off": {"type": "image", "url": "assets/images/speaker_button1.png"},
+            "btn_speaker_on": {"type": "image", "url": "assets/images/speaker_button.png"},
+            "btn_auto": {"type": "image", "url": "assets/images/auto_button1.png"},
+            "btn_question": {"type": "image", "url": "assets/images/questionmark_button1.png"},
+            "helppage_back": {"type": "image", "url": "assets/images/helppage_back.png"},
+            "orient_switch": {"type": "image", "url": "assets/images/orient_switch.jpg"},
+            "paytable_close": {"type": "image", "url": "assets/images/paytable_close.png"},
+            "paytable_next": {"type": "image", "url": "assets/images/paytable_next.png"},
+            "paytable_previous": {"type": "image", "url": "assets/images/paytable_previous.png"},
+            "help_indicator_inactive": {"type": "image", "url": "assets/images/help_indicator_inactive.png"},
+            "help_indicator_active": {"type": "image", "url": "assets/images/help_indicator_active.png"},
+
+            "solomulti_image": {"type": "image", "url": "assets/spine_data/features/soloMultiplier/solomulti.png"},
+
+            "bigwin_data": {"type": "atlas", "url": "assets/spine_data/bigwin_data.json"},
+            "bigwin": {"type": "json", "url": "assets/spine_data/bigwin.json"},
+
+            //font loading
+            "FuturaCom-ExtraBoldCond": {"type": "web-font", "url": "fonts/FuturaCom-ExtraBoldCond.css"},
+            "FuturaCom-Medium": {"type": "web-font", "url": "fonts/FuturaCom-Medium.css"},
+            "FuturaCom-MediumCondensed": {"type": "web-font", "url": "fonts/FuturaCom-MediumCondensed.css"},
+            "BodoniPosterCompressed": {"type": "web-font", "url": "fonts/BodoniPosterCompressed-Bold_DB.css"},
+            "PFDinDisplayPro-Reg": {"type": "web-font", "url": "fonts/PFDinDisplayPro-Reg.css"},
+
+            // Packed_image Loading
+            "symbols": {"type": "atlas", "url": "assets/packed_images/symbols.json"},
+            "control": {"type": "atlas", "url": "assets/packed_images/control.json"},
+            "background": {"type": "atlas", "url": "assets/packed_images/background.json"},
+            "help": {"type": "atlas", "url": "assets/packed_images/help.json"},
+            "bonus": {"type": "atlas", "url": "assets/packed_images/bonus.json"},
+            // Spin Data loading
+            // "crowdlight_data":{"type": "atlas", "url": "assets/spine_data/maingame/lightsanimation/CrowdLight/CrowdLight_data.json"},
+            "crowdlight":{"type": "json", "url": "assets/spine_data/maingame/lightsanimation/CrowdLight/CrowdLight.json"},
+            "crowdlight_atlas":{"type": "text", "url": "assets/spine_data/maingame/lightsanimation/CrowdLight/CrowdLight.atlas"},
+            "crowdlight_image":{"type": "image", "url": "assets/spine_data/maingame/lightsanimation/CrowdLight/CrowdLight.png"},
+
+            // "lightAnim_data":{"type": "atlas", "url": "assets/spine_data/maingame/lightsanimation/LightsAnim_v4/Lights_Anim_data.json"},
+            "lightAnim":{"type": "json", "url": "assets/spine_data/maingame/lightsanimation/LightsAnim_v4/Lights_Anim.json"},
+            "lightAnim_atlas":{"type": "text", "url": "assets/spine_data/maingame/lightsanimation/LightsAnim_v4/Lights_Anim.atlas"},
+            "lightAnim_image":{"type": "image", "url": "assets/spine_data/maingame/lightsanimation/LightsAnim_v4/Lights_Anim.png"},
+            // "crowdAnim_data": {"type": "atlas", "url": "assets/spine_data/maingame/crowdanimation/v2/CrowdAnim_data.json"},
+
+            "crowdAnim":{"type": "json", "url": "assets/spine_data/maingame/crowdanimation/v2/CrowdAnim.json"},
+            "crowdAnim_atlas":{"type": "text", "url": "assets/spine_data/maingame/crowdanimation/v2/CrowdAnim.atlas"},
+            "crowdAnim_image":{"type": "image", "url": "assets/spine_data/maingame/crowdanimation/v2/CrowdAnim.png"},
+
+            // "spinButton_data": {"type": "atlas", "url": "assets/spine_data/maingame/keypad/spinButton_FX/spinButton_FX_data.json"},
+            "spinButton":{"type": "json", "url": "assets/spine_data/maingame/keypad/spinButton_FX/spinButton_FX.json"},
+            "spinButton_atlas":{"type": "text", "url": "assets/spine_data/maingame/keypad/spinButton_FX/spinButton_FX.atlas"},
+            "spinButton_image":{"type": "image", "url": "assets/spine_data/maingame/keypad/spinButton_FX/spinButton_FX.png"},
+            // "betlineframe_data":{"type": "atlas", "url": "assets/spine_data/symbols/betline_frames/betlineframe_data.json"},
+            "betlineframe":{"type": "json", "url": "assets/spine_data/symbols/betline_frames/betlineframe.json"},
+            "betlineframe_atlas":{"type": "text", "url": "assets/spine_data/symbols/betline_frames/betlineframe.atlas"},
+            "betlineframe_image":{"type": "image", "url": "assets/spine_data/symbols/betline_frames/betlineframe.png"},
+
+            // "generic_win_data":{"type": "atlas", "url": "assets/spine_data/symbols/generic_win_FX/generic_win_data.json"},
+            "generic_win":{"type": "json", "url": "assets/spine_data/symbols/generic_win_FX/generic_win.json"},
+            "generic_win_atlas":{"type": "text", "url": "assets/spine_data/symbols/generic_win_FX/generic_win.atlas"},
+            "generic_win_image":{"type": "image", "url": "assets/spine_data/symbols/generic_win_FX/generic_win.png"},
+            // "sym1_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym1/sym1_data.json"},
+            "sym1":{"type": "json", "url": "assets/spine_data/symbols/sym1/sym1.json"},
+            "sym1_atlas":{"type": "text", "url": "assets/spine_data/symbols/sym1/sym1.atlas"},
+            "sym1_image":{"type": "image", "url": "assets/spine_data/symbols/sym1/sym1.png"},
+            // "sym0_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym0/sym0_data.json"},
+            "sym0":{"type": "json", "url": "assets/spine_data/symbols/sym0/sym0.json"},
+            "sym0_atlas":{"type": "text", "url": "assets/spine_data/symbols/sym0/sym0.atlas"},
+            "sym0_image":{"type": "image", "url": "assets/spine_data/symbols/sym0/sym0.png"},
+
+            // "sym3_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym3/sym3_data.json"},
+            // "sym3":{"type": "json", "url": "assets/spine_data/symbols/sym3/sym3.json"},
+            // "sym3_atlas":{"type": "text", "url": "assets/spine_data/symbols/sym3/sym3.atlas"},
+            // "sym3_image":{"type": "image", "url": "assets/spine_data/symbols/sym3/sym3.png"},
+            // "sym4_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym4/sym4_data.json"},
+            // "sym4":{"type": "json", "url": "assets/spine_data/symbols/sym4/sym4.json"},
+            // "sym5_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym5/sym5_data.json"},
+            // "sym5":{"type": "json", "url": "assets/spine_data/symbols/sym5/sym5.json"},
+            // "sym67_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym67/sym6_data.json"},
+            // "sym6":{"type": "json", "url": "assets/spine_data/symbols/sym67/sym6.json"},
+            // "sym7_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym67/sym7_data.json"},
+            // "sym7":{"type": "json", "url": "assets/spine_data/symbols/sym67/sym7.json"},
+
+            // "trail_data":{"type": "atlas", "url": "assets/spine_data/symbols/sym0/trail_data.json"},
+            "trail":{"type": "json", "url": "assets/spine_data/symbols/sym0/trail.json"},
+            "trail_atlas":{"type": "text", "url": "assets/spine_data/symbols/sym0/trail.atlas"},
+            "trail_image":{"type": "image", "url": "assets/spine_data/symbols/sym0/trail.png"},
+            // "bg_particle_data":{"type": "atlas", "url": "assets/spine_data/maingame/bgparticles/Bg_Particles_data.json"},
+            "bg_particle":{"type": "json", "url": "assets/spine_data/maingame/bgparticles/Bg_Particles.json"},
+            "bg_particle_atlas":{"type": "text", "url": "assets/spine_data/maingame/bgparticles/Bg_Particles.atlas"},
+            "bg_particle_image":{"type": "image", "url": "assets/spine_data/maingame/bgparticles/Bg_Particles.png"},
+            // "solomulti_data":{"type": "atlas", "url": "assets/spine_data/features/soloMultiplier/solomulti_data.json"},
+            "solomulti":{"type": "json", "url": "assets/spine_data/features/soloMultiplier/solomulti.json"},
+            "solomulti_atlas":{"type": "text", "url": "assets/spine_data/features/soloMultiplier/solomulti.atlas"},
+            // "win_presentation_data":{"type": "atlas", "url": "assets/spine_data/features/soloMultiplier/win_presentation_data.json"},
+            "win_presentation":{"type": "json", "url": "assets/spine_data/features/soloMultiplier/win_presentation.json"},
+            "win_presentation_atlas":{"type": "text", "url": "assets/spine_data/features/soloMultiplier/win_presentation.atlas"},
+            "win_presentation_image":{"type": "image", "url": "assets/spine_data/features/soloMultiplier/win_presentation.png"},
+            // "wild_text_small_data":{"type": "atlas", "url": "assets/spine_data/symbols/wild_texts/wild_text_small_data.json"},
+            "wild_text_small":{"type": "json", "url": "assets/spine_data/symbols/wild_texts/wild_text_small.json"},
+            "wild_text_small_atlas":{"type": "text", "url": "assets/spine_data/symbols/wild_texts/wild_text_small.atlas"},
+            "wild_text_small_image":{"type": "image", "url": "assets/spine_data/symbols/wild_texts/wild_text_small.png"},
+            // "wild_text_vertical_data":{"type": "atlas", "url": "assets/spine_data/symbols/wild_texts/wild_text_vertical_data.json"},
+            "wild_text_vertical":{"type": "json", "url": "assets/spine_data/symbols/wild_texts/wild_text_vertical.json"},
+            "wild_text_vertical_atlas":{"type": "text", "url": "assets/spine_data/symbols/wild_texts/wild_text_vertical.atlas"},
+            "wild_text_vertical_image":{"type": "image", "url": "assets/spine_data/symbols/wild_texts/wild_text_vertical.png"},
+            // "fs_landing_data":{"type": "atlas", "url": "assets/spine_data/freespin/stackedSym_landingAnim_placeholder/fs_landing_data.json"},
+            // "fs_landing":{"type": "json", "url": "assets/spine_data/freespin/stackedSym_landingAnim_placeholder/fs_landing.json"},
+            "scatter_win_data":{"type": "atlas", "url": "assets/spine_data/features/scatterWheel/ScatterWin_v5/Scatter_Win_data.json"},
+            "scatter_win":{"type": "json", "url": "assets/spine_data/features/scatterWheel/ScatterWin_v5/Scatter_Win.json"},
+            //crosscake spine loading
+            // "crosscake_idle_data":{"type": "atlas", "url": "assets/spine_data/symbols/crosscake/crosscake_idle_data.json"},
+            "crosscake_idle":{"type": "json", "url": "assets/spine_data/symbols/crosscake/crosscake_idle.json"},
+            "crosscake_idle_atlas":{"type": "text", "url": "assets/spine_data/symbols/crosscake/crosscake_idle.atlas"},
+            "crosscake_idle_image":{"type": "image", "url": "assets/spine_data/symbols/crosscake/crosscake_idle.png"},
+            // "crosscake_intro_data":{"type": "atlas", "url": "assets/spine_data/symbols/crosscake/crosscake_intro_data.json"},
+            "crosscake_intro":{"type": "json", "url": "assets/spine_data/symbols/crosscake/crosscake_intro.json"},
+            "crosscake_intro_atlas":{"type": "text", "url": "assets/spine_data/symbols/crosscake/crosscake_intro.atlas"},
+            "crosscake_intro_image":{"type": "image", "url": "assets/spine_data/symbols/crosscake/crosscake_intro.png"},
+            //bonus spine loading
+            // "button_anims_data":{"type": "atlas", "url": "assets/spine_data/bonusgame/button_anims_data.json"},
+            "button_anims":{"type": "json", "url": "assets/spine_data/bonusgame/Button_Anims.json"},
+            "button_anims_atlas":{"type": "text", "url": "assets/spine_data/bonusgame/Button_Anims.atlas"},
+            "button_anims_image":{"type": "image", "url": "assets/spine_data/bonusgame/Button_Anims.png"},
+
+            // "fslights_Anims_data":{"type": "atlas", "url": "assets/spine_data/bonusgame/fslights_Anims_data.json"},
+            "fslights_Anims":{"type": "json", "url": "assets/spine_data/bonusgame/fslights_Anims.json"},
+            "fslights_Anims_atlas":{"type": "text", "url": "assets/spine_data/bonusgame/fslights_Anims.atlas"},
+            "fslights_Anims_image":{"type": "image", "url": "assets/spine_data/bonusgame/fslights_Anims.png"},
+            // "sideLights_Anims_data":{"type": "atlas", "url": "assets/spine_data/bonusgame/sideLights_Anims_data.json"},
+            "sideLights_Anims":{"type": "json", "url": "assets/spine_data/bonusgame/sideLights_Anims.json"},
+            "sideLights_Anims_atlas":{"type": "text", "url": "assets/spine_data/bonusgame/sideLights_Anims.atlas"},
+            "sideLights_Anims_image":{"type": "image", "url": "assets/spine_data/bonusgame/sideLights_Anims.png"},
+            // "wineffect_data":{"type": "atlas", "url": "assets/spine_data/bonusgame/wineffect_data.json"},
+            "wineffect":{"type": "json", "url": "assets/spine_data/bonusgame/WinEffect.json"},
+            "wineffect_atlas":{"type": "text", "url": "assets/spine_data/bonusgame/WinEffect.atlas"},
+            "wineffect_image":{"type": "image", "url": "assets/spine_data/bonusgame/WinEffect.png"},
+            // "lights_anims_data":{"type": "atlas", "url": "assets/spine_data/bonusgame/lights_anims_data.json"},
+            // "lights_anims":{"type": "json", "url": "assets/spine_data/bonusgame/x2_Lights_Anims.json"},
+            // "lights_anims_atlas":{"type": "text", "url": "assets/spine_data/bonusgame/x2_Lights_Anims.atlas"},
+            // "lights_anims_image":{"type": "image", "url": "assets/spine_data/bonusgame/lights_anims.png"},
+
+            //Video loading
+            "freeSpinIntro": {"type": "video", "url": "assets/video/freeSpinIntro.mp4"},
+            "BW_start": {"type": "video", "url": "assets/video/BW_start.mp4"},
+            "BW_loop": {"type": "video", "url": "assets/video/BW_loop.mp4"},
+            "BW_end": {"type": "video", "url": "assets/video/BW_end.mp4"},
+            "bonusGameIntro": {"type": "video", "url": "assets/video/bonusGameIntro.mp4"},
+
+            // Sound files loading
+            "welcome": {"type": "sound", "url": "assets/sounds/setlist/welcometothejungle.mp3"},
+            // "welcome_loop": {"type": "sound", "url": "assets/sounds/setlist/welcomeToTheJungleBigWin_Loop.mp3"},
+            // "welcome_end": {"type": "sound", "url": "assets/sounds/setlist/welcomeToTheJungleBigWin_End.mp3"},
+            // "sweet": {"type": "sound", "url": "assets/sounds/setlist/sweetChildOfMine.mp3"},
+            // "sweet_loop": {"type": "sound", "url": "assets/sounds/setlist/sweetChildOMineBigWin_Loop.mp3"},
+            // "sweet_end": {"type": "sound", "url": "assets/sounds/setlist/sweetChildOMineBigWin_End.mp3"},
+            // "paradise": {"type": "sound", "url": "assets/sounds/setlist/paradiseCity.mp3"},
+            // "paradise_loop": {"type": "sound", "url": "assets/sounds/setlist/paradiseCityBigWin_Loop.mp3"},
+            // "paradise_end": {"type": "sound", "url": "assets/sounds/setlist/paradiseCityBigWin_End.mp3"},
+            // "november": {"type": "sound", "url": "assets/sounds/setlist/novemberRain.mp3"},
+            // "november_loop": {"type": "sound", "url": "assets/sounds/setlist/novemberRainBigWin_Loop.mp3"},
+            // "november_end": {"type": "sound", "url": "assets/sounds/setlist/novemberRainBigWin_End.mp3"},
+            // "chinese": {"type": "sound", "url": "assets/sounds/setlist/chineseDemocracy.mp3"},
+            // "chinese_loop": {"type": "sound", "url": "assets/sounds/setlist/chineseDemocracyBigWin_Loop.mp3"},
+            // "chinese_end": {"type": "sound", "url": "assets/sounds/setlist/chineseDemocracyBigWin_End.mp3"},
+            "reelStop0": {"type": "sound", "url": "assets/sounds/main/reelStop0.mp3"},
+            "reelStop1": {"type": "sound", "url": "assets/sounds/main/reelStop1.mp3"},
+            "reelStop2": {"type": "sound", "url": "assets/sounds/main/reelStop2.mp3"},
+            "reelStop3": {"type": "sound", "url": "assets/sounds/main/reelStop3.mp3"},
+            "reelStop4": {"type": "sound", "url": "assets/sounds/main/reelStop4.mp3"},
+            "spinButtonClick": {"type": "sound", "url": "assets/sounds/main/spinButtonClick.mp3"},
+            "expandingWild": {"type": "sound", "url": "assets/sounds/main/expandingWild.mp3"},
+            "buttonClick": {"type": "sound", "url": "assets/sounds/main/buttonClick.mp3"},
+            "buttonDown": {"type": "sound", "url": "assets/sounds/main/buttonDown.mp3"},
+            "buttonHover": {"type": "sound", "url": "assets/sounds/main/buttonHover.mp3"},
+            "buttonUp": {"type": "sound", "url": "assets/sounds/main/buttonUp.mp3"},
+            "crosscakeEnter": {"type": "sound", "url": "assets/sounds/main/crosscakeEnter.mp3"},
+            "nearWinFlames": {"type": "sound", "url": "assets/sounds/main/nearWinFlames.mp3"},
+            "scatterWheelZoom": {"type": "sound", "url": "assets/sounds/main/scatterWheelZoom.mp3"},
+            "scatterWheelAppears": {"type": "sound", "url": "assets/sounds/main/scatterWheelAppears.mp3"},
+            "scatterWheelmoveToLeftStart": {"type": "sound", "url": "assets/sounds/main/scatterWheelmoveToLeftStart.mp3"},
+            "scatterWheelpegPassed0": {"type": "sound", "url": "assets/sounds/main/scatterWheelpegPassed0.mp3"},
+            "scatterWheelpegPassed1": {"type": "sound", "url": "assets/sounds/main/scatterWheelpegPassed1.mp3"},
+            "scatterWheelpegPassed2": {"type": "sound", "url": "assets/sounds/main/scatterWheelpegPassed2.mp3"},
+            "scatterWheelpegPassed3": {"type": "sound", "url": "assets/sounds/main/scatterWheelpegPassed3.mp3"},
+            "scatterWheelWon": {"type": "sound", "url": "assets/sounds/main/scatterWheelWon.mp3"},
+            "bonusgameIntro": {"type": "sound", "url": "assets/sounds/bonus/bonusgameIntro.mp3"},
+            "bonusgameAmbience": {"type": "sound", "url": "assets/sounds/bonus/bonusgameAmbience.mp3"},
+            "bonusgameLevelUp": {"type": "sound", "url": "assets/sounds/bonus/bonusgameLevelUp.mp3"},
+            "bonusgameguitar": {"type": "sound", "url": "assets/sounds/bonus/bonusgameGuitar1.mp3"},
+            "bonusgametwoheadguitar": {"type": "sound", "url": "assets/sounds/bonus/bonusgameGuitar2.mp3"},
+            "bonusgamewhistle": {"type": "sound", "url": "assets/sounds/bonus/bonusgameWhistle.mp3"},
+            "bonusgamecymbal": {"type": "sound", "url": "assets/sounds/bonus/bonusgameCymbal.mp3"},
+            "bonusgamesnare": {"type": "sound", "url": "assets/sounds/bonus/bonusgameSnare.mp3"},
+            "bonusgamebasedrum": {"type": "sound", "url": "assets/sounds/bonus/bonusgameDrums.mp3"},
+            "bonusgamemic": {"type": "sound", "url": "assets/sounds/bonus/bonusgameVocal.mp3"},
+            "bonusgamebase": {"type": "sound", "url": "assets/sounds/bonus/bonusgameBass.mp3"},
+            "3spinsAxl": {"type": "sound", "url": "assets/sounds/main/3spinsAxl.mp3"},
+            "3spinsDuff": {"type": "sound", "url": "assets/sounds/main/3spinsDuff.mp3"},
+            "3spinsSlash": {"type": "sound", "url": "assets/sounds/main/3spinsSlash.mp3"},
+            "mediumWin": {"type": "sound", "url": "assets/sounds/main/mediumWin.mp3"},
+            "solomultiplierStart": {"type": "sound", "url": "assets/sounds/main/solomultiplierStart.mp3"},
+            "bigWinStart": {"type": "sound", "url": "assets/sounds/main/bigWinStart.mp3"},
+            "largeWin": {"type": "sound", "url": "assets/sounds/main/largeWin.mp3"},
+            "smallWin": {"type": "sound", "url": "assets/sounds/main/smallWin.mp3"},
+
+            "quickStop": {"type": "sound", "url": "assets/sounds/main/quickStop.mp3"},
+            "crosscakeEarthquake": {"type": "sound", "url": "assets/sounds/main/crosscakeEarthquake.mp3"},
+            "crosscakeFirstWildText": {"type": "sound", "url": "assets/sounds/main/crosscakeFirstWildText.mp3"},
+            "crosscakeLanding": {"type": "sound", "url": "assets/sounds/main/crosscakeLanding.mp3"},
+            "crosscakeSecondWildText": {"type": "sound", "url": "assets/sounds/main/crosscakeSecondWildText.mp3"},
+            "crosscakeSwooshBy": {"type": "sound", "url": "assets/sounds/main/crosscakeSwooshBy.mp3"},
+            "crosscakeSymbolHighlight": {"type": "sound", "url": "assets/sounds/main/crosscakeSymbolHighlight.mp3"},
+            // "background_music": {"type": "sound", "url": "assets/sounds/main/ambienceGeneral.mp3"},
+        }
+
+    };
+</script>
+<script>Settings["game-code-url"] = false;</script>
+
+<script src="app/jquery-3.4.1.js"></script>
+
+<script src="app/libs/Broadcast/Broadcast.js"></script>
+
+<script src="app/libs/Pixi.Classes/Mraid.js"></script>
+
+<script src="app/libs/Platform/platform.js"></script>
+
+<script src="app/libs/WebFont/webfont.js"></script>
+
+<script src="app/libs/Pixi.Classes/Loader.js"></script>
+
+<!--script src="app/Loader.js"></script-->
+
+<script src="app/libs/Pixi/4.7.1-ga-ready/pixi.js"></script>
+
+<script src="app/libs/Pixi/pixi-sound.js"></script>
+
+<script src="app/libs/Pixi/pixi-filters.js"></script>
+
+<script src="app/libs/Pixi/pixi-spine.js"></script>
+
+<script src="app/libs/Underscore/underscore-min.js"></script>
+
+<script src="app/libs/GreenSock/1.20.4/TweenLite.js"></script>
+
+<script src="app/libs/GreenSock/1.20.4/easing/EasePack.js"></script>
+
+<script src="app/libs/Pixi.Classes/Class.js"></script>
+
+<script src="app/libs/Pixi.Classes/Game.js"></script>
+
+<script src="app/libs/Pixi.Classes/Game.Pixi.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.Pixi.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.Tween.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.Emitter.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.Text.js"></script>
+
+<script src="app/libs/Pixi.Classes/Screen.Underscore.js"></script>
+
+<script src="app/libs/Progressbar/progressbar.js"></script>
+
+<script src="math/slots/Escalibur.js"></script>
+
+<script src="app/App.js"></script>
+
+<script src="app/screens/CallToAction.js"></script>
+
+<script src="app/screens/Gameplay.js"></script>
+
+<script src="app/screens/Bonusplay.js"></script>
+
+<script src="app/screens/Tutorial.js"></script>
+
+<script src="app/screens/NETENT_Animation.js"></script>
+
+</body>
+</html>

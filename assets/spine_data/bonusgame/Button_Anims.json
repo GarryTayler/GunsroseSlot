@@ -1,0 +1,1546 @@
+{
+  "skeleton": {
+    "hash": "1srFXUlVcgbn+T+rg/AQptEP2ao",
+    "spine": "2.1.27",
+    "width": 61,
+    "height": 61
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "circle_GRP",
+      "parent": "root",
+      "scaleX": 0.001,
+      "scaleY": 0.001
+    },
+    {
+      "name": "holder_Instrument",
+      "parent": "root",
+      "scaleX": 0.001,
+      "scaleY": 0.001
+    },
+    {
+      "name": "solid",
+      "parent": "root"
+    },
+    {
+      "name": "circle_GRP_Light",
+      "parent": "circle_GRP",
+      "x": -10,
+      "y": 5,
+      "scaleX": 2.355,
+      "scaleY": 2.355
+    },
+    {
+      "name": "circle_GRP_circle",
+      "parent": "circle_GRP",
+      "y": 4.5
+    },
+    {
+      "name": "holderText",
+      "parent": "circle_GRP",
+      "x": -5,
+      "y": 4.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "circle_GRP_circle",
+      "bone": "circle_GRP_circle",
+      "attachment": "bonusGame-assets/circle"
+    },
+    {
+      "name": "circle_GRP_Light",
+      "bone": "circle_GRP_Light",
+      "color": "ffffff00",
+      "attachment": "bonusGame-assets/Light",
+      "blend": "additive"
+    },
+    {
+      "name": "circle_GRP_Holder",
+      "bone": "holderText",
+      "color": "ffffff00",
+      "attachment": "bonusGame-assets/Holder"
+    },
+    {
+      "name": "guitar",
+      "bone": "holder_Instrument",
+      "attachment": "bonusGame-assets/guitar"
+    },
+    {
+      "name": "bonusGame-assets/Solid",
+      "bone": "solid",
+      "color": "ffffff00",
+      "attachment": "bonusGame-assets/Solid",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "bonusGame-assets/Solid": {
+        "bonusGame-assets/Solid": {
+          "width": 61,
+          "height": 61
+        }
+      },
+      "circle_GRP_Holder": {
+        "bonusGame-assets/Holder": {
+          "width": 116,
+          "height": 17
+        }
+      },
+      "circle_GRP_Light": {
+        "bonusGame-assets/Light": {
+          "width": 136,
+          "height": 135
+        }
+      },
+      "circle_GRP_circle": {
+        "bonusGame-assets/circle": {
+          "x": 5,
+          "width": 307,
+          "height": 307
+        }
+      },
+      "guitar": {
+        "bonusGame-assets/guitar": {
+          "width": 138,
+          "height": 140
+        }
+      }
+    }
+  },
+  "events": {
+    "switchText": {},
+    "winEffect": {},
+    "winFlash": {}
+  },
+  "animations": {
+    "appear": {
+      "slots": {
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffff6f",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.9666,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3666,
+              "x": 499.999,
+              "y": 499.999,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6333,
+              "x": 349.999,
+              "y": 349.999,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.9666,
+              "x": 400,
+              "y": 400
+            }
+          ]
+        },
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -113.84,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666,
+              "angle": -113.84,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "angle": -99.19,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "angle": 12.04,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7333,
+              "angle": -12.07,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.8666,
+              "angle": -8.3
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.4666,
+              "x": 1070,
+              "y": 1070,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6666,
+              "x": 950,
+              "y": 950,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.9666,
+              "x": 1000,
+              "y": 1000
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.35,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666,
+              "x": 7.35,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666,
+              "x": 7.35,
+              "y": 0
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.9666,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 21.4,
+              "y": 16.26
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.931,
+              "y": 2.087
+            }
+          ]
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0,
+          "offsets": [
+            {
+              "slot": "circle_GRP_Light",
+              "offset": 1
+            }
+          ]
+        }
+      ]
+    },
+    "idle": {
+      "slots": {
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 400,
+              "y": 400
+            }
+          ]
+        },
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1000,
+              "y": 1000
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.35,
+              "y": 0
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    },
+    "idleAnim": {
+      "slots": {
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 400,
+              "y": 400,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6666,
+              "x": 414.999,
+              "y": 419.999,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 400,
+              "y": 400
+            }
+          ]
+        },
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0.76,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3666,
+              "x": 0,
+              "y": 3.05,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.8666,
+              "x": 0,
+              "y": -1.04,
+              "curve": [
+                0.252,
+                0.21,
+                0.57,
+                0.99
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 0,
+              "y": 0.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1000,
+              "y": 1000,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "x": 1000,
+              "y": 1000
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.35,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "x": 7.35,
+              "y": 0
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "mouseOver": {
+      "slots": {
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff6f"
+            }
+          ]
+        },
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "angle": -8.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1000,
+              "y": 1000
+            },
+            {
+              "time": 0.3,
+              "x": 1049.999,
+              "y": 1049.999
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 8.52,
+              "y": -2.13,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 21.4,
+              "y": 16.26
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.259,
+              "y": 1.194,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 1.931,
+              "y": 2.087
+            }
+          ]
+        },
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 400,
+              "y": 400,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 449.999,
+              "y": 449.999,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "x": 449.999,
+              "y": 449.999
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.35,
+              "y": 0
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0.3,
+          "offsets": [
+            {
+              "slot": "circle_GRP_Light",
+              "offset": 1
+            }
+          ]
+        }
+      ]
+    },
+    "mouseOverIdle": {
+      "slots": {
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6f",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff38"
+            },
+            {
+              "time": 1,
+              "color": "ffffff6f"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "angle": -8.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 3.76,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6666,
+              "x": 0,
+              "y": -0.61,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1049.999,
+              "y": 1049.999,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "x": 999.999,
+              "y": 999.999,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 1049.999,
+              "y": 1049.999
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 21.4,
+              "y": 16.26,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 21.4,
+              "y": 16.26
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.931,
+              "y": 2.087,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 1.931,
+              "y": 2.087
+            }
+          ]
+        },
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 449.999,
+              "y": 449.999,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 439.999,
+              "y": 439.999,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 449.999,
+              "y": 449.999
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "turn": {
+      "slots": {
+        "circle_GRP_Holder": {
+          "color": [
+            {
+              "time": 0.1333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff4a"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffff16",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.2666,
+              "color": "ffffffab",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff4a"
+            }
+          ]
+        },
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 18.47,
+              "y": -1.24,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.2666,
+              "x": 9.88,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 18.47,
+              "y": -1.24
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 3.45,
+              "y": 3.064,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 3.45,
+              "y": 3.064
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0.1333,
+              "x": 4.23,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.2666,
+              "x": 8.91,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 7.17,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1333,
+              "x": 0.881,
+              "y": 1,
+              "curve": [
+                0.325,
+                0,
+                0.657,
+                0.36
+              ]
+            },
+            {
+              "time": 0.1666,
+              "x": 0.183,
+              "y": 2,
+              "curve": [
+                0.31,
+                0.2,
+                0.638,
+                0.58
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 0.711,
+              "y": 2,
+              "curve": [
+                0.269,
+                0.45,
+                0.587,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "circle_GRP": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 899.999,
+              "y": 899.999
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": -1.001,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "time": 0.3333,
+              "x": 1.009,
+              "y": 1.009
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.1333,
+          "name": "switchText"
+        }
+      ]
+    },
+    "turnIdle": {
+      "slots": {
+        "circle_GRP_Holder": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff4a"
+            }
+          ]
+        },
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 18.47,
+              "y": -1.24
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 3.45,
+              "y": 3.064
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.17,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 899.999,
+              "y": 899.999
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": -1.001,
+              "y": 1
+            }
+          ]
+        },
+        "root": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.009,
+              "y": 1.009
+            }
+          ]
+        }
+      }
+    },
+    "win": {
+      "slots": {
+        "bonusGame-assets/Solid": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.2666,
+              "color": "ffffff2a",
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "circle_GRP_Holder": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffff99"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff4a",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666,
+              "color": "ffffff4a"
+            }
+          ]
+        },
+        "guitar": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.32,
+                0,
+                0.649,
+                0.39
+              ]
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "holder_Instrument": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -8.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1000,
+              "y": 1000
+            },
+            {
+              "time": 0.0333,
+              "x": 1111.056,
+              "y": 1111.056
+            },
+            {
+              "time": 0.1333,
+              "x": 680,
+              "y": 680
+            }
+          ]
+        },
+        "circle_GRP_Light": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 23.46,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6666,
+              "x": 18.47,
+              "y": -1.24
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 2.776,
+              "y": 2.555,
+              "curve": [
+                0.25,
+                0,
+                0.532,
+                0.98
+              ]
+            },
+            {
+              "time": 0.6666,
+              "x": 3.45,
+              "y": 3.064
+            }
+          ]
+        },
+        "holderText": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.35,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.1666,
+              "x": 1.44,
+              "y": 1.44
+            },
+            {
+              "time": 0.3,
+              "x": 2,
+              "y": 2
+            }
+          ]
+        },
+        "circle_GRP": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 400,
+              "y": 400,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 400,
+              "y": 400
+            },
+            {
+              "time": 0.2333,
+              "x": 999.999,
+              "y": 999.999
+            },
+            {
+              "time": 0.4,
+              "x": 899.999,
+              "y": 899.999
+            }
+          ]
+        },
+        "solid": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 32.179,
+              "y": 19.573
+            }
+          ]
+        },
+        "circle_GRP_circle": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -4.5
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.2,
+          "name": "winFlash"
+        },
+        {
+          "time": 0.3,
+          "name": "winEffect"
+        }
+      ]
+    }
+  }
+}

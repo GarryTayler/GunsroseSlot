@@ -1,0 +1,273 @@
+{
+  "skeleton": {
+    "hash": "ke9s+kYy4jEI+sQjW1CjctVXb1M",
+    "spine": "2.1.27",
+    "width": 224,
+    "height": 224,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "betlineframe_[00-13]",
+      "parent": "root",
+      "x": 90,
+      "y": -90
+    }
+  ],
+  "slots": [
+    {
+      "name": "betlineframe_[00-13]",
+      "bone": "betlineframe_[00-13]",
+      "color": "ffffff54",
+      "attachment": "betlineframe_00"
+    }
+  ],
+  "skins": {
+    "default": {
+      "betlineframe_[00-13]": {
+        "betlineframe_00": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_01": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_02": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_03": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_04": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_05": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_06": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_07": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_08": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_09": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_10": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_11": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_12": {
+          "width": 224,
+          "height": 224
+        },
+        "betlineframe_13": {
+          "width": 224,
+          "height": 224
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "betlineframe_[00-13]": {
+          "attachment": [
+            {
+              "time": 0.0311,
+              "name": "betlineframe_01"
+            },
+            {
+              "time": 0.0622,
+              "name": "betlineframe_02"
+            },
+            {
+              "time": 0.0933,
+              "name": "betlineframe_03"
+            },
+            {
+              "time": 0.1244,
+              "name": "betlineframe_04"
+            },
+            {
+              "time": 0.1555,
+              "name": "betlineframe_05"
+            },
+            {
+              "time": 0.1866,
+              "name": "betlineframe_06"
+            },
+            {
+              "time": 0.2177,
+              "name": "betlineframe_07"
+            },
+            {
+              "time": 0.2488,
+              "name": "betlineframe_08"
+            },
+            {
+              "time": 0.28,
+              "name": "betlineframe_09"
+            },
+            {
+              "time": 0.3111,
+              "name": "betlineframe_10"
+            },
+            {
+              "time": 0.3422,
+              "name": "betlineframe_11"
+            },
+            {
+              "time": 0.3733,
+              "name": "betlineframe_12"
+            },
+            {
+              "time": 0.4044,
+              "name": "betlineframe_13"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff54"
+            },
+            {
+              "time": 0.0666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff54"
+            }
+          ]
+        }
+      }
+    },
+    "end": {
+      "slots": {
+        "betlineframe_[00-13]": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "betlineframe_12"
+            },
+            {
+              "time": 0.0333,
+              "name": "betlineframe_13"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "idle": {
+      "slots": {
+        "betlineframe_[00-13]": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "betlineframe_10"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      }
+    },
+    "start": {
+      "slots": {
+        "betlineframe_[00-13]": {
+          "attachment": [
+            {
+              "time": 0.0311,
+              "name": "betlineframe_01"
+            },
+            {
+              "time": 0.0622,
+              "name": "betlineframe_02"
+            },
+            {
+              "time": 0.0933,
+              "name": "betlineframe_03"
+            },
+            {
+              "time": 0.1244,
+              "name": "betlineframe_04"
+            },
+            {
+              "time": 0.1555,
+              "name": "betlineframe_05"
+            },
+            {
+              "time": 0.1866,
+              "name": "betlineframe_06"
+            },
+            {
+              "time": 0.2177,
+              "name": "betlineframe_07"
+            },
+            {
+              "time": 0.2488,
+              "name": "betlineframe_08"
+            },
+            {
+              "time": 0.28,
+              "name": "betlineframe_09"
+            },
+            {
+              "time": 0.3111,
+              "name": "betlineframe_10"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0666,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

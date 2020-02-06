@@ -1,0 +1,13 @@
+
+fs_landing.png
+size: 256,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sym5_stacked
+  rotate: false
+  xy: 2, 2
+  size: 180, 544
+  orig: 180, 544
+  offset: 0, 0
+  index: -1

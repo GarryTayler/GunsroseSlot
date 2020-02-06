@@ -1,0 +1,518 @@
+{
+  "skeleton": {
+    "hash": "u6qo4gIpjdhZ63kpPV+q46Hbm3g",
+    "spine": "2.1.27",
+    "width": 331.36,
+    "height": 348,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "sym4_[00-41]",
+      "parent": "root",
+      "x": 102,
+      "y": -54,
+      "scaleX": 1.09
+    },
+    {
+      "name": "sym4_idle",
+      "parent": "root",
+      "x": 90,
+      "y": -90
+    },
+    {
+      "name": "sym4_still",
+      "parent": "root",
+      "x": 102,
+      "y": -54,
+      "scaleX": 1.09
+    }
+  ],
+  "slots": [
+    {
+      "name": "sym4_idle",
+      "bone": "sym4_idle",
+      "attachment": "sym4_idle"
+    },
+    {
+      "name": "sym4_[00-41]",
+      "bone": "sym4_[00-41]",
+      "color": "fffffffa",
+      "attachment": "sym4_00"
+    },
+    {
+      "name": "sym4_still",
+      "bone": "sym4_still",
+      "color": "ffffff00",
+      "attachment": "sym4_still"
+    }
+  ],
+  "skins": {
+    "default": {
+      "sym4_[00-41]": {
+        "sym4_00": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_01": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_02": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_03": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_04": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_05": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_06": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_07": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_08": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_09": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_10": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_11": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_12": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_13": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_14": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_15": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_16": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_17": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_18": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_19": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_20": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_21": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_22": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_23": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_24": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_25": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_26": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_27": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_28": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_29": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_30": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_31": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_32": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_33": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_34": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_35": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_36": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_37": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_38": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_39": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_40": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_41": {
+          "width": 304,
+          "height": 348
+        },
+        "sym4_idle": {
+          "width": 180,
+          "height": 180
+        },
+        "sym4_still": {
+          "width": 304,
+          "height": 348
+        }
+      },
+      "sym4_idle": {
+        "sym4_idle": {
+          "width": 180,
+          "height": 180
+        }
+      },
+      "sym4_still": {
+        "sym4_still": {
+          "width": 304,
+          "height": 348
+        }
+      }
+    }
+  },
+  "events": {
+    "holdAnimation": {}
+  },
+  "animations": {
+    "mainwinanim": {
+      "slots": {
+        "sym4_[00-41]": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "sym4_00"
+            },
+            {
+              "time": 0.0311,
+              "name": "sym4_01"
+            },
+            {
+              "time": 0.0622,
+              "name": "sym4_02"
+            },
+            {
+              "time": 0.0933,
+              "name": "sym4_03"
+            },
+            {
+              "time": 0.1244,
+              "name": "sym4_04"
+            },
+            {
+              "time": 0.1555,
+              "name": "sym4_05"
+            },
+            {
+              "time": 0.1866,
+              "name": "sym4_06"
+            },
+            {
+              "time": 0.2177,
+              "name": "sym4_07"
+            },
+            {
+              "time": 0.2488,
+              "name": "sym4_08"
+            },
+            {
+              "time": 0.28,
+              "name": "sym4_09"
+            },
+            {
+              "time": 0.3111,
+              "name": "sym4_10"
+            },
+            {
+              "time": 0.3422,
+              "name": "sym4_11"
+            },
+            {
+              "time": 0.3733,
+              "name": "sym4_12"
+            },
+            {
+              "time": 0.4044,
+              "name": "sym4_13"
+            },
+            {
+              "time": 0.4355,
+              "name": "sym4_14"
+            },
+            {
+              "time": 0.4666,
+              "name": "sym4_15"
+            },
+            {
+              "time": 0.4977,
+              "name": "sym4_16"
+            },
+            {
+              "time": 0.5288,
+              "name": "sym4_17"
+            },
+            {
+              "time": 0.56,
+              "name": "sym4_18"
+            },
+            {
+              "time": 0.5911,
+              "name": "sym4_19"
+            },
+            {
+              "time": 0.6222,
+              "name": "sym4_20"
+            },
+            {
+              "time": 0.6533,
+              "name": "sym4_21"
+            },
+            {
+              "time": 0.6844,
+              "name": "sym4_22"
+            },
+            {
+              "time": 0.7155,
+              "name": "sym4_23"
+            },
+            {
+              "time": 0.7466,
+              "name": "sym4_24"
+            },
+            {
+              "time": 0.7777,
+              "name": "sym4_25"
+            },
+            {
+              "time": 0.8088,
+              "name": "sym4_26"
+            },
+            {
+              "time": 0.84,
+              "name": "sym4_27"
+            },
+            {
+              "time": 0.8711,
+              "name": "sym4_28"
+            },
+            {
+              "time": 0.9022,
+              "name": "sym4_29"
+            },
+            {
+              "time": 0.9333,
+              "name": "sym4_30"
+            },
+            {
+              "time": 0.9644,
+              "name": "sym4_31"
+            },
+            {
+              "time": 0.9955,
+              "name": "sym4_32"
+            },
+            {
+              "time": 1.0266,
+              "name": "sym4_33"
+            },
+            {
+              "time": 1.0577,
+              "name": "sym4_34"
+            },
+            {
+              "time": 1.0888,
+              "name": "sym4_35"
+            },
+            {
+              "time": 1.12,
+              "name": "sym4_36"
+            },
+            {
+              "time": 1.1511,
+              "name": "sym4_37"
+            },
+            {
+              "time": 1.1822,
+              "name": "sym4_38"
+            },
+            {
+              "time": 1.2133,
+              "name": "sym4_39"
+            },
+            {
+              "time": 1.2444,
+              "name": "sym4_40"
+            },
+            {
+              "time": 1.2755,
+              "name": "sym4_41"
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 1.3,
+          "name": "holdAnimation"
+        }
+      ]
+    },
+    "secwinanim": {
+      "slots": {
+        "sym4_[00-41]": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "sym4_00"
+            },
+            {
+              "time": 0.0311,
+              "name": "sym4_01"
+            },
+            {
+              "time": 0.0622,
+              "name": "sym4_02"
+            },
+            {
+              "time": 0.0933,
+              "name": "sym4_03"
+            },
+            {
+              "time": 0.1244,
+              "name": "sym4_04"
+            },
+            {
+              "time": 0.1555,
+              "name": "sym4_05"
+            },
+            {
+              "time": 0.1866,
+              "name": "sym4_06"
+            },
+            {
+              "time": 0.2177,
+              "name": "sym4_07"
+            },
+            {
+              "time": 0.2488,
+              "name": "sym4_08"
+            },
+            {
+              "time": 0.28,
+              "name": "sym4_09"
+            },
+            {
+              "time": 0.3111,
+              "name": "sym4_10"
+            },
+            {
+              "time": 0.3422,
+              "name": "sym4_11"
+            },
+            {
+              "time": 0.3733,
+              "name": "sym4_12"
+            }
+          ],
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "fffffffa",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "fffffffa"
+            }
+          ]
+        },
+        "sym4_still": {
+          "color": [
+            {
+              "time": 0.3666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

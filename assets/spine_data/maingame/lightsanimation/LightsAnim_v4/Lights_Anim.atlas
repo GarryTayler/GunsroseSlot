@@ -1,0 +1,27 @@
+
+Lights_Anim.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lights_Anim-assets/Light
+  rotate: false
+  xy: 2, 2
+  size: 105, 33
+  orig: 105, 33
+  offset: 0, 0
+  index: -1
+Lights_Anim-assets/flareAlpha
+  rotate: false
+  xy: 2, 37
+  size: 148, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+Lights_Anim-assets/whitesolid
+  rotate: false
+  xy: 152, 177
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1

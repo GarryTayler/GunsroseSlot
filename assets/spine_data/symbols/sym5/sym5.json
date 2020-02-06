@@ -1,0 +1,1399 @@
+{
+  "skeleton": {
+    "hash": "3XpuTv5S5PdaKMHWrHfWvMJki5U",
+    "spine": "2.1.27",
+    "width": 315.01,
+    "height": 337,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "SYM5_idle",
+      "parent": "root",
+      "x": 90,
+      "y": -90
+    },
+    {
+      "name": "SYM5_still",
+      "parent": "root",
+      "x": 92,
+      "y": -74,
+      "scaleX": 1.09
+    },
+    {
+      "name": "SYM5_win_[001-042]",
+      "parent": "root",
+      "x": 92,
+      "y": -74,
+      "scaleX": 1.09
+    },
+    {
+      "name": "SYM5_win_[001-042]_L1",
+      "parent": "root",
+      "x": 92,
+      "y": -74,
+      "scaleX": 1.09
+    },
+    {
+      "name": "SYM5_win_[001-042]_L2",
+      "parent": "root",
+      "x": 92,
+      "y": -74,
+      "scaleX": 1.09
+    }
+  ],
+  "slots": [
+    {
+      "name": "SYM5_idle",
+      "bone": "SYM5_idle",
+      "attachment": "SYM5_idle"
+    },
+    {
+      "name": "SYM5_win_[001-042]_L2",
+      "bone": "SYM5_win_[001-042]_L2",
+      "attachment": "SYM5_win_001"
+    },
+    {
+      "name": "SYM5_win_[001-042]_L1",
+      "bone": "SYM5_win_[001-042]_L1"
+    },
+    {
+      "name": "SYM5_win_[001-042]",
+      "bone": "SYM5_win_[001-042]",
+      "color": "fffffffa"
+    },
+    {
+      "name": "SYM5_still",
+      "bone": "SYM5_still",
+      "color": "ffffff00",
+      "attachment": "SYM5_still"
+    }
+  ],
+  "skins": {
+    "default": {
+      "SYM5_idle": {
+        "SYM5_idle": {
+          "width": 180,
+          "height": 180
+        }
+      },
+      "SYM5_still": {
+        "SYM5_still": {
+          "width": 289,
+          "height": 337
+        }
+      },
+      "SYM5_win_[001-042]": {
+        "SYM5_win_001": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_002": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_003": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_004": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_005": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_006": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_007": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_008": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_009": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_010": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_011": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_012": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_013": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_014": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_015": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_016": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_017": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_018": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_019": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_020": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_021": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_022": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_023": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_024": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_025": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_026": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_027": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_028": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_029": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_030": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_031": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_032": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_033": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_034": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_035": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_036": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_037": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_038": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_039": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_040": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_041": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_042": {
+          "width": 289,
+          "height": 337
+        }
+      },
+      "SYM5_win_[001-042]_L1": {
+        "SYM5_win_001": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_002": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_003": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_004": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_005": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_006": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_007": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_008": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_009": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_010": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_011": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_012": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_013": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_014": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_015": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_016": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_017": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_018": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_019": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_020": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_021": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_022": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_023": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_024": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_025": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_026": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_027": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_028": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_029": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_030": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_031": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_032": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_033": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_034": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_035": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_036": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_037": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_038": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_039": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_040": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_041": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_042": {
+          "width": 289,
+          "height": 337
+        }
+      },
+      "SYM5_win_[001-042]_L2": {
+        "SYM5_win_001": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_002": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_003": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_004": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_005": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_006": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_007": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_008": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_009": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_010": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_011": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_012": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_013": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_014": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_015": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_016": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_017": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_018": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_019": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_020": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_021": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_022": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_023": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_024": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_025": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_026": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_027": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_028": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_029": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_030": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_031": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_032": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_033": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_034": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_035": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_036": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_037": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_038": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_039": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_040": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_041": {
+          "width": 289,
+          "height": 337
+        },
+        "SYM5_win_042": {
+          "width": 289,
+          "height": 337
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "SYM5_still": {
+          "color": [
+            {
+              "time": 1.7666,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "SYM5_win_[001-042]": {
+          "attachment": [
+            {
+              "time": 2.8,
+              "name": "SYM5_win_001"
+            },
+            {
+              "time": 2.8325,
+              "name": "SYM5_win_002"
+            },
+            {
+              "time": 2.8651,
+              "name": "SYM5_win_003"
+            },
+            {
+              "time": 2.8976,
+              "name": "SYM5_win_004"
+            },
+            {
+              "time": 2.9302,
+              "name": "SYM5_win_005"
+            },
+            {
+              "time": 2.9627,
+              "name": "SYM5_win_006"
+            },
+            {
+              "time": 2.9953,
+              "name": "SYM5_win_007"
+            },
+            {
+              "time": 3.0279,
+              "name": "SYM5_win_008"
+            },
+            {
+              "time": 3.0604,
+              "name": "SYM5_win_009"
+            },
+            {
+              "time": 3.093,
+              "name": "SYM5_win_010"
+            },
+            {
+              "time": 3.1255,
+              "name": "SYM5_win_011"
+            },
+            {
+              "time": 3.1581,
+              "name": "SYM5_win_012"
+            },
+            {
+              "time": 3.1906,
+              "name": "SYM5_win_013"
+            },
+            {
+              "time": 3.2232,
+              "name": "SYM5_win_014"
+            },
+            {
+              "time": 3.2558,
+              "name": "SYM5_win_015"
+            },
+            {
+              "time": 3.2883,
+              "name": "SYM5_win_016"
+            },
+            {
+              "time": 3.3209,
+              "name": "SYM5_win_017"
+            },
+            {
+              "time": 3.3534,
+              "name": "SYM5_win_018"
+            },
+            {
+              "time": 3.386,
+              "name": "SYM5_win_019"
+            },
+            {
+              "time": 3.4186,
+              "name": "SYM5_win_020"
+            },
+            {
+              "time": 3.4511,
+              "name": "SYM5_win_021"
+            },
+            {
+              "time": 3.4837,
+              "name": "SYM5_win_022"
+            },
+            {
+              "time": 3.5162,
+              "name": "SYM5_win_023"
+            },
+            {
+              "time": 3.5488,
+              "name": "SYM5_win_024"
+            },
+            {
+              "time": 3.5813,
+              "name": "SYM5_win_025"
+            },
+            {
+              "time": 3.6139,
+              "name": "SYM5_win_026"
+            },
+            {
+              "time": 3.6465,
+              "name": "SYM5_win_027"
+            },
+            {
+              "time": 3.679,
+              "name": "SYM5_win_028"
+            },
+            {
+              "time": 3.7116,
+              "name": "SYM5_win_029"
+            },
+            {
+              "time": 3.7441,
+              "name": "SYM5_win_030"
+            },
+            {
+              "time": 3.7767,
+              "name": "SYM5_win_031"
+            },
+            {
+              "time": 3.8093,
+              "name": "SYM5_win_032"
+            },
+            {
+              "time": 3.8418,
+              "name": "SYM5_win_033"
+            },
+            {
+              "time": 3.8744,
+              "name": "SYM5_win_034"
+            },
+            {
+              "time": 3.9069,
+              "name": "SYM5_win_035"
+            },
+            {
+              "time": 3.9395,
+              "name": "SYM5_win_036"
+            },
+            {
+              "time": 3.972,
+              "name": "SYM5_win_037"
+            },
+            {
+              "time": 4.0046,
+              "name": "SYM5_win_038"
+            },
+            {
+              "time": 4.0372,
+              "name": "SYM5_win_039"
+            },
+            {
+              "time": 4.0697,
+              "name": "SYM5_win_040"
+            },
+            {
+              "time": 4.1023,
+              "name": "SYM5_win_041"
+            },
+            {
+              "time": 4.1348,
+              "name": "SYM5_win_042"
+            }
+          ]
+        },
+        "SYM5_win_[001-042]_L1": {
+          "attachment": [
+            {
+              "time": 1.4,
+              "name": "SYM5_win_001"
+            },
+            {
+              "time": 1.4325,
+              "name": "SYM5_win_002"
+            },
+            {
+              "time": 1.4651,
+              "name": "SYM5_win_003"
+            },
+            {
+              "time": 1.4976,
+              "name": "SYM5_win_004"
+            },
+            {
+              "time": 1.5302,
+              "name": "SYM5_win_005"
+            },
+            {
+              "time": 1.5627,
+              "name": "SYM5_win_006"
+            },
+            {
+              "time": 1.5953,
+              "name": "SYM5_win_007"
+            },
+            {
+              "time": 1.6279,
+              "name": "SYM5_win_008"
+            },
+            {
+              "time": 1.6604,
+              "name": "SYM5_win_009"
+            },
+            {
+              "time": 1.693,
+              "name": "SYM5_win_010"
+            },
+            {
+              "time": 1.7255,
+              "name": "SYM5_win_011"
+            },
+            {
+              "time": 1.7581,
+              "name": "SYM5_win_012"
+            },
+            {
+              "time": 1.7906,
+              "name": "SYM5_win_013"
+            },
+            {
+              "time": 1.8232,
+              "name": "SYM5_win_014"
+            },
+            {
+              "time": 1.8558,
+              "name": "SYM5_win_015"
+            },
+            {
+              "time": 1.8883,
+              "name": "SYM5_win_016"
+            },
+            {
+              "time": 1.9209,
+              "name": "SYM5_win_017"
+            },
+            {
+              "time": 1.9534,
+              "name": "SYM5_win_018"
+            },
+            {
+              "time": 1.986,
+              "name": "SYM5_win_019"
+            },
+            {
+              "time": 2.0186,
+              "name": "SYM5_win_020"
+            },
+            {
+              "time": 2.0511,
+              "name": "SYM5_win_021"
+            },
+            {
+              "time": 2.0837,
+              "name": "SYM5_win_022"
+            },
+            {
+              "time": 2.1162,
+              "name": "SYM5_win_023"
+            },
+            {
+              "time": 2.1488,
+              "name": "SYM5_win_024"
+            },
+            {
+              "time": 2.1813,
+              "name": "SYM5_win_025"
+            },
+            {
+              "time": 2.2139,
+              "name": "SYM5_win_026"
+            },
+            {
+              "time": 2.2465,
+              "name": "SYM5_win_027"
+            },
+            {
+              "time": 2.279,
+              "name": "SYM5_win_028"
+            },
+            {
+              "time": 2.3116,
+              "name": "SYM5_win_029"
+            },
+            {
+              "time": 2.3441,
+              "name": "SYM5_win_030"
+            },
+            {
+              "time": 2.3767,
+              "name": "SYM5_win_031"
+            },
+            {
+              "time": 2.4093,
+              "name": "SYM5_win_032"
+            },
+            {
+              "time": 2.4418,
+              "name": "SYM5_win_033"
+            },
+            {
+              "time": 2.4744,
+              "name": "SYM5_win_034"
+            },
+            {
+              "time": 2.5069,
+              "name": "SYM5_win_035"
+            },
+            {
+              "time": 2.5395,
+              "name": "SYM5_win_036"
+            },
+            {
+              "time": 2.572,
+              "name": "SYM5_win_037"
+            },
+            {
+              "time": 2.6046,
+              "name": "SYM5_win_038"
+            },
+            {
+              "time": 2.6372,
+              "name": "SYM5_win_039"
+            },
+            {
+              "time": 2.6697,
+              "name": "SYM5_win_040"
+            },
+            {
+              "time": 2.7023,
+              "name": "SYM5_win_041"
+            },
+            {
+              "time": 2.7348,
+              "name": "SYM5_win_042"
+            }
+          ],
+          "color": [
+            {
+              "time": 1.7666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "SYM5_win_[001-042]_L2": {
+          "attachment": [
+            {
+              "time": 0.0325,
+              "name": "SYM5_win_002"
+            },
+            {
+              "time": 0.0651,
+              "name": "SYM5_win_003"
+            },
+            {
+              "time": 0.0976,
+              "name": "SYM5_win_004"
+            },
+            {
+              "time": 0.1302,
+              "name": "SYM5_win_005"
+            },
+            {
+              "time": 0.1627,
+              "name": "SYM5_win_006"
+            },
+            {
+              "time": 0.1953,
+              "name": "SYM5_win_007"
+            },
+            {
+              "time": 0.2279,
+              "name": "SYM5_win_008"
+            },
+            {
+              "time": 0.2604,
+              "name": "SYM5_win_009"
+            },
+            {
+              "time": 0.293,
+              "name": "SYM5_win_010"
+            },
+            {
+              "time": 0.3255,
+              "name": "SYM5_win_011"
+            },
+            {
+              "time": 0.3581,
+              "name": "SYM5_win_012"
+            },
+            {
+              "time": 0.3906,
+              "name": "SYM5_win_013"
+            },
+            {
+              "time": 0.4232,
+              "name": "SYM5_win_014"
+            },
+            {
+              "time": 0.4558,
+              "name": "SYM5_win_015"
+            },
+            {
+              "time": 0.4883,
+              "name": "SYM5_win_016"
+            },
+            {
+              "time": 0.5209,
+              "name": "SYM5_win_017"
+            },
+            {
+              "time": 0.5534,
+              "name": "SYM5_win_018"
+            },
+            {
+              "time": 0.586,
+              "name": "SYM5_win_019"
+            },
+            {
+              "time": 0.6186,
+              "name": "SYM5_win_020"
+            },
+            {
+              "time": 0.6511,
+              "name": "SYM5_win_021"
+            },
+            {
+              "time": 0.6837,
+              "name": "SYM5_win_022"
+            },
+            {
+              "time": 0.7162,
+              "name": "SYM5_win_023"
+            },
+            {
+              "time": 0.7488,
+              "name": "SYM5_win_024"
+            },
+            {
+              "time": 0.7813,
+              "name": "SYM5_win_025"
+            },
+            {
+              "time": 0.8139,
+              "name": "SYM5_win_026"
+            },
+            {
+              "time": 0.8465,
+              "name": "SYM5_win_027"
+            },
+            {
+              "time": 0.879,
+              "name": "SYM5_win_028"
+            },
+            {
+              "time": 0.9116,
+              "name": "SYM5_win_029"
+            },
+            {
+              "time": 0.9441,
+              "name": "SYM5_win_030"
+            },
+            {
+              "time": 0.9767,
+              "name": "SYM5_win_031"
+            },
+            {
+              "time": 1.0093,
+              "name": "SYM5_win_032"
+            },
+            {
+              "time": 1.0418,
+              "name": "SYM5_win_033"
+            },
+            {
+              "time": 1.0744,
+              "name": "SYM5_win_034"
+            },
+            {
+              "time": 1.1069,
+              "name": "SYM5_win_035"
+            },
+            {
+              "time": 1.1395,
+              "name": "SYM5_win_036"
+            },
+            {
+              "time": 1.172,
+              "name": "SYM5_win_037"
+            },
+            {
+              "time": 1.2046,
+              "name": "SYM5_win_038"
+            },
+            {
+              "time": 1.2372,
+              "name": "SYM5_win_039"
+            },
+            {
+              "time": 1.2697,
+              "name": "SYM5_win_040"
+            },
+            {
+              "time": 1.3023,
+              "name": "SYM5_win_041"
+            },
+            {
+              "time": 1.3348,
+              "name": "SYM5_win_042"
+            }
+          ]
+        }
+      }
+    },
+    "mainwinanim": {
+      "slots": {
+        "SYM5_win_[001-042]_L2": {
+          "attachment": [
+            {
+              "time": 0.0325,
+              "name": "SYM5_win_002"
+            },
+            {
+              "time": 0.0651,
+              "name": "SYM5_win_003"
+            },
+            {
+              "time": 0.0976,
+              "name": "SYM5_win_004"
+            },
+            {
+              "time": 0.1302,
+              "name": "SYM5_win_005"
+            },
+            {
+              "time": 0.1627,
+              "name": "SYM5_win_006"
+            },
+            {
+              "time": 0.1953,
+              "name": "SYM5_win_007"
+            },
+            {
+              "time": 0.2279,
+              "name": "SYM5_win_008"
+            },
+            {
+              "time": 0.2604,
+              "name": "SYM5_win_009"
+            },
+            {
+              "time": 0.293,
+              "name": "SYM5_win_010"
+            },
+            {
+              "time": 0.3255,
+              "name": "SYM5_win_011"
+            },
+            {
+              "time": 0.3581,
+              "name": "SYM5_win_012"
+            },
+            {
+              "time": 0.3906,
+              "name": "SYM5_win_013"
+            },
+            {
+              "time": 0.4232,
+              "name": "SYM5_win_014"
+            },
+            {
+              "time": 0.4558,
+              "name": "SYM5_win_015"
+            },
+            {
+              "time": 0.4883,
+              "name": "SYM5_win_016"
+            },
+            {
+              "time": 0.5209,
+              "name": "SYM5_win_017"
+            },
+            {
+              "time": 0.5534,
+              "name": "SYM5_win_018"
+            },
+            {
+              "time": 0.586,
+              "name": "SYM5_win_019"
+            },
+            {
+              "time": 0.6186,
+              "name": "SYM5_win_020"
+            },
+            {
+              "time": 0.6511,
+              "name": "SYM5_win_021"
+            },
+            {
+              "time": 0.6837,
+              "name": "SYM5_win_022"
+            },
+            {
+              "time": 0.7162,
+              "name": "SYM5_win_023"
+            },
+            {
+              "time": 0.7488,
+              "name": "SYM5_win_024"
+            },
+            {
+              "time": 0.7813,
+              "name": "SYM5_win_025"
+            },
+            {
+              "time": 0.8139,
+              "name": "SYM5_win_026"
+            },
+            {
+              "time": 0.8465,
+              "name": "SYM5_win_027"
+            },
+            {
+              "time": 0.879,
+              "name": "SYM5_win_028"
+            },
+            {
+              "time": 0.9116,
+              "name": "SYM5_win_029"
+            },
+            {
+              "time": 0.9441,
+              "name": "SYM5_win_030"
+            },
+            {
+              "time": 0.9767,
+              "name": "SYM5_win_031"
+            },
+            {
+              "time": 1.0093,
+              "name": "SYM5_win_032"
+            },
+            {
+              "time": 1.0418,
+              "name": "SYM5_win_033"
+            },
+            {
+              "time": 1.0744,
+              "name": "SYM5_win_034"
+            },
+            {
+              "time": 1.1069,
+              "name": "SYM5_win_035"
+            },
+            {
+              "time": 1.1395,
+              "name": "SYM5_win_036"
+            },
+            {
+              "time": 1.172,
+              "name": "SYM5_win_037"
+            },
+            {
+              "time": 1.2046,
+              "name": "SYM5_win_038"
+            },
+            {
+              "time": 1.2372,
+              "name": "SYM5_win_039"
+            },
+            {
+              "time": 1.2697,
+              "name": "SYM5_win_040"
+            },
+            {
+              "time": 1.3023,
+              "name": "SYM5_win_041"
+            },
+            {
+              "time": 1.3348,
+              "name": "SYM5_win_042"
+            }
+          ]
+        }
+      }
+    },
+    "secwinanim": {
+      "slots": {
+        "SYM5_still": {
+          "color": [
+            {
+              "time": 0.4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "SYM5_win_[001-042]_L1": {
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "SYM5_win_001"
+            },
+            {
+              "time": 0.0658,
+              "name": "SYM5_win_002"
+            },
+            {
+              "time": 0.0984,
+              "name": "SYM5_win_003"
+            },
+            {
+              "time": 0.131,
+              "name": "SYM5_win_004"
+            },
+            {
+              "time": 0.1635,
+              "name": "SYM5_win_005"
+            },
+            {
+              "time": 0.1961,
+              "name": "SYM5_win_006"
+            },
+            {
+              "time": 0.2286,
+              "name": "SYM5_win_007"
+            },
+            {
+              "time": 0.2612,
+              "name": "SYM5_win_008"
+            },
+            {
+              "time": 0.2937,
+              "name": "SYM5_win_009"
+            },
+            {
+              "time": 0.3263,
+              "name": "SYM5_win_010"
+            },
+            {
+              "time": 0.3589,
+              "name": "SYM5_win_011"
+            },
+            {
+              "time": 0.3914,
+              "name": "SYM5_win_012"
+            },
+            {
+              "time": 0.424,
+              "name": "SYM5_win_013"
+            }
+          ],
+          "color": [
+            {
+              "time": 0.4,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

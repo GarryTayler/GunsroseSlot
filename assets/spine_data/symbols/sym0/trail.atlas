@@ -1,0 +1,158 @@
+trail.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+assets/trail_v2_small_02
+  rotate: false
+  xy: 477, 2
+  size: 25, 35
+  orig: 90, 272
+  offset: 0, 237
+  index: -1
+assets/trail_v2_small_03
+  rotate: true
+  xy: 408, 278
+  size: 90, 94
+  orig: 90, 272
+  offset: 0, 178
+  index: -1
+assets/trail_v2_small_04
+  rotate: true
+  xy: 276, 186
+  size: 90, 130
+  orig: 90, 272
+  offset: 0, 142
+  index: -1
+assets/trail_v2_small_05
+  rotate: true
+  xy: 276, 94
+  size: 90, 155
+  orig: 90, 272
+  offset: 0, 117
+  index: -1
+assets/trail_v2_small_06
+  rotate: true
+  xy: 276, 2
+  size: 90, 199
+  orig: 90, 272
+  offset: 0, 73
+  index: -1
+assets/trail_v2_small_07
+  rotate: true
+  xy: 94, 738
+  size: 90, 237
+  orig: 90, 272
+  offset: 0, 35
+  index: -1
+assets/trail_v2_small_08
+  rotate: true
+  xy: 94, 646
+  size: 90, 251
+  orig: 90, 272
+  offset: 0, 21
+  index: -1
+assets/trail_v2_small_09
+  rotate: false
+  xy: 408, 370
+  size: 90, 271
+  orig: 90, 272
+  offset: 0, 1
+  index: -1
+assets/trail_v2_small_10
+  rotate: true
+  xy: 2, 2
+  size: 90, 272
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_11
+  rotate: true
+  xy: 2, 94
+  size: 90, 272
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_12
+  rotate: true
+  xy: 2, 186
+  size: 90, 272
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_13
+  rotate: true
+  xy: 2, 278
+  size: 90, 272
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_14
+  rotate: true
+  xy: 2, 370
+  size: 90, 272
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_15
+  rotate: false
+  xy: 357, 643
+  size: 90, 256
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_16
+  rotate: true
+  xy: 94, 554
+  size: 90, 261
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_17
+  rotate: true
+  xy: 94, 462
+  size: 90, 266
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_18
+  rotate: false
+  xy: 2, 643
+  size: 90, 267
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_19
+  rotate: true
+  xy: 276, 278
+  size: 90, 130
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_20
+  rotate: true
+  xy: 276, 370
+  size: 90, 130
+  orig: 90, 272
+  offset: 0, 0
+  index: -1
+assets/trail_v2_small_21
+  rotate: false
+  xy: 2, 912
+  size: 90, 105
+  orig: 90, 272
+  offset: 0, 1
+  index: -1
+assets/trail_v2_small_22
+  rotate: true
+  xy: 408, 186
+  size: 90, 101
+  orig: 90, 272
+  offset: 0, 9
+  index: -1
+assets/trail_v2_small_23
+  rotate: false
+  xy: 433, 94
+  size: 40, 35
+  orig: 90, 272
+  offset: 50, 59
+  index: -1

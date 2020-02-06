@@ -1,0 +1,306 @@
+{
+  "skeleton": {
+    "hash": "caJFc4D6OBPSKGcNd3QoyxYFNTs",
+    "spine": "2.1.27",
+    "width": 340,
+    "height": 338
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "spinButton_FX_009",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_010",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_011",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_012",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_013",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_014",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_015",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_016",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_017",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    },
+    {
+      "name": "spinButton_FX_018",
+      "parent": "root",
+      "x": 170,
+      "y": -169
+    }
+  ],
+  "slots": [
+    {
+      "name": "spinButton_FX_018",
+      "bone": "spinButton_FX_018"
+    },
+    {
+      "name": "spinButton_FX_017",
+      "bone": "spinButton_FX_017"
+    },
+    {
+      "name": "spinButton_FX_016",
+      "bone": "spinButton_FX_016"
+    },
+    {
+      "name": "spinButton_FX_015",
+      "bone": "spinButton_FX_015"
+    },
+    {
+      "name": "spinButton_FX_014",
+      "bone": "spinButton_FX_014"
+    },
+    {
+      "name": "spinButton_FX_013",
+      "bone": "spinButton_FX_013"
+    },
+    {
+      "name": "spinButton_FX_012",
+      "bone": "spinButton_FX_012"
+    },
+    {
+      "name": "spinButton_FX_011",
+      "bone": "spinButton_FX_011"
+    },
+    {
+      "name": "spinButton_FX_010",
+      "bone": "spinButton_FX_010"
+    },
+    {
+      "name": "spinButton_FX_009",
+      "bone": "spinButton_FX_009",
+      "attachment": "spinButton_FX-assets/spinButton_FX_009"
+    }
+  ],
+  "skins": {
+    "default": {
+      "spinButton_FX_009": {
+        "spinButton_FX-assets/spinButton_FX_009": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_010": {
+        "spinButton_FX-assets/spinButton_FX_010": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_011": {
+        "spinButton_FX-assets/spinButton_FX_011": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_012": {
+        "spinButton_FX-assets/spinButton_FX_012": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_013": {
+        "spinButton_FX-assets/spinButton_FX_013": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_014": {
+        "spinButton_FX-assets/spinButton_FX_014": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_015": {
+        "spinButton_FX-assets/spinButton_FX_015": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_016": {
+        "spinButton_FX-assets/spinButton_FX_016": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_017": {
+        "spinButton_FX-assets/spinButton_FX_017": {
+          "width": 340,
+          "height": 338
+        }
+      },
+      "spinButton_FX_018": {
+        "spinButton_FX-assets/spinButton_FX_018": {
+          "width": 340,
+          "height": 338
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "spinButton_FX_009": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "spinButton_FX-assets/spinButton_FX_009"
+            },
+            {
+              "time": 0.0333,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_010": {
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "spinButton_FX-assets/spinButton_FX_010"
+            },
+            {
+              "time": 0.0666,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_011": {
+          "attachment": [
+            {
+              "time": 0.0666,
+              "name": "spinButton_FX-assets/spinButton_FX_011"
+            },
+            {
+              "time": 0.1,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_012": {
+          "attachment": [
+            {
+              "time": 0.1,
+              "name": "spinButton_FX-assets/spinButton_FX_012"
+            },
+            {
+              "time": 0.1333,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_013": {
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "spinButton_FX-assets/spinButton_FX_013"
+            },
+            {
+              "time": 0.1666,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_014": {
+          "attachment": [
+            {
+              "time": 0.1666,
+              "name": "spinButton_FX-assets/spinButton_FX_014"
+            },
+            {
+              "time": 0.2,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_015": {
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "spinButton_FX-assets/spinButton_FX_015"
+            },
+            {
+              "time": 0.2333,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_016": {
+          "attachment": [
+            {
+              "time": 0.2333,
+              "name": "spinButton_FX-assets/spinButton_FX_016"
+            },
+            {
+              "time": 0.2666,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_017": {
+          "attachment": [
+            {
+              "time": 0.2666,
+              "name": "spinButton_FX-assets/spinButton_FX_017"
+            },
+            {
+              "time": 0.3,
+              "name": null
+            }
+          ]
+        },
+        "spinButton_FX_018": {
+          "attachment": [
+            {
+              "time": 0.3,
+              "name": "spinButton_FX-assets/spinButton_FX_018"
+            },
+            {
+              "time": 0.3333,
+              "name": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

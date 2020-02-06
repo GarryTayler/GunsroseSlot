@@ -1,0 +1,181 @@
+
+CrowdAnim.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CrowdAnim-assets/Arm
+  rotate: false
+  xy: 2, 5
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/ArmR
+  rotate: false
+  xy: 160, 5
+  size: 45, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/ArmR_blur
+  rotate: false
+  xy: 110, 5
+  size: 48, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Arm_blur
+  rotate: false
+  xy: 56, 5
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Hand
+  rotate: false
+  xy: 996, 220
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Hand_2
+  rotate: false
+  xy: 996, 149
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Hand_3
+  rotate: false
+  xy: 563, 58
+  size: 24, 25
+  orig: 26, 33
+  offset: 2, 1
+  index: -1
+CrowdAnim-assets/Hand_3_blur
+  rotate: false
+  xy: 536, 56
+  size: 25, 27
+  orig: 26, 33
+  offset: 1, 0
+  index: -1
+CrowdAnim-assets/Hand_blur
+  rotate: false
+  xy: 996, 184
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Lowarm
+  rotate: false
+  xy: 952, 41
+  size: 22, 51
+  orig: 22, 51
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Lowarm_blur
+  rotate: false
+  xy: 512, 32
+  size: 22, 51
+  orig: 22, 51
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person1
+  rotate: false
+  xy: 405, 90
+  size: 95, 164
+  orig: 96, 164
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person1_blur
+  rotate: false
+  xy: 307, 90
+  size: 96, 164
+  orig: 96, 164
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person2
+  rotate: false
+  xy: 215, 84
+  size: 90, 170
+  orig: 90, 170
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person2_blur
+  rotate: true
+  xy: 502, 164
+  size: 90, 169
+  orig: 90, 170
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person3
+  rotate: true
+  xy: 215, 2
+  size: 80, 154
+  orig: 93, 162
+  offset: 13, 8
+  index: -1
+CrowdAnim-assets/Person3_blur
+  rotate: true
+  xy: 673, 172
+  size: 82, 161
+  orig: 93, 162
+  offset: 11, 0
+  index: -1
+CrowdAnim-assets/Person4
+  rotate: true
+  xy: 502, 85
+  size: 77, 157
+  orig: 81, 160
+  offset: 2, 3
+  index: -1
+CrowdAnim-assets/Person4_blur
+  rotate: true
+  xy: 836, 173
+  size: 81, 158
+  orig: 81, 160
+  offset: 0, 1
+  index: -1
+CrowdAnim-assets/Person5
+  rotate: true
+  xy: 807, 14
+  size: 78, 143
+  orig: 85, 154
+  offset: 0, 7
+  index: -1
+CrowdAnim-assets/Person6
+  rotate: true
+  xy: 836, 94
+  size: 77, 146
+  orig: 77, 147
+  offset: 0, 0
+  index: -1
+CrowdAnim-assets/Person6_blur
+  rotate: true
+  xy: 673, 94
+  size: 76, 147
+  orig: 77, 147
+  offset: 1, 0
+  index: -1
+CrowdAnim-assets/Person7
+  rotate: true
+  xy: 371, 6
+  size: 77, 139
+  orig: 77, 147
+  offset: 0, 7
+  index: -1
+CrowdAnim-assets/Person7_blur
+  rotate: true
+  xy: 661, 15
+  size: 77, 144
+  orig: 77, 147
+  offset: 0, 2
+  index: -1
+CrowdAnim-assets/solid
+  rotate: false
+  xy: 2, 63
+  size: 211, 191
+  orig: 257, 200
+  offset: 28, 0
+  index: -1

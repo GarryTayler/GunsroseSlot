@@ -1,0 +1,76 @@
+{
+  "skeleton": {
+    "hash": "NvtVt0WOSb7nv+JDiaJtHX5KR78",
+    "spine": "2.1.27",
+    "width": 754.3,
+    "height": 121.45
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "CrowdLight",
+      "parent": "root",
+      "x": 274,
+      "y": -633.72,
+      "scaleX": 1.885,
+      "scaleY": 1.84
+    }
+  ],
+  "slots": [
+    {
+      "name": "CrowdLight",
+      "bone": "CrowdLight",
+      "attachment": "CrowdLight-assets/CrowdLight",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "CrowdLight": {
+        "CrowdLight-assets/CrowdLight": {
+          "width": 400,
+          "height": 66
+        }
+      }
+    }
+  },
+  "animations": {
+    "anim": {
+      "bones": {
+        "CrowdLight": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -448.99,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 10.0333,
+              "x": 1141.72,
+              "y": -2,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 20,
+              "x": -448.99,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+wild_text_vertical.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wild_vertical
+  rotate: false
+  xy: 134, 2
+  size: 85, 520
+  orig: 85, 520
+  offset: 0, 0
+  index: -1
+wild_vertical_add
+  rotate: false
+  xy: 2, 2
+  size: 130, 907
+  orig: 300, 907
+  offset: 90, 0
+  index: -1
+wild_vertical_multiply
+  rotate: false
+  xy: 134, 524
+  size: 76, 259
+  orig: 76, 259
+  offset: 0, 0
+  index: -1

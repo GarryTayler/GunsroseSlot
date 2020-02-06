@@ -1,0 +1,25 @@
+wild_text_small.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wild_small
+  rotate: false
+  xy: 2, 259
+  size: 176, 109
+  orig: 176, 109
+  offset: 0, 0
+  index: -1
+wild_small_add
+  rotate: false
+  xy: 2, 2
+  size: 465, 255
+  orig: 907, 907
+  offset: 230, 328
+  index: -1
+wild_small_multiply
+  rotate: true
+  xy: 180, 259
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1

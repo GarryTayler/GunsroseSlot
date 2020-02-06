@@ -1,0 +1,76 @@
+
+spinButton_FX.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spinButton_FX-assets/spinButton_FX_009
+  rotate: false
+  xy: 876, 908
+  size: 113, 89
+  orig: 340, 338
+  offset: 118, 130
+  index: -1
+spinButton_FX-assets/spinButton_FX_010
+  rotate: false
+  xy: 2, 2
+  size: 181, 126
+  orig: 340, 338
+  offset: 91, 110
+  index: -1
+spinButton_FX-assets/spinButton_FX_011
+  rotate: false
+  xy: 610, 562
+  size: 243, 169
+  orig: 340, 338
+  offset: 56, 81
+  index: -1
+spinButton_FX-assets/spinButton_FX_012
+  rotate: true
+  xy: 275, 136
+  size: 254, 217
+  orig: 340, 338
+  offset: 78, 53
+  index: -1
+spinButton_FX-assets/spinButton_FX_013
+  rotate: false
+  xy: 2, 130
+  size: 271, 260
+  orig: 340, 338
+  offset: 35, 28
+  index: -1
+spinButton_FX-assets/spinButton_FX_014
+  rotate: false
+  xy: 2, 392
+  size: 307, 295
+  orig: 340, 338
+  offset: 1, 2
+  index: -1
+spinButton_FX-assets/spinButton_FX_015
+  rotate: true
+  xy: 315, 491
+  size: 212, 214
+  orig: 340, 338
+  offset: 72, 70
+  index: -1
+spinButton_FX-assets/spinButton_FX_016
+  rotate: false
+  xy: 610, 733
+  size: 264, 264
+  orig: 340, 338
+  offset: 46, 44
+  index: -1
+spinButton_FX-assets/spinButton_FX_017
+  rotate: false
+  xy: 315, 705
+  size: 293, 292
+  orig: 340, 338
+  offset: 31, 31
+  index: -1
+spinButton_FX-assets/spinButton_FX_018
+  rotate: false
+  xy: 2, 689
+  size: 311, 308
+  orig: 340, 338
+  offset: 20, 25
+  index: -1

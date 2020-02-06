@@ -1,0 +1,1753 @@
+{
+  "skeleton": {
+    "hash": "k7GYvUWMJz12iKTxUdZUgU8Cfss",
+    "spine": "2.1.27",
+    "width": 500,
+    "height": 674
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "glow",
+      "parent": "root",
+      "x": 152,
+      "y": -29,
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 14
+    },
+    {
+      "name": "solomultibanner",
+      "parent": "root",
+      "x": 104,
+      "y": -40
+    },
+    {
+      "name": "solomultibanner_[163-196]",
+      "parent": "root",
+      "x": 104,
+      "y": -40
+    },
+    {
+      "name": "solomultibanner_[163-196]_L1",
+      "parent": "root",
+      "x": 104,
+      "y": -40
+    },
+    {
+      "name": "solomultiframe",
+      "parent": "root",
+      "x": 90,
+      "y": 279
+    },
+    {
+      "name": "solomultiframe_glow",
+      "parent": "root",
+      "x": 90,
+      "y": 279
+    },
+    {
+      "name": "solomultiframe_glow_L1",
+      "parent": "root",
+      "x": 90,
+      "y": 279
+    },
+    {
+      "name": "x2",
+      "parent": "root",
+      "x": 158.5,
+      "y": -28,
+      "scaleX": 0.001,
+      "scaleY": 0.001
+    }
+  ],
+  "slots": [
+    {
+      "name": "solomultiframe",
+      "bone": "solomultiframe",
+      "color": "ffffff00",
+      "attachment": "solomultiframe"
+    },
+    {
+      "name": "solomultiframe_glow_L1",
+      "bone": "solomultiframe_glow_L1",
+      "color": "ffffff00",
+      "attachment": "solomultiframe_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "solomultiframe_glow",
+      "bone": "solomultiframe_glow",
+      "color": "ffffff00",
+      "attachment": "solomultiframe_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "solomultibanner_[163-196]_L1",
+      "bone": "solomultibanner_[163-196]_L1"
+    },
+    {
+      "name": "solomultibanner",
+      "bone": "solomultibanner",
+      "color": "ffffff00",
+      "attachment": "solomultibanner"
+    },
+    {
+      "name": "solomultibanner_[163-196]",
+      "bone": "solomultibanner_[163-196]",
+      "color": "ffffff00"
+    },
+    {
+      "name": "glow",
+      "bone": "glow",
+      "color": "ffffff00",
+      "attachment": "glow",
+      "blend": "additive"
+    },
+    {
+      "name": "x2",
+      "bone": "x2",
+      "color": "ffffff00",
+      "attachment": "x2"
+    }
+  ],
+  "skins": {
+    "default": {
+      "glow": {
+        "glow": {
+          "width": 64,
+          "height": 64
+        }
+      },
+      "solomultibanner": {
+        "solomultibanner": {
+          "width": 312,
+          "height": 210
+        }
+      },
+      "solomultibanner_[163-196]": {
+        "solomultibanner_163": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_164": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_165": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_166": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_167": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_168": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_169": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_170": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_171": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_172": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_173": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_174": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_175": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_176": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_177": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_178": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_179": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_180": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_181": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_182": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_183": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_184": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_185": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_186": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_187": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_188": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_189": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_190": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_191": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_192": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_193": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_194": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_195": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_196": {
+          "width": 312,
+          "height": 210
+        }
+      },
+      "solomultibanner_[163-196]_L1": {
+        "solomultibanner_163": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_164": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_165": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_166": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_167": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_168": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_169": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_170": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_171": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_172": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_173": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_174": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_175": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_176": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_177": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_178": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_179": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_180": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_181": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_182": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_183": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_184": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_185": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_186": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_187": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_188": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_189": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_190": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_191": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_192": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_193": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_194": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_195": {
+          "width": 312,
+          "height": 210
+        },
+        "solomultibanner_196": {
+          "width": 312,
+          "height": 210
+        }
+      },
+      "solomultiframe": {
+        "solomultiframe": {
+          "width": 236,
+          "height": 236
+        }
+      },
+      "solomultiframe_glow": {
+        "solomultiframe_glow": {
+          "width": 500,
+          "height": 500
+        }
+      },
+      "solomultiframe_glow_L1": {
+        "solomultiframe_glow": {
+          "width": 500,
+          "height": 500
+        }
+      },
+      "x2": {
+        "x2": {
+          "x": -0.5,
+          "y": 0.5,
+          "width": 73,
+          "height": 61
+        }
+      }
+    }
+  },
+  "animations": {
+    "all_animations": {
+      "slots": {
+        "glow": {
+          "color": [
+            {
+              "time": 2.9,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffff66",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4,
+              "color": "ffffff66"
+            },
+            {
+              "time": 4.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultibanner": {
+          "color": [
+            {
+              "time": 3.0666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.1,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultibanner_[163-196]": {
+          "attachment": [
+            {
+              "time": 3.7333,
+              "name": "solomultibanner_163"
+            },
+            {
+              "time": 3.7657,
+              "name": "solomultibanner_164"
+            },
+            {
+              "time": 3.798,
+              "name": "solomultibanner_165"
+            },
+            {
+              "time": 3.8304,
+              "name": "solomultibanner_166"
+            },
+            {
+              "time": 3.8628,
+              "name": "solomultibanner_167"
+            },
+            {
+              "time": 3.8952,
+              "name": "solomultibanner_168"
+            },
+            {
+              "time": 3.9276,
+              "name": "solomultibanner_169"
+            },
+            {
+              "time": 3.96,
+              "name": "solomultibanner_170"
+            },
+            {
+              "time": 3.9923,
+              "name": "solomultibanner_171"
+            },
+            {
+              "time": 4.0247,
+              "name": "solomultibanner_172"
+            },
+            {
+              "time": 4.0571,
+              "name": "solomultibanner_173"
+            },
+            {
+              "time": 4.0895,
+              "name": "solomultibanner_174"
+            },
+            {
+              "time": 4.1219,
+              "name": "solomultibanner_175"
+            },
+            {
+              "time": 4.1542,
+              "name": "solomultibanner_176"
+            },
+            {
+              "time": 4.1866,
+              "name": "solomultibanner_177"
+            },
+            {
+              "time": 4.219,
+              "name": "solomultibanner_178"
+            },
+            {
+              "time": 4.2514,
+              "name": "solomultibanner_179"
+            },
+            {
+              "time": 4.2838,
+              "name": "solomultibanner_180"
+            },
+            {
+              "time": 4.3161,
+              "name": "solomultibanner_181"
+            },
+            {
+              "time": 4.3485,
+              "name": "solomultibanner_182"
+            },
+            {
+              "time": 4.3809,
+              "name": "solomultibanner_183"
+            },
+            {
+              "time": 4.4133,
+              "name": "solomultibanner_184"
+            },
+            {
+              "time": 4.4457,
+              "name": "solomultibanner_185"
+            },
+            {
+              "time": 4.478,
+              "name": "solomultibanner_186"
+            },
+            {
+              "time": 4.5104,
+              "name": "solomultibanner_187"
+            },
+            {
+              "time": 4.5428,
+              "name": "solomultibanner_188"
+            },
+            {
+              "time": 4.5752,
+              "name": "solomultibanner_189"
+            },
+            {
+              "time": 4.6076,
+              "name": "solomultibanner_190"
+            },
+            {
+              "time": 4.64,
+              "name": "solomultibanner_191"
+            },
+            {
+              "time": 4.6723,
+              "name": "solomultibanner_192"
+            },
+            {
+              "time": 4.7047,
+              "name": "solomultibanner_193"
+            },
+            {
+              "time": 4.7371,
+              "name": "solomultibanner_194"
+            },
+            {
+              "time": 4.7695,
+              "name": "solomultibanner_195"
+            },
+            {
+              "time": 4.8019,
+              "name": "solomultibanner_196"
+            },
+            {
+              "time": 4.8666,
+              "name": null
+            }
+          ],
+          "color": [
+            {
+              "time": 4.4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultibanner_[163-196]_L1": {
+          "attachment": [
+            {
+              "time": 2.4,
+              "name": "solomultibanner_163"
+            },
+            {
+              "time": 2.4323,
+              "name": "solomultibanner_164"
+            },
+            {
+              "time": 2.4647,
+              "name": "solomultibanner_165"
+            },
+            {
+              "time": 2.4971,
+              "name": "solomultibanner_166"
+            },
+            {
+              "time": 2.5295,
+              "name": "solomultibanner_167"
+            },
+            {
+              "time": 2.5619,
+              "name": "solomultibanner_168"
+            },
+            {
+              "time": 2.5942,
+              "name": "solomultibanner_169"
+            },
+            {
+              "time": 2.6266,
+              "name": "solomultibanner_170"
+            },
+            {
+              "time": 2.659,
+              "name": "solomultibanner_171"
+            },
+            {
+              "time": 2.6914,
+              "name": "solomultibanner_172"
+            },
+            {
+              "time": 2.7238,
+              "name": "solomultibanner_173"
+            },
+            {
+              "time": 2.7561,
+              "name": "solomultibanner_174"
+            },
+            {
+              "time": 2.7885,
+              "name": "solomultibanner_175"
+            },
+            {
+              "time": 2.8209,
+              "name": "solomultibanner_176"
+            },
+            {
+              "time": 2.8533,
+              "name": "solomultibanner_177"
+            },
+            {
+              "time": 2.8857,
+              "name": "solomultibanner_178"
+            },
+            {
+              "time": 2.918,
+              "name": "solomultibanner_179"
+            },
+            {
+              "time": 2.9504,
+              "name": "solomultibanner_180"
+            },
+            {
+              "time": 2.9828,
+              "name": "solomultibanner_181"
+            },
+            {
+              "time": 3.0152,
+              "name": "solomultibanner_182"
+            },
+            {
+              "time": 3.0476,
+              "name": "solomultibanner_183"
+            },
+            {
+              "time": 3.0799,
+              "name": "solomultibanner_184"
+            },
+            {
+              "time": 3.1123,
+              "name": "solomultibanner_185"
+            },
+            {
+              "time": 3.1447,
+              "name": "solomultibanner_186"
+            },
+            {
+              "time": 3.1771,
+              "name": "solomultibanner_187"
+            },
+            {
+              "time": 3.2095,
+              "name": "solomultibanner_188"
+            },
+            {
+              "time": 3.2419,
+              "name": "solomultibanner_189"
+            },
+            {
+              "time": 3.2742,
+              "name": "solomultibanner_190"
+            },
+            {
+              "time": 3.3066,
+              "name": "solomultibanner_191"
+            },
+            {
+              "time": 3.339,
+              "name": "solomultibanner_192"
+            },
+            {
+              "time": 3.3714,
+              "name": "solomultibanner_193"
+            },
+            {
+              "time": 3.4038,
+              "name": "solomultibanner_194"
+            },
+            {
+              "time": 3.4361,
+              "name": "solomultibanner_195"
+            },
+            {
+              "time": 3.4685,
+              "name": "solomultibanner_196"
+            },
+            {
+              "time": 3.5333,
+              "name": null
+            }
+          ],
+          "color": [
+            {
+              "time": 3.0666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.9333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333,
+              "color": "ffffffe6"
+            },
+            {
+              "time": 5.2666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.3666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.9333,
+              "color": "ffffff80"
+            },
+            {
+              "time": 5.0333,
+              "color": "ffffff73"
+            },
+            {
+              "time": 5.2666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.3666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff80",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.9333,
+              "color": "ffffff80"
+            },
+            {
+              "time": 5.0333,
+              "color": "ffffff73"
+            },
+            {
+              "time": 5.2666,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "x2": {
+          "color": [
+            {
+              "time": 2.9,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.5,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -359
+            },
+            {
+              "time": 0.1666,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 2.9,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3,
+              "x": 1035,
+              "y": 1035
+            },
+            {
+              "time": 3.0666,
+              "x": 1077.5,
+              "y": 1077.5
+            },
+            {
+              "time": 3.1333,
+              "x": 1035,
+              "y": 1035
+            },
+            {
+              "time": 3.2,
+              "x": 950,
+              "y": 950,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.4,
+              "x": 950,
+              "y": 950
+            },
+            {
+              "time": 4.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "attention": {
+      "slots": {
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.1666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff80"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "banner_in": {
+      "slots": {
+        "glow": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff66"
+            }
+          ]
+        },
+        "solomultibanner": {
+          "color": [
+            {
+              "time": 0.6666,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultibanner_[163-196]_L1": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "solomultibanner_163"
+            },
+            {
+              "time": 0.0333,
+              "name": "solomultibanner_164"
+            },
+            {
+              "time": 0.0666,
+              "name": "solomultibanner_165"
+            },
+            {
+              "time": 0.1,
+              "name": "solomultibanner_166"
+            },
+            {
+              "time": 0.1333,
+              "name": "solomultibanner_167"
+            },
+            {
+              "time": 0.1666,
+              "name": "solomultibanner_168"
+            },
+            {
+              "time": 0.2,
+              "name": "solomultibanner_169"
+            },
+            {
+              "time": 0.2333,
+              "name": "solomultibanner_170"
+            },
+            {
+              "time": 0.2666,
+              "name": "solomultibanner_171"
+            },
+            {
+              "time": 0.3,
+              "name": "solomultibanner_172"
+            },
+            {
+              "time": 0.3333,
+              "name": "solomultibanner_173"
+            },
+            {
+              "time": 0.3666,
+              "name": "solomultibanner_174"
+            },
+            {
+              "time": 0.4,
+              "name": "solomultibanner_175"
+            },
+            {
+              "time": 0.4333,
+              "name": "solomultibanner_176"
+            },
+            {
+              "time": 0.4666,
+              "name": "solomultibanner_177"
+            },
+            {
+              "time": 0.5,
+              "name": "solomultibanner_178"
+            },
+            {
+              "time": 0.5333,
+              "name": "solomultibanner_179"
+            },
+            {
+              "time": 0.5666,
+              "name": "solomultibanner_181"
+            },
+            {
+              "time": 0.6,
+              "name": "solomultibanner_182"
+            },
+            {
+              "time": 0.6333,
+              "name": "solomultibanner_183"
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "x2": {
+          "color": [
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6,
+              "x": 1035,
+              "y": 1035
+            },
+            {
+              "time": 0.6666,
+              "x": 1077.5,
+              "y": 1077.5
+            },
+            {
+              "time": 0.7333,
+              "x": 1035,
+              "y": 1035
+            },
+            {
+              "time": 0.8,
+              "x": 950,
+              "y": 950
+            }
+          ]
+        }
+      }
+    },
+    "banner_out": {
+      "slots": {
+        "glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff66"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultibanner": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultibanner_[163-196]": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "solomultibanner_184"
+            },
+            {
+              "time": 0.0333,
+              "name": "solomultibanner_185"
+            },
+            {
+              "time": 0.0666,
+              "name": "solomultibanner_186"
+            },
+            {
+              "time": 0.1,
+              "name": "solomultibanner_187"
+            },
+            {
+              "time": 0.1333,
+              "name": "solomultibanner_188"
+            },
+            {
+              "time": 0.1666,
+              "name": "solomultibanner_189"
+            },
+            {
+              "time": 0.2,
+              "name": "solomultibanner_190"
+            },
+            {
+              "time": 0.2333,
+              "name": "solomultibanner_191"
+            },
+            {
+              "time": 0.2666,
+              "name": "solomultibanner_192"
+            },
+            {
+              "time": 0.3,
+              "name": "solomultibanner_193"
+            },
+            {
+              "time": 0.3333,
+              "name": "solomultibanner_194"
+            },
+            {
+              "time": 0.3666,
+              "name": "solomultibanner_195"
+            },
+            {
+              "time": 0.4,
+              "name": "solomultibanner_196"
+            },
+            {
+              "time": 0.4666,
+              "name": null
+            }
+          ],
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0333,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultibanner_[163-196]_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "x2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 950,
+              "y": 950
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        }
+      }
+    },
+    "end": {
+      "slots": {
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffe6"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff73"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff73"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "start": {
+      "slots": {
+        "solomultiframe": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "solomultiframe_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "color": [
+            {
+              "time": 0.1333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2666,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4666,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff80"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "solomultiframe_glow": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "solomultiframe_glow_L1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": -369
+            }
+          ]
+        },
+        "x2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.5,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

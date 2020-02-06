@@ -1,0 +1,516 @@
+{
+  "frames": {
+    "CrowdAnim-assets/Arm": {
+      "frame": {
+        "x": 2,
+        "y": 5,
+        "w": 52,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 56
+      }
+    },
+    "CrowdAnim-assets/ArmR": {
+      "frame": {
+        "x": 160,
+        "y": 5,
+        "w": 45,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 56
+      }
+    },
+    "CrowdAnim-assets/ArmR_blur": {
+      "frame": {
+        "x": 110,
+        "y": 5,
+        "w": 48,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 56
+      }
+    },
+    "CrowdAnim-assets/Arm_blur": {
+      "frame": {
+        "x": 56,
+        "y": 5,
+        "w": 52,
+        "h": 56
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 56
+      }
+    },
+    "CrowdAnim-assets/Hand": {
+      "frame": {
+        "x": 996,
+        "y": 220,
+        "w": 26,
+        "h": 34
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 34
+      }
+    },
+    "CrowdAnim-assets/Hand_2": {
+      "frame": {
+        "x": 996,
+        "y": 149,
+        "w": 26,
+        "h": 33
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 33
+      }
+    },
+    "CrowdAnim-assets/Hand_3": {
+      "frame": {
+        "x": 563,
+        "y": 58,
+        "w": 24,
+        "h": 25
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 33
+      }
+    },
+    "CrowdAnim-assets/Hand_3_blur": {
+      "frame": {
+        "x": 536,
+        "y": 56,
+        "w": 25,
+        "h": 27
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 33
+      }
+    },
+    "CrowdAnim-assets/Hand_blur": {
+      "frame": {
+        "x": 996,
+        "y": 184,
+        "w": 26,
+        "h": 34
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 26,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 26,
+        "h": 34
+      }
+    },
+    "CrowdAnim-assets/Lowarm": {
+      "frame": {
+        "x": 952,
+        "y": 41,
+        "w": 22,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 51
+      }
+    },
+    "CrowdAnim-assets/Lowarm_blur": {
+      "frame": {
+        "x": 512,
+        "y": 32,
+        "w": 22,
+        "h": 51
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 51
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 51
+      }
+    },
+    "CrowdAnim-assets/Person1": {
+      "frame": {
+        "x": 405,
+        "y": 90,
+        "w": 95,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 164
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 164
+      }
+    },
+    "CrowdAnim-assets/Person1_blur": {
+      "frame": {
+        "x": 307,
+        "y": 90,
+        "w": 96,
+        "h": 164
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 164
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 164
+      }
+    },
+    "CrowdAnim-assets/Person2": {
+      "frame": {
+        "x": 215,
+        "y": 84,
+        "w": 90,
+        "h": 170
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 170
+      }
+    },
+    "CrowdAnim-assets/Person2_blur": {
+      "frame": {
+        "x": 502,
+        "y": 164,
+        "w": 90,
+        "h": 169
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 170
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 170
+      }
+    },
+    "CrowdAnim-assets/Person3": {
+      "frame": {
+        "x": 215,
+        "y": 2,
+        "w": 80,
+        "h": 154
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 162
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 162
+      }
+    },
+    "CrowdAnim-assets/Person3_blur": {
+      "frame": {
+        "x": 673,
+        "y": 172,
+        "w": 82,
+        "h": 161
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 162
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 162
+      }
+    },
+    "CrowdAnim-assets/Person4": {
+      "frame": {
+        "x": 502,
+        "y": 85,
+        "w": 77,
+        "h": 157
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 81,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 81,
+        "h": 160
+      }
+    },
+    "CrowdAnim-assets/Person4_blur": {
+      "frame": {
+        "x": 836,
+        "y": 173,
+        "w": 81,
+        "h": 158
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 81,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 81,
+        "h": 160
+      }
+    },
+    "CrowdAnim-assets/Person5": {
+      "frame": {
+        "x": 807,
+        "y": 14,
+        "w": 78,
+        "h": 143
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 154
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 154
+      }
+    },
+    "CrowdAnim-assets/Person6": {
+      "frame": {
+        "x": 836,
+        "y": 94,
+        "w": 77,
+        "h": 146
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 147
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 147
+      }
+    },
+    "CrowdAnim-assets/Person6_blur": {
+      "frame": {
+        "x": 673,
+        "y": 94,
+        "w": 76,
+        "h": 147
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 147
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 147
+      }
+    },
+    "CrowdAnim-assets/Person7": {
+      "frame": {
+        "x": 371,
+        "y": 6,
+        "w": 77,
+        "h": 139
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 147
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 147
+      }
+    },
+    "CrowdAnim-assets/Person7_blur": {
+      "frame": {
+        "x": 661,
+        "y": 15,
+        "w": 77,
+        "h": 144
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 147
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 147
+      }
+    },
+    "CrowdAnim-assets/solid": {
+      "frame": {
+        "x": 2,
+        "y": 63,
+        "w": 211,
+        "h": 191
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 257,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 257,
+        "h": 200
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "CrowdAnim.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 256
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}

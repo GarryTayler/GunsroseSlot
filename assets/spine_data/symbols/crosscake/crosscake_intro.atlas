@@ -1,0 +1,83 @@
+
+assets/crosscake_intro.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+assets/axl
+  rotate: false
+  xy: 741, 800
+  size: 145, 194
+  orig: 145, 194
+  offset: 0, 0
+  index: -1
+assets/cloudpart
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+assets/cross
+  rotate: false
+  xy: 2, 509
+  size: 481, 485
+  orig: 481, 485
+  offset: 0, 0
+  index: -1
+assets/cross_fix
+  rotate: false
+  xy: 628, 527
+  size: 87, 16
+  orig: 87, 16
+  offset: 0, 0
+  index: -1
+assets/duff
+  rotate: false
+  xy: 628, 545
+  size: 147, 180
+  orig: 147, 180
+  offset: 0, 0
+  index: -1
+assets/glow
+  rotate: false
+  xy: 485, 727
+  size: 254, 267
+  orig: 254, 267
+  offset: 0, 0
+  index: -1
+assets/izzy
+  rotate: false
+  xy: 888, 808
+  size: 126, 186
+  orig: 126, 186
+  offset: 0, 0
+  index: -1
+assets/line
+  rotate: true
+  xy: 1016, 993
+  size: 1, 6
+  orig: 1, 6
+  offset: 0, 0
+  index: -1
+assets/lines
+  rotate: false
+  xy: 2, 68
+  size: 440, 439
+  orig: 440, 439
+  offset: 0, 0
+  index: -1
+assets/matt
+  rotate: false
+  xy: 444, 328
+  size: 142, 179
+  orig: 142, 179
+  offset: 0, 0
+  index: -1
+assets/slash
+  rotate: false
+  xy: 485, 521
+  size: 141, 204
+  orig: 141, 204
+  offset: 0, 0
+  index: -1

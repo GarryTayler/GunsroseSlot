@@ -1,0 +1,296 @@
+{
+  "frames": {
+    "betlineframe_11": {
+      "trimmed": true, 
+      "frame": {
+        "y": 632, 
+        "x": 420, 
+        "w": 198, 
+        "h": 198
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_10": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 430, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_13": {
+      "trimmed": true, 
+      "frame": {
+        "y": 832, 
+        "x": 420, 
+        "w": 186, 
+        "h": 186
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_12": {
+      "trimmed": true, 
+      "frame": {
+        "y": 632, 
+        "x": 620, 
+        "w": 192, 
+        "h": 192
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_08": {
+      "trimmed": true, 
+      "frame": {
+        "y": 430, 
+        "x": 420, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_09": {
+      "trimmed": true, 
+      "frame": {
+        "y": 204, 
+        "x": 424, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_06": {
+      "trimmed": true, 
+      "frame": {
+        "y": 228, 
+        "x": 222, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_07": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 228, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_04": {
+      "trimmed": true, 
+      "frame": {
+        "y": 664, 
+        "x": 2, 
+        "w": 210, 
+        "h": 210
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_05": {
+      "trimmed": true, 
+      "frame": {
+        "y": 664, 
+        "x": 214, 
+        "w": 204, 
+        "h": 204
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_02": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 2, 
+        "w": 224, 
+        "h": 224
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_03": {
+      "trimmed": true, 
+      "frame": {
+        "y": 228, 
+        "x": 2, 
+        "w": 218, 
+        "h": 218
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_00": {
+      "trimmed": true, 
+      "frame": {
+        "y": 448, 
+        "x": 218, 
+        "w": 200, 
+        "h": 200
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }, 
+    "betlineframe_01": {
+      "trimmed": true, 
+      "frame": {
+        "y": 448, 
+        "x": 2, 
+        "w": 214, 
+        "h": 214
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 224, 
+        "w": 224
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 224, 
+        "h": 224
+      }
+    }
+  }, 
+  "meta": {
+    "scale": "1", 
+    "format": "RGBA8888", 
+    "app": "https://www.codeandweb.com/texturepacker", 
+    "version": "1.0", 
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$", 
+    "image": "betlineframe.png", 
+    "size": {
+      "h": 1024, 
+      "w": 1024
+    }
+  }
+}

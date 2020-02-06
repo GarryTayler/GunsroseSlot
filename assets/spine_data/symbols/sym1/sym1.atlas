@@ -1,0 +1,410 @@
+sym1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sym1-assets/expwild_banner_52
+  rotate: false
+  xy: 1185, 245
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_00
+  rotate: true
+  xy: 1067, 485
+  size: 168, 171
+  orig: 310, 268
+  offset: 55, 15
+  index: -1
+sym1-assets/expwild_banner_short_01
+  rotate: false
+  xy: 2, 911
+  size: 149, 255
+  orig: 310, 268
+  offset: 42, 13
+  index: -1
+sym1-assets/expwild_banner_short_02
+  rotate: true
+  xy: 1777, 568
+  size: 201, 235
+  orig: 310, 268
+  offset: 31, 6
+  index: -1
+sym1-assets/expwild_banner_short_03
+  rotate: false
+  xy: 216, 2
+  size: 282, 240
+  orig: 310, 268
+  offset: 24, 1
+  index: -1
+sym1-assets/expwild_banner_short_04
+  rotate: false
+  xy: 1039, 2
+  size: 257, 241
+  orig: 310, 268
+  offset: 47, 0
+  index: -1
+sym1-assets/expwild_banner_short_05
+  rotate: false
+  xy: 153, 885
+  size: 229, 237
+  orig: 310, 268
+  offset: 56, 4
+  index: -1
+sym1-assets/expwild_banner_short_06
+  rotate: false
+  xy: 500, 2
+  size: 276, 231
+  orig: 310, 268
+  offset: 25, 10
+  index: -1
+sym1-assets/expwild_banner_short_07
+  rotate: false
+  xy: 216, 244
+  size: 278, 231
+  orig: 310, 268
+  offset: 20, 10
+  index: -1
+sym1-assets/expwild_banner_short_08
+  rotate: false
+  xy: 778, 2
+  size: 259, 232
+  orig: 310, 268
+  offset: 35, 9
+  index: -1
+sym1-assets/expwild_banner_short_09
+  rotate: false
+  xy: 1546, 2
+  size: 242, 232
+  orig: 310, 268
+  offset: 48, 9
+  index: -1
+sym1-assets/expwild_banner_short_10
+  rotate: false
+  xy: 1298, 2
+  size: 246, 231
+  orig: 310, 268
+  offset: 49, 10
+  index: -1
+sym1-assets/expwild_banner_short_11
+  rotate: false
+  xy: 721, 236
+  size: 225, 230
+  orig: 310, 268
+  offset: 61, 11
+  index: -1
+sym1-assets/expwild_banner_short_12
+  rotate: false
+  xy: 496, 244
+  size: 223, 231
+  orig: 310, 268
+  offset: 62, 10
+  index: -1
+sym1-assets/expwild_banner_short_13
+  rotate: true
+  xy: 948, 245
+  size: 213, 235
+  orig: 310, 268
+  offset: 58, 12
+  index: -1
+sym1-assets/expwild_banner_short_14
+  rotate: false
+  xy: 253, 1124
+  size: 209, 242
+  orig: 310, 268
+  offset: 56, 12
+  index: -1
+sym1-assets/expwild_banner_short_15
+  rotate: true
+  xy: 1777, 771
+  size: 184, 236
+  orig: 310, 268
+  offset: 65, 10
+  index: -1
+sym1-assets/expwild_banner_short_16
+  rotate: false
+  xy: 1361, 476
+  size: 174, 232
+  orig: 310, 268
+  offset: 65, 9
+  index: -1
+sym1-assets/expwild_banner_short_17
+  rotate: true
+  xy: 1790, 187
+  size: 175, 233
+  orig: 310, 268
+  offset: 66, 8
+  index: -1
+sym1-assets/expwild_banner_short_18
+  rotate: true
+  xy: 1790, 2
+  size: 183, 233
+  orig: 310, 268
+  offset: 66, 8
+  index: -1
+sym1-assets/expwild_banner_short_19
+  rotate: false
+  xy: 910, 885
+  size: 174, 236
+  orig: 310, 268
+  offset: 67, 9
+  index: -1
+sym1-assets/expwild_banner_short_20
+  rotate: true
+  xy: 1537, 440
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_21
+  rotate: false
+  xy: 863, 1124
+  size: 173, 239
+  orig: 310, 268
+  offset: 67, 8
+  index: -1
+sym1-assets/expwild_banner_short_22
+  rotate: true
+  xy: 1537, 616
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_23
+  rotate: false
+  xy: 1086, 885
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_24
+  rotate: false
+  xy: 1361, 235
+  size: 174, 239
+  orig: 310, 268
+  offset: 66, 8
+  index: -1
+sym1-assets/expwild_banner_short_25
+  rotate: false
+  xy: 384, 885
+  size: 174, 237
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_26
+  rotate: true
+  xy: 911, 710
+  size: 173, 238
+  orig: 310, 268
+  offset: 67, 9
+  index: -1
+sym1-assets/expwild_banner_short_27
+  rotate: false
+  xy: 1262, 885
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_28
+  rotate: false
+  xy: 1438, 853
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_banner_short_29
+  rotate: false
+  xy: 560, 885
+  size: 173, 237
+  orig: 310, 268
+  offset: 67, 9
+  index: -1
+sym1-assets/expwild_banner_short_30
+  rotate: false
+  xy: 735, 885
+  size: 173, 237
+  orig: 310, 268
+  offset: 67, 9
+  index: -1
+sym1-assets/expwild_banner_short_31
+  rotate: true
+  xy: 1151, 710
+  size: 173, 238
+  orig: 310, 268
+  offset: 67, 9
+  index: -1
+sym1-assets/expwild_banner_short_32
+  rotate: false
+  xy: 1438, 1093
+  size: 174, 238
+  orig: 310, 268
+  offset: 66, 9
+  index: -1
+sym1-assets/expwild_fx_alpha_00
+  rotate: true
+  xy: 455, 681
+  size: 202, 218
+  orig: 203, 249
+  offset: 0, 8
+  index: -1
+sym1-assets/expwild_fx_alpha_01
+  rotate: false
+  xy: 1038, 1125
+  size: 201, 218
+  orig: 203, 249
+  offset: 1, 8
+  index: -1
+sym1-assets/expwild_fx_alpha_02
+  rotate: true
+  xy: 467, 477
+  size: 202, 234
+  orig: 203, 249
+  offset: 0, 8
+  index: -1
+sym1-assets/expwild_fx_alpha_03
+  rotate: true
+  xy: 1537, 236
+  size: 202, 240
+  orig: 203, 249
+  offset: 0, 8
+  index: -1
+sym1-assets/expwild_fx_alpha_04
+  rotate: true
+  xy: 675, 681
+  size: 202, 234
+  orig: 203, 249
+  offset: 0, 8
+  index: -1
+sym1-assets/expwild_fx_alpha_05
+  rotate: false
+  xy: 1391, 710
+  size: 142, 141
+  orig: 203, 249
+  offset: 16, 49
+  index: -1
+sym1-assets/expwild_fx_alpha_06
+  rotate: true
+  xy: 1765, 957
+  size: 146, 147
+  orig: 203, 249
+  offset: 15, 47
+  index: -1
+sym1-assets/expwild_fx_alpha_07
+  rotate: false
+  xy: 1614, 953
+  size: 149, 150
+  orig: 203, 249
+  offset: 13, 46
+  index: -1
+sym1-assets/expwild_fx_alpha_08
+  rotate: false
+  xy: 1614, 792
+  size: 155, 159
+  orig: 203, 249
+  offset: 9, 43
+  index: -1
+sym1-assets/expwild_fx_alpha_09
+  rotate: true
+  xy: 2, 1168
+  size: 202, 249
+  orig: 203, 249
+  offset: 0, 0
+  index: -1
+sym1-assets/expwild_fx_alpha_10
+  rotate: true
+  xy: 216, 477
+  size: 202, 249
+  orig: 203, 249
+  offset: 0, 0
+  index: -1
+sym1-assets/expwild_fx_alpha_11
+  rotate: true
+  xy: 1779, 364
+  size: 202, 240
+  orig: 203, 249
+  offset: 0, 4
+  index: -1
+sym1-assets/expwild_fx_alpha_12
+  rotate: true
+  xy: 207, 681
+  size: 202, 246
+  orig: 203, 249
+  offset: 0, 0
+  index: -1
+sym1-assets/expwild_fx_alpha_13
+  rotate: false
+  xy: 464, 1124
+  size: 202, 242
+  orig: 203, 249
+  offset: 0, 0
+  index: -1
+sym1-assets/expwild_fx_alpha_14
+  rotate: false
+  xy: 668, 1124
+  size: 193, 241
+  orig: 203, 249
+  offset: 9, 4
+  index: -1
+sym1-assets/expwild_logo
+  rotate: true
+  xy: 1241, 1125
+  size: 204, 195
+  orig: 285, 593
+  offset: 41, 199
+  index: -1
+sym1-assets/expwild_logo_white
+  rotate: false
+  xy: 1914, 957
+  size: 94, 88
+  orig: 94, 88
+  offset: 0, 0
+  index: -1
+sym1-assets/frame_bottom
+  rotate: false
+  xy: 1796, 1105
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+sym1-assets/frame_mid
+  rotate: false
+  xy: 1614, 1105
+  size: 180, 184
+  orig: 180, 184
+  offset: 0, 0
+  index: -1
+sym1-assets/frame_top
+  rotate: false
+  xy: 703, 477
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+sym1-assets/wild_small_frame
+  rotate: false
+  xy: 885, 468
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+sym1-assets/wild_vertical
+  rotate: false
+  xy: 129, 2
+  size: 85, 520
+  orig: 85, 520
+  offset: 0, 0
+  index: -1
+sym1-assets/wild_vertical_add
+  rotate: false
+  xy: 2, 2
+  size: 125, 907
+  orig: 300, 907
+  offset: 95, 0
+  index: -1
+sym1-assets/wild_vertical_multiply
+  rotate: false
+  xy: 129, 524
+  size: 76, 259
+  orig: 76, 259
+  offset: 0, 0
+  index: -1

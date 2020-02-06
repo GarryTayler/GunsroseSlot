@@ -1,0 +1,340 @@
+solomulti.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow
+  rotate: false
+  xy: 927, 352
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+outro_banner
+  rotate: true
+  xy: 504, 189
+  size: 163, 158
+  orig: 163, 158
+  offset: 0, 0
+  index: -1
+solomultibanner
+  rotate: false
+  xy: 664, 177
+  size: 115, 131
+  orig: 312, 210
+  offset: 148, 56
+  index: -1
+solomultibanner_163
+  rotate: true
+  xy: 664, 310
+  size: 42, 77
+  orig: 312, 210
+  offset: 14, 30
+  index: -1
+solomultibanner_164
+  rotate: true
+  xy: 766, 569
+  size: 48, 104
+  orig: 312, 210
+  offset: 8, 24
+  index: -1
+solomultibanner_165
+  rotate: true
+  xy: 265, 971
+  size: 45, 126
+  orig: 312, 210
+  offset: 11, 17
+  index: -1
+solomultibanner_166
+  rotate: true
+  xy: 135, 973
+  size: 45, 128
+  orig: 312, 210
+  offset: 11, 16
+  index: -1
+solomultibanner_167
+  rotate: true
+  xy: 2, 973
+  size: 45, 131
+  orig: 312, 210
+  offset: 11, 15
+  index: -1
+solomultibanner_168
+  rotate: true
+  xy: 540, 663
+  size: 54, 134
+  orig: 312, 210
+  offset: 9, 12
+  index: -1
+solomultibanner_169
+  rotate: true
+  xy: 405, 663
+  size: 59, 133
+  orig: 312, 210
+  offset: 8, 11
+  index: -1
+solomultibanner_170
+  rotate: true
+  xy: 545, 937
+  size: 66, 135
+  orig: 312, 210
+  offset: 7, 9
+  index: -1
+solomultibanner_171
+  rotate: true
+  xy: 644, 354
+  size: 115, 148
+  orig: 312, 210
+  offset: 5, 5
+  index: -1
+solomultibanner_172
+  rotate: false
+  xy: 812, 2
+  size: 192, 154
+  orig: 312, 210
+  offset: 4, 8
+  index: -1
+solomultibanner_173
+  rotate: false
+  xy: 405, 504
+  size: 230, 157
+  orig: 312, 210
+  offset: 1, 6
+  index: -1
+solomultibanner_174
+  rotate: true
+  xy: 240, 504
+  size: 224, 163
+  orig: 312, 210
+  offset: 21, 2
+  index: -1
+solomultibanner_175
+  rotate: true
+  xy: 186, 742
+  size: 227, 174
+  orig: 312, 210
+  offset: 27, 5
+  index: -1
+solomultibanner_176
+  rotate: true
+  xy: 2, 742
+  size: 229, 182
+  orig: 312, 210
+  offset: 29, 8
+  index: -1
+solomultibanner_177
+  rotate: true
+  xy: 362, 730
+  size: 222, 163
+  orig: 312, 210
+  offset: 30, 33
+  index: -1
+solomultibanner_178
+  rotate: true
+  xy: 527, 724
+  size: 211, 156
+  orig: 312, 210
+  offset: 44, 46
+  index: -1
+solomultibanner_179
+  rotate: true
+  xy: 504, 2
+  size: 185, 151
+  orig: 312, 210
+  offset: 69, 47
+  index: -1
+solomultibanner_180
+  rotate: false
+  xy: 504, 354
+  size: 138, 140
+  orig: 312, 210
+  offset: 120, 49
+  index: -1
+solomultibanner_181
+  rotate: false
+  xy: 637, 496
+  size: 127, 136
+  orig: 312, 210
+  offset: 132, 52
+  index: -1
+solomultibanner_182
+  rotate: false
+  xy: 784, 158
+  size: 120, 131
+  orig: 312, 210
+  offset: 141, 55
+  index: -1
+solomultibanner_183
+  rotate: true
+  xy: 794, 354
+  size: 115, 131
+  orig: 312, 210
+  offset: 148, 56
+  index: -1
+solomultibanner_184
+  rotate: false
+  xy: 906, 158
+  size: 111, 130
+  orig: 312, 210
+  offset: 151, 58
+  index: -1
+solomultibanner_185
+  rotate: true
+  xy: 794, 832
+  size: 103, 130
+  orig: 312, 210
+  offset: 156, 60
+  index: -1
+solomultibanner_186
+  rotate: false
+  xy: 685, 724
+  size: 107, 136
+  orig: 312, 210
+  offset: 172, 65
+  index: -1
+solomultibanner_187
+  rotate: true
+  xy: 812, 724
+  size: 106, 139
+  orig: 312, 210
+  offset: 184, 66
+  index: -1
+solomultibanner_188
+  rotate: false
+  xy: 926, 832
+  size: 92, 136
+  orig: 312, 210
+  offset: 205, 71
+  index: -1
+solomultibanner_189
+  rotate: false
+  xy: 676, 2
+  size: 106, 173
+  orig: 312, 210
+  offset: 200, 34
+  index: -1
+solomultibanner_190
+  rotate: true
+  xy: 766, 471
+  size: 96, 167
+  orig: 312, 210
+  offset: 203, 33
+  index: -1
+solomultibanner_191
+  rotate: true
+  xy: 676, 634
+  size: 88, 165
+  orig: 312, 210
+  offset: 211, 36
+  index: -1
+solomultibanner_192
+  rotate: true
+  xy: 843, 619
+  size: 89, 156
+  orig: 312, 210
+  offset: 212, 42
+  index: -1
+solomultibanner_193
+  rotate: true
+  xy: 393, 954
+  size: 62, 150
+  orig: 312, 210
+  offset: 232, 43
+  index: -1
+solomultibanner_194
+  rotate: true
+  xy: 682, 937
+  size: 44, 128
+  orig: 312, 210
+  offset: 236, 38
+  index: -1
+solomultibanner_195
+  rotate: true
+  xy: 682, 983
+  size: 21, 86
+  orig: 312, 210
+  offset: 236, 40
+  index: -1
+solomultibanner_196
+  rotate: false
+  xy: 2, 1020
+  size: 1, 1
+  orig: 312, 210
+  offset: 0, 209
+  index: -1
+solomultiframe
+  rotate: false
+  xy: 2, 504
+  size: 236, 236
+  orig: 236, 236
+  offset: 0, 0
+  index: -1
+solomultiframe_glow
+  rotate: false
+  xy: 2, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+x10
+  rotate: false
+  xy: 781, 291
+  size: 71, 61
+  orig: 73, 61
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 812, 937
+  size: 58, 59
+  orig: 73, 61
+  offset: 7, 1
+  index: -1
+x3
+  rotate: true
+  xy: 935, 418
+  size: 58, 59
+  orig: 73, 61
+  offset: 7, 1
+  index: -1
+x4
+  rotate: false
+  xy: 854, 291
+  size: 60, 60
+  orig: 73, 61
+  offset: 7, 0
+  index: -1
+x5
+  rotate: true
+  xy: 953, 710
+  size: 57, 61
+  orig: 73, 61
+  offset: 7, 0
+  index: -1
+x6
+  rotate: false
+  xy: 953, 769
+  size: 57, 61
+  orig: 73, 61
+  offset: 7, 0
+  index: -1
+x7
+  rotate: false
+  xy: 872, 937
+  size: 52, 61
+  orig: 73, 61
+  offset: 7, 0
+  index: -1
+x8
+  rotate: false
+  xy: 685, 862
+  size: 59, 59
+  orig: 73, 61
+  offset: 6, 0
+  index: -1
+x9
+  rotate: false
+  xy: 916, 290
+  size: 59, 60
+  orig: 73, 61
+  offset: 5, 0
+  index: -1

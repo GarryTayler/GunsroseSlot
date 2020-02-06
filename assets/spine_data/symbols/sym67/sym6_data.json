@@ -1,0 +1,336 @@
+{
+  "frames": {
+    "assets/rose1": {
+      "trimmed": true, 
+      "frame": {
+        "y": 590, 
+        "x": 43, 
+        "w": 109, 
+        "h": 88
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 88, 
+        "w": 109
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 109, 
+        "h": 88
+      }
+    }, 
+    "assets/petal_3": {
+      "trimmed": true, 
+      "frame": {
+        "y": 637, 
+        "x": 454, 
+        "w": 49, 
+        "h": 38
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 38, 
+        "w": 49
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 49, 
+        "h": 38
+      }
+    },
+    "assets/pick": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 2, 
+        "w": 292, 
+        "h": 320
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 320, 
+        "w": 320
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 320, 
+        "h": 320
+      }
+    }, 
+    "assets/round_glow": {
+      "trimmed": true, 
+      "frame": {
+        "y": 548, 
+        "x": 324, 
+        "w": 128, 
+        "h": 128
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 128, 
+        "w": 128
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 128, 
+        "h": 128
+      }
+    }, 
+    "assets/sym7_win": {
+      "trimmed": true, 
+      "frame": {
+        "y": 184, 
+        "x": 324, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "assets/sym6_win": {
+      "trimmed": true, 
+      "frame": {
+        "y": 2, 
+        "x": 324, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "assets/rose2": {
+      "trimmed": true, 
+      "frame": {
+        "y": 590, 
+        "x": 257, 
+        "w": 81, 
+        "h": 63
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 63, 
+        "w": 81
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 81, 
+        "h": 63
+      }
+    }, 
+    "assets/sym_bg": {
+      "trimmed": true, 
+      "frame": {
+        "y": 366, 
+        "x": 324, 
+        "w": 180, 
+        "h": 180
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 180, 
+        "w": 180
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 180, 
+        "h": 180
+      }
+    }, 
+    "assets/picks_refl": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 257, 
+        "w": 246, 
+        "h": 110
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 320, 
+        "w": 320
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 320, 
+        "h": 320
+      }
+    }, 
+    "assets/pick_add": {
+      "trimmed": true, 
+      "frame": {
+        "y": 710, 
+        "x": 2, 
+        "w": 253, 
+        "h": 288
+      }, 
+      "rotated": false, 
+      "sourceSize": {
+        "h": 320, 
+        "w": 320
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 320, 
+        "h": 320
+      }
+    }, 
+    "assets/pick2": {
+      "trimmed": true, 
+      "frame": {
+        "y": 296, 
+        "x": 2, 
+        "w": 292, 
+        "h": 320
+      }, 
+      "rotated": true, 
+      "sourceSize": {
+        "h": 320, 
+        "w": 320
+      }, 
+      "spriteSourceSize": {
+        "y": 0, 
+        "x": 0, 
+        "w": 320, 
+        "h": 320
+      }
+    },
+    "assets/petal_1": {
+      "trimmed": true,
+      "frame": {
+        "y": 548,
+        "x": 454,
+        "w": 51,
+        "h": 39
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 39,
+        "w": 51
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 51,
+        "h": 39
+      }
+    },
+    "assets/petal_2": {
+      "trimmed": true,
+      "frame": {
+        "y": 589,
+        "x": 454,
+        "w": 51,
+        "h": 23
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 23,
+        "w": 51
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 51,
+        "h": 23
+      }
+    },
+    "assets/petal_5": {
+      "trimmed": true,
+      "frame": {
+        "y": 614,
+        "x": 454,
+        "w": 51,
+        "h": 21
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 21,
+        "w": 51
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 51,
+        "h": 21
+      }
+    },
+    "assets/petal_4": {
+      "trimmed": true,
+      "frame": {
+        "y": 678,
+        "x": 2,
+        "w": 29,
+        "h": 39
+      },
+      "rotated": true,
+      "sourceSize": {
+        "h": 39,
+        "w": 29
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 29,
+        "h": 39
+      }
+    },
+    "assets/petal_6": {
+      "trimmed": true,
+      "frame": {
+        "y": 677,
+        "x": 454,
+        "w": 49,
+        "h": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "h": 31,
+        "w": 49
+      },
+      "spriteSourceSize": {
+        "y": 0,
+        "x": 0,
+        "w": 49,
+        "h": 31
+      }
+    }
+  }, 
+  "meta": {
+    "scale": "1", 
+    "format": "RGBA8888", 
+    "app": "https://www.codeandweb.com/texturepacker", 
+    "version": "1.0", 
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$", 
+    "image": "sym67.png", 
+    "size": {
+      "h": 1024, 
+      "w": 512
+    }
+  }
+}

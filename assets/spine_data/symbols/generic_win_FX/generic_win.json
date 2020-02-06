@@ -1,0 +1,193 @@
+{
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "generic_win_[01-15]",
+      "parent": "root",
+      "x": 90,
+      "y": -90
+    }
+  ],
+  "slots": [
+    {
+      "name": "generic_win_[01-15]",
+      "bone": "generic_win_[01-15]",
+      "attachment": "generic_win-assets/generic_win_01",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "generic_win_[01-15]": {
+        "generic_win-assets/generic_win_01": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_02": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_03": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_04": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_05": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_06": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_07": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_08": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_09": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_10": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_11": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_12": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_13": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_14": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        },
+        "generic_win-assets/generic_win_15": {
+          "x": 0,
+          "y": 0,
+          "width": 180,
+          "height": 180
+        }
+      }
+    }
+  },
+  "events": {
+    "coverSymbol": {}
+  },
+  "animations": {
+    "animation": {
+      "bones": {},
+      "slots": {
+        "generic_win_[01-15]": {
+          "attachment": [
+            {
+              "time": 0.03125,
+              "name": "generic_win-assets/generic_win_02"
+            },
+            {
+              "time": 0.0625,
+              "name": "generic_win-assets/generic_win_03"
+            },
+            {
+              "time": 0.09375,
+              "name": "generic_win-assets/generic_win_04"
+            },
+            {
+              "time": 0.125,
+              "name": "generic_win-assets/generic_win_05"
+            },
+            {
+              "time": 0.15625,
+              "name": "generic_win-assets/generic_win_06"
+            },
+            {
+              "time": 0.1875,
+              "name": "generic_win-assets/generic_win_07"
+            },
+            {
+              "time": 0.21875,
+              "name": "generic_win-assets/generic_win_08"
+            },
+            {
+              "time": 0.25,
+              "name": "generic_win-assets/generic_win_09"
+            },
+            {
+              "time": 0.28125,
+              "name": "generic_win-assets/generic_win_10"
+            },
+            {
+              "time": 0.3125,
+              "name": "generic_win-assets/generic_win_11"
+            },
+            {
+              "time": 0.34375,
+              "name": "generic_win-assets/generic_win_12"
+            },
+            {
+              "time": 0.375,
+              "name": "generic_win-assets/generic_win_13"
+            },
+            {
+              "time": 0.40625,
+              "name": "generic_win-assets/generic_win_14"
+            },
+            {
+              "time": 0.4375,
+              "name": "generic_win-assets/generic_win_15"
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.15625,
+          "name": "coverSymbol"
+        }
+      ]
+    }
+  }
+}

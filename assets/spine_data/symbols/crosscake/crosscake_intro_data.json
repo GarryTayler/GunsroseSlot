@@ -1,0 +1,236 @@
+{
+  "frames": {
+    "assets/axl": {
+      "frame": {
+        "x": 741,
+        "y": 800,
+        "w": 145,
+        "h": 194
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 145,
+        "h": 194
+      },
+      "sourceSize": {
+        "w": 145,
+        "h": 194
+      }
+    },
+    "assets/cloudpart": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      }
+    },
+    "assets/cross": {
+      "frame": {
+        "x": 2,
+        "y": 509,
+        "w": 481,
+        "h": 485
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 481,
+        "h": 485
+      },
+      "sourceSize": {
+        "w": 481,
+        "h": 485
+      }
+    },
+    "assets/cross_fix": {
+      "frame": {
+        "x": 628,
+        "y": 527,
+        "w": 87,
+        "h": 16
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 87,
+        "h": 16
+      },
+      "sourceSize": {
+        "w": 87,
+        "h": 16
+      }
+    },
+    "assets/duff": {
+      "frame": {
+        "x": 628,
+        "y": 545,
+        "w": 147,
+        "h": 180
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 147,
+        "h": 180
+      },
+      "sourceSize": {
+        "w": 147,
+        "h": 180
+      }
+    },
+    "assets/glow1": {
+      "frame": {
+        "x": 485,
+        "y": 727,
+        "w": 254,
+        "h": 267
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 267
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 267
+      }
+    },
+    "assets/izzy": {
+      "frame": {
+        "x": 888,
+        "y": 808,
+        "w": 126,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 126,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 126,
+        "h": 186
+      }
+    },
+    "assets/line": {
+      "frame": {
+        "x": 1016,
+        "y": 993,
+        "w": 1,
+        "h": 6
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 6
+      },
+      "sourceSize": {
+        "w": 1,
+        "h": 6
+      }
+    },
+    "assets/lines": {
+      "frame": {
+        "x": 2,
+        "y": 68,
+        "w": 440,
+        "h": 439
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 440,
+        "h": 439
+      },
+      "sourceSize": {
+        "w": 440,
+        "h": 439
+      }
+    },
+    "assets/matt": {
+      "frame": {
+        "x": 444,
+        "y": 328,
+        "w": 142,
+        "h": 179
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 179
+      },
+      "sourceSize": {
+        "w": 142,
+        "h": 179
+      }
+    },
+    "assets/slash": {
+      "frame": {
+        "x": 485,
+        "y": 521,
+        "w": 141,
+        "h": 204
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 204
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "crosscake_intro.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}

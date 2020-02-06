@@ -1,0 +1,41 @@
+
+Button_Anims.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonusGame-assets/Holder
+  rotate: false
+  xy: 2, 2
+  size: 116, 17
+  orig: 116, 17
+  offset: 0, 0
+  index: -1
+bonusGame-assets/Light
+  rotate: false
+  xy: 308, 365
+  size: 99, 100
+  orig: 136, 135
+  offset: 20, 16
+  index: -1
+bonusGame-assets/Solid
+  rotate: false
+  xy: 141, 98
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+bonusGame-assets/circle
+  rotate: false
+  xy: 2, 161
+  size: 304, 304
+  orig: 307, 307
+  offset: 2, 1
+  index: -1
+bonusGame-assets/guitar
+  rotate: false
+  xy: 2, 21
+  size: 137, 138
+  orig: 138, 140
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,196 @@
+{
+  "frames": {
+    "assets/crosscake_idle": {
+      "frame": {
+        "x": 135,
+        "y": 298,
+        "w": 544,
+        "h": 545
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 544,
+        "h": 545
+      },
+      "sourceSize": {
+        "w": 544,
+        "h": 545
+      }
+    },
+    "assets/d": {
+      "frame": {
+        "x": 389,
+        "y": 845,
+        "w": 66,
+        "h": 125
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 66,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 66,
+        "h": 125
+      }
+    },
+    "assets/glow": {
+      "frame": {
+        "x": 681,
+        "y": 298,
+        "w": 254,
+        "h": 267
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 267
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 267
+      }
+    },
+    "assets/i": {
+      "frame": {
+        "x": 262,
+        "y": 845,
+        "w": 45,
+        "h": 125
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 45,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 45,
+        "h": 125
+      }
+    },
+    "assets/l": {
+      "frame": {
+        "x": 135,
+        "y": 845,
+        "w": 62,
+        "h": 125
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 125
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 125
+      }
+    },
+    "assets/w": {
+      "frame": {
+        "x": 2,
+        "y": 911,
+        "w": 85,
+        "h": 124
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 124
+      }
+    },
+    "assets/wild_horizontal_add": {
+      "frame": {
+        "x": 135,
+        "y": 2,
+        "w": 862,
+        "h": 294
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 862,
+        "h": 294
+      },
+      "sourceSize": {
+        "w": 862,
+        "h": 294
+      }
+    },
+    "assets/wild_vertical_add": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 131,
+        "h": 907
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 131,
+        "h": 907
+      },
+      "sourceSize": {
+        "w": 131,
+        "h": 907
+      }
+    },
+    "assets/wild_vertical_multiply": {
+      "frame": {
+        "x": 128,
+        "y": 911,
+        "w": 76,
+        "h": 259
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 76,
+        "h": 259
+      },
+      "sourceSize": {
+        "w": 76,
+        "h": 259
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "crosscake_idle.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 1024
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:f35407106723d6818c92805cac2423ba:467378dd1a153a1f5255dc6867c3e289:de62c4130a72712ae995d05d7f4a14e5$"
+  }
+}
